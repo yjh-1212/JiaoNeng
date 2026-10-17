@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-042.json",
+  "baseline_sha256": "6d883537fdcd16006a9eca94502904010d181954106084f4d6801f21f3a651d9",
+  "evidence": "当前用户截图指向驾驶舱右下角AI人物及交能AI按钮，明确要求隐藏，仅作用驾驶舱。"
+}

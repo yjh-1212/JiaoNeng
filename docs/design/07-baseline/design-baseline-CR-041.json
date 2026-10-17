@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-041",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-040.json",
+  "parent_manifest_sha256": "052795111ba50078d2d7ebab91ff04790b11f818291f9b4736f021dd9b995b0e",
+  "approved_by": "当前用户",
+  "evidence": "当前用户明确要求驾驶舱独立跳转，不在顶层导航下显示，右上角返回运营总览。",
+  "recorded_at": "2026-10-17T09:28:59.927593+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-041-cockpit-standalone.md": "ec2549d18409b956d24f9f787a997a253c474053b9dcf3eac15aec6d1fd460dc"
+  }
+}

@@ -1797,7 +1797,7 @@ function Platform() {
         }}
       >
         <Context.Provider value={value}>
-          {user.role === "driver" || page === "assistant" ? (
+          {user.role === "driver" || page === "assistant" || page === "cockpit" ? (
             body
           ) : (
             <div className="app-shell">

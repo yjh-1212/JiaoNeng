@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-042",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-041.json",
+  "parent_manifest_sha256": "bd19d12f5e5eb76bc4ea1a1f943374866935f6efbc31d9f5797d814f85f06e1d",
+  "approved_by": "当前用户",
+  "evidence": "当前用户截图指向驾驶舱右下角AI人物及交能AI按钮，明确要求隐藏，仅作用驾驶舱。",
+  "recorded_at": "2026-10-17T09:36:21.787694+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-042-cockpit-hide-ai-launcher.md": "33bfa318ef8653d5c21e4738f34ab2493a70054b501bf536308d0ea201d59cde"
+  }
+}

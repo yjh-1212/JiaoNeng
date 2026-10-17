@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-041.json",
+  "baseline_sha256": "bd19d12f5e5eb76bc4ea1a1f943374866935f6efbc31d9f5797d814f85f06e1d",
+  "evidence": "当前用户明确要求驾驶舱独立跳转，不在顶层导航下显示，右上角返回运营总览。"
+}

@@ -28,6 +28,7 @@ export default function AgentLauncher({ page, context }) {
   const a = useApp();
   if (
     page === "assistant" ||
+    page === "cockpit" ||
     a.user.role !== "admin" ||
     !a.can("ai.use") ||
     !a.can("read")
@@ -76,7 +77,7 @@ export default function AgentLauncher({ page, context }) {
           context_id: id,
         };
     }
-    entry.draft={...(entry.draft||{}),page_context:{page,title:document.querySelector('.content h1')?.textContent||page,summary:JSON.stringify({filters:a.transportQueries?.[page]||{},...(context?.page===page?{current:context.draft||{}}:{})}).slice(0,2400)}};
+    entry.draft={...(entry.draft||{}),page_context:{page,title:context?.draft?.page_context?.title||document.querySelector('.content h1')?.textContent||page,summary:JSON.stringify({filters:a.transportQueries?.[page]||{},...(context?.page===page?{current:context.draft||{}}:{})}).slice(0,2400)}};
     a.openPageAssistant({
       agent_entry: entry,
       return_hash: location.hash || "#overview",

@@ -6,13 +6,13 @@
   "panels": [
     {
       "title": "运输总体态势",
-      "bottom": 364.15625,
-      "body": 159,
-      "scroll": 159,
+      "bottom": 315.765625,
+      "body": 183,
+      "scroll": 183,
       "children": [
         {
           "class": "jn-cockpit-overview-grid",
-          "height": 124.859375,
+          "height": 148.46875,
           "line": "17.55px",
           "shrink": "1",
           "margin": "0px",
@@ -30,13 +30,13 @@
     },
     {
       "title": "重点运输线路",
-      "bottom": 609.3203125,
-      "body": 159,
-      "scroll": 159,
+      "bottom": 584.5390625,
+      "body": 183,
+      "scroll": 183,
       "children": [
         {
           "class": "jn-cockpit-route-list",
-          "height": 159.3671875,
+          "height": 182.9765625,
           "line": "17.55px",
           "shrink": "1",
           "margin": "0px",
@@ -47,12 +47,12 @@
     {
       "title": "运输任务执行",
       "bottom": 866,
-      "body": 171,
-      "scroll": 171,
+      "body": 196,
+      "scroll": 196,
       "children": [
         {
           "class": "jn-cockpit-execution",
-          "height": 128.234375,
+          "height": 153.015625,
           "line": "17.55px",
           "shrink": "1",
           "margin": "0px",
@@ -78,13 +78,13 @@
     },
     {
       "title": "补能运行态势",
-      "bottom": 364.15625,
-      "body": 159,
-      "scroll": 159,
+      "bottom": 315.765625,
+      "body": 183,
+      "scroll": 183,
       "children": [
         {
           "class": "jn-cockpit-energy-rings",
-          "height": 91.8125,
+          "height": 115.421875,
           "line": "17.55px",
           "shrink": "1",
           "margin": "0px",
@@ -110,13 +110,13 @@
     },
     {
       "title": "重点场站态势",
-      "bottom": 609.3203125,
-      "body": 159,
-      "scroll": 159,
+      "bottom": 584.5390625,
+      "body": 183,
+      "scroll": 183,
       "children": [
         {
           "class": "jn-cockpit-site-status",
-          "height": 139.8671875,
+          "height": 163.4765625,
           "line": "17.55px",
           "shrink": "1",
           "margin": "0px",
@@ -135,12 +135,12 @@
     {
       "title": "待处置预警",
       "bottom": 866,
-      "body": 171,
-      "scroll": 171,
+      "body": 196,
+      "scroll": 196,
       "children": [
         {
           "class": "jn-cockpit-incidents",
-          "height": 149.0390625,
+          "height": 173.8203125,
           "line": "17.55px",
           "shrink": "1",
           "margin": "0px",

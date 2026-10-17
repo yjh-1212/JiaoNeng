@@ -1,0 +1,30 @@
+{
+  "status": "VERIFIED",
+  "at": "2026-10-17T09:42:20.996Z",
+  "node_tests": 351,
+  "browser_checks": 12,
+  "counts": {
+    "orders": 10,
+    "demands": 10,
+    "tasks": 6,
+    "vehicles": 15,
+    "drivers": 15,
+    "stations": 6
+  },
+  "main_business_mutations": 0,
+  "source_sha256": {
+    "client/cockpit.jsx": "1dd06394a9958391ccfd7f4fb56621e9e61a750a54dc1f7689794b9b6c08029f",
+    "client/cockpit.css": "463baa0845e21079604efc3c842fc4ee342ee2216ffff9a15295edc815ef1556",
+    "client/cockpit-map.jsx": "d26763b50d335de15ef8be60249d082d73613e463b360ea4ee9776c0f21dbc74",
+    "client/routes.js": "ce77bfa1a9043af0852bcd96d185d0e42c181d199f3e644ba4555488ecd7a9f2",
+    "client/app.jsx": "31d2a380d771b125f7cf429e3675a5fa10ff58ea2382c5607efd94858ce37437",
+    "client/agent-launcher.jsx": "bf26ab4e4fad0d50204e691a34e34ec1da9e02f9ebb7619c5104480f9718d7d5",
+    "client/agent-center.jsx": "106a56d91df407730741e6c923eb0b712db45b8ad7896f957ba1b947a72a3c6e",
+    "server/cockpit.mjs": "94594fa806ca62eb040afca919d70fc4df2216f7285e46925f61801661985855",
+    "server/app.mjs": "68958a1efb776bbf5f0557ffc005f0af5f1965cf28e7fefcb04a6c4e5e4257c0",
+    "tests/cockpit.test.mjs": "c3aaa1adc09b092698ac9a4faf14bdb9d609793919541b37276fd9e3da1a05ea"
+  },
+  "browser_report": "docs/development/changes/CR-039/local-browser-check.json",
+  "user_acceptance_signature": false,
+  "deployment": false
+}

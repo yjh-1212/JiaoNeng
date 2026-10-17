@@ -1,5 +1,5 @@
 import React,{useEffect,useRef,useState} from 'react';
-import {Activity,ArrowUpRight,BatteryCharging,CheckCheck,ChevronRight,Clock3,Expand,Minimize,RefreshCw,Route,ShieldAlert,Truck,Users,X,Zap} from 'lucide-react';
+import {Activity,ArrowLeft,ArrowUpRight,BatteryCharging,CheckCheck,ChevronRight,Clock3,Expand,Minimize,RefreshCw,Route,ShieldAlert,Truck,Users,X,Zap} from 'lucide-react';
 import {useApp} from './context';
 import {request} from './api';
 import {AgentContextSync} from './agent-launcher';
@@ -31,7 +31,7 @@ export default function Cockpit(){
  const selectedName=selectedTask?.name||selectedLine&&(selectedLine.origin+' → '+selectedLine.destination)||selectedStation?.name||selectedVehicle?.code||selectedIncident?.name;
  return <div className="jn-cockpit" ref={root}>
   <AgentContextSync context={{capability:'DISPATCH',...context,draft:{page_context:{page:'cockpit',title:'综合驾驶舱'},cockpit:data?{date:data.date,metrics:data.metrics,resources:data.resources,selection:selectedName}:{}},examples:['今天哪些运输任务需要优先关注？','当前补能安排会不会影响运输？','现有车辆能否完成剩余运输任务？']}}/>
-  <div className="jn-cockpit-titlebar"><span className="jn-cockpit-region"><Activity size={16}/>庆阳 · 区域运行态势</span><h1>交能融合综合驾驶舱</h1><div className="jn-cockpit-actions"><time>{dateTime(clock)}</time><button aria-label="刷新驾驶舱" disabled={loading} onClick={()=>refresh()}><RefreshCw size={17} className={loading?'spinning':''}/></button><button aria-label={fullscreen?'退出全屏':'进入全屏'} onClick={async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await root.current.requestFullscreen();}catch{a.message.warning('请使用浏览器全屏功能');}}}>{fullscreen?<Minimize size={18}/>:<Expand size={18}/>}</button></div></div>
+  <div className="jn-cockpit-titlebar"><span className="jn-cockpit-region"><Activity size={16}/>庆阳 · 区域运行态势</span><h1>交能融合综合驾驶舱</h1><div className="jn-cockpit-actions"><time>{dateTime(clock)}</time><button aria-label="刷新驾驶舱" disabled={loading} onClick={()=>refresh()}><RefreshCw size={17} className={loading?'spinning':''}/></button><button aria-label={fullscreen?'退出全屏':'进入全屏'} onClick={async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await root.current.requestFullscreen();}catch{a.message.warning('请使用浏览器全屏功能');}}}>{fullscreen?<Minimize size={18}/>:<Expand size={18}/>}</button><button className="jn-cockpit-back" onClick={()=>a.go('overview')}><ArrowLeft size={17}/>返回运营总览</button></div></div>
   {error&&<div className="jn-cockpit-error" role="alert">{error} <button onClick={()=>refresh()}>重新加载</button>{data&&<span>当前保留上次数据 · {hour(data.at)}</span>}</div>}
   {!data?<div className="jn-cockpit-initial" role="status">{loading?'正在载入运行数据…':'暂无运行数据'}</div>:<>
    <div className="jn-cockpit-stage">

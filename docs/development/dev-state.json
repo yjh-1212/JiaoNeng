@@ -56,8 +56,8 @@
     }
   },
   "authorized_by": "当前用户",
-  "evidence": "驾驶舱继续按新截图开发，去掉上方统计、两侧面板透明、二维地图明亮偏蓝",
-  "authorized_at": "2026-10-17T09:04:37+00:00",
+  "evidence": "驾驶舱中右下角AI人物和交能AI悬浮入口隐藏，其他页面保持",
+  "authorized_at": "2026-10-17T09:36:22+00:00",
   "baseline_version": "V0.2-design-1",
   "changes": {
     "CR-002": {
@@ -757,6 +757,34 @@
         "server/seed.mjs": "4783a5874bd68ab24d908502d7b56e0f233b81c23c72bd63fe3631ce349b1ff2",
         "tests/business-dataset.test.mjs": "6357668cfafe3347911e25d05e709c0ca3726423ac9cf4e49f15459860ad5355"
       }
+    },
+    "CR-039": {
+      "status": "VERIFIED",
+      "baseline": "docs/design/07-baseline/design-baseline-CR-039.json",
+      "report": "docs/development/changes/CR-042/verification.json",
+      "user_acceptance_signature": false,
+      "deployment": false
+    },
+    "CR-040": {
+      "status": "VERIFIED",
+      "baseline": "docs/design/07-baseline/design-baseline-CR-040.json",
+      "report": "docs/development/changes/CR-042/verification.json",
+      "user_acceptance_signature": false,
+      "deployment": false
+    },
+    "CR-041": {
+      "status": "VERIFIED",
+      "baseline": "docs/design/07-baseline/design-baseline-CR-041.json",
+      "report": "docs/development/changes/CR-042/verification.json",
+      "user_acceptance_signature": false,
+      "deployment": false
+    },
+    "CR-042": {
+      "status": "VERIFIED",
+      "baseline": "docs/design/07-baseline/design-baseline-CR-042.json",
+      "report": "docs/development/changes/CR-042/verification.json",
+      "user_acceptance_signature": false,
+      "deployment": false
     }
   }
 }
