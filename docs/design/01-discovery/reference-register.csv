@@ -1,0 +1,8 @@
+﻿reference_id,reference_type,path,sha256,scope,evidence_limit,access_mode
+REF-LL-001,源码交互参考,D:/项目资料/Code/liaoliang/apps/web/src/views/Planning.vue,a88d43ab979b4986a725733cbd57aa3d5589c532cf2568360a842a05f9915169,需求带入、条件修改后重新求解、候选方案、运行版本与离开保护,已阅读脚本和模板相关区域；不移植供应商报价发布与数值校验,只读；未运行未修改
+REF-LL-002,源码交互参考,D:/项目资料/Code/liaoliang/apps/web/src/components/AgentPlanConfirmation.vue,23bba7d26747d00bbf68107d22638ec0525f2d41dfd551f1a7a3bd9a7f65e170,AI整理条件后由用户核验再确认,已核对confirm及模板；不移用粮食品种和联运模式,只读；未运行未修改
+REF-LL-003,源码交互参考,D:/项目资料/Code/liaoliang/apps/web/src/components/AgentPlanResult.vue,a033965176d5649542dea612d07cd511019f579c92a5fc86c7337e49c9deaadc,候选比较、路线关联与缺失报价表达,已核对props及结果模板；可靠性分数不是本项目已定指标,只读；未运行未修改
+REF-LL-004,源码交互参考,D:/项目资料/Code/liaoliang/apps/web/src/components/TaskExecution.vue,c38fef8801d7167776d93babee62e2ad087e72cb3a3f422c7cd36eda040391de,执行事件、异常上报及管理处置关联,已核对事件与异常模板；不移植回单必填和文件大小规则,只读；未运行未修改
+REF-LL-005,源码交互参考,D:/项目资料/Code/liaoliang/apps/web/src/views/Driver.vue,28855d5d1ee263b2a54e06aa4f3692355fe023ae7fd3634f49ef33c185d89601,司机任务端组织参考,只读相关区域；不沿用原项目身份及权限配置,只读；未运行未修改
+REF-LL-006,源码交互参考,D:/项目资料/Code/liaoliang/apps/web/src/style.css,ce32f7bebc5b18483ca890352b76fafe230773eec7963712829f6b794546808f,浅色业务面板、表单分组、状态与重点操作的视觉参考,已核对相关样式；最终Token及布局在D4确定,只读；未运行未修改
+REF-USER-D1,本轮用户指令与答复,docs/design/01-discovery/decision-log.md,49e37f71e92ab4d400fcc5acff9cd7be51ade918f66e4f7060d87d4f460e7b13,D0批准、全阶段设计要求、H5与优化目标次序,不等于D1已批准,本节点证据

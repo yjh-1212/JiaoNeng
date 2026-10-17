@@ -1,0 +1,349 @@
+
+> jiaoneng-platform@0.2.0 test
+> node --test tests/*.test.mjs
+
+▶ REQ-001 正常、边界、权限
+  ✔ AC-001 正常 (148.1368ms)
+  ✔ AC-001-B 边界/异常 (76.9351ms)
+  ✔ AC-001-P 权限/隔离 (230.907ms)
+✔ REQ-001 正常、边界、权限 (1240.3372ms)
+▶ REQ-002 正常、边界、权限
+  ✔ AC-002 正常 (115.5143ms)
+  ✔ AC-002-B 边界/异常 (31.7586ms)
+  ✔ AC-002-P 权限/隔离 (196.1069ms)
+✔ REQ-002 正常、边界、权限 (1028.3534ms)
+▶ REQ-003 正常、边界、权限
+  ✔ AC-003 正常 (36.6398ms)
+  ✔ AC-003-B 边界/异常 (23.0742ms)
+  ✔ AC-003-P 权限/隔离 (177.8496ms)
+✔ REQ-003 正常、边界、权限 (730.6031ms)
+▶ REQ-004 正常、边界、权限
+  ✔ AC-004 正常 (75.8292ms)
+  ✔ AC-004-B 边界/异常 (29.0115ms)
+  ✔ AC-004-P 权限/隔离 (226.3264ms)
+✔ REQ-004 正常、边界、权限 (1072.5301ms)
+▶ REQ-005 正常、边界、权限
+  ✔ AC-005 正常 (81.8153ms)
+  ✔ AC-005-B 边界/异常 (30.2583ms)
+  ✔ AC-005-P 权限/隔离 (217.4319ms)
+✔ REQ-005 正常、边界、权限 (971.1914ms)
+▶ REQ-006 正常、边界、权限
+  ✔ AC-006 正常 (24.9855ms)
+  ✔ AC-006-B 边界/异常 (6.4199ms)
+  ✔ AC-006-P 权限/隔离 (188.33ms)
+✔ REQ-006 正常、边界、权限 (698.8058ms)
+▶ REQ-007 正常、边界、权限
+  ✔ AC-007 正常 (88.9464ms)
+  ✔ AC-007-B 边界/异常 (34.9157ms)
+  ✔ AC-007-P 权限/隔离 (255.8019ms)
+✔ REQ-007 正常、边界、权限 (878.5457ms)
+▶ REQ-008 正常、边界、权限
+  ✔ AC-008 正常 (310.4684ms)
+  ✔ AC-008-B 边界/异常 (10.804ms)
+  ✔ AC-008-P 权限/隔离 (104.5638ms)
+✔ REQ-008 正常、边界、权限 (990.6311ms)
+▶ REQ-009 正常、边界、权限
+  ✔ AC-009 正常 (423.6057ms)
+  ✔ AC-009-B 边界/异常 (47.3394ms)
+  ✔ AC-009-P 权限/隔离 (237.0054ms)
+✔ REQ-009 正常、边界、权限 (1382.2462ms)
+▶ REQ-010 正常、边界、权限
+  ✔ AC-010 正常 (499.1109ms)
+  ✔ AC-010-B 边界/异常 (16.4496ms)
+  ✔ AC-010-P 权限/隔离 (157.7107ms)
+✔ REQ-010 正常、边界、权限 (1315.437ms)
+▶ REQ-011 正常、边界、权限
+  ✔ AC-011 正常 (10.9031ms)
+  ✔ AC-011-B 边界/异常 (15.4858ms)
+  ✔ AC-011-P 权限/隔离 (209.945ms)
+✔ REQ-011 正常、边界、权限 (709.8366ms)
+▶ REQ-012 正常、边界、权限
+  ✔ AC-012 正常 (17.7858ms)
+  ✔ AC-012-B 边界/异常 (21.6462ms)
+  ✔ AC-012-P 权限/隔离 (189.6965ms)
+✔ REQ-012 正常、边界、权限 (863.6726ms)
+▶ REQ-013 正常、边界、权限
+  ✔ AC-013 正常 (51.9277ms)
+  ✔ AC-013-B 边界/异常 (25.0723ms)
+  ✔ AC-013-P 权限/隔离 (193.5097ms)
+✔ REQ-013 正常、边界、权限 (972.678ms)
+▶ REQ-014 正常、边界、权限
+  ✔ AC-014 正常 (21.3174ms)
+  ✔ AC-014-B 边界/异常 (5.7697ms)
+  ✔ AC-014-P 权限/隔离 (143.0899ms)
+✔ REQ-014 正常、边界、权限 (633.2355ms)
+▶ REQ-015 正常、边界、权限
+  ✔ AC-015 正常 (35.769ms)
+  ✔ AC-015-B 边界/异常 (4.4531ms)
+  ✔ AC-015-P 权限/隔离 (132.3719ms)
+✔ REQ-015 正常、边界、权限 (604.1793ms)
+▶ REQ-016 正常、边界、权限
+  ✔ AC-016 正常 (64.5893ms)
+  ✔ AC-016-B 边界/异常 (14.6361ms)
+  ✔ AC-016-P 权限/隔离 (137.9197ms)
+✔ REQ-016 正常、边界、权限 (629.1563ms)
+▶ REQ-017 正常、边界、权限
+  ✔ AC-017 正常 (29.5971ms)
+  ✔ AC-017-B 边界/异常 (15.8338ms)
+  ✔ AC-017-P 权限/隔离 (153.8228ms)
+✔ REQ-017 正常、边界、权限 (598.1272ms)
+▶ REQ-018 正常、边界、权限
+  ✔ AC-018 正常 (9.1744ms)
+  ✔ AC-018-B 边界/异常 (5.1282ms)
+  ✔ AC-018-P 权限/隔离 (73.1906ms)
+✔ REQ-018 正常、边界、权限 (484.6503ms)
+▶ REQ-019 正常、边界、权限
+  ✔ AC-019 正常 (41.752ms)
+  ✔ AC-019-B 边界/异常 (14.187ms)
+  ✔ AC-019-P 权限/隔离 (151.5131ms)
+✔ REQ-019 正常、边界、权限 (615.3483ms)
+▶ REQ-020 正常、边界、权限
+  ✔ AC-020 正常 (10.0192ms)
+  ✔ AC-020-B 边界/异常 (22.8407ms)
+  ✔ AC-020-P 权限/隔离 (119.6666ms)
+✔ REQ-020 正常、边界、权限 (541.8182ms)
+▶ REQ-021 正常、边界、权限
+  ✔ AC-021 正常 (64.1847ms)
+  ✔ AC-021-B 边界/异常 (5.5575ms)
+  ✔ AC-021-P 权限/隔离 (131.6389ms)
+✔ REQ-021 正常、边界、权限 (592.7864ms)
+▶ REQ-022 正常、边界、权限
+  ✔ AC-022 正常 (21.7441ms)
+  ✔ AC-022-B 边界/异常 (4.9435ms)
+  ✔ AC-022-P 权限/隔离 (138.8561ms)
+✔ REQ-022 正常、边界、权限 (590.9323ms)
+▶ REQ-023 正常、边界、权限
+  ✔ AC-023 正常 (6.9177ms)
+  ✔ AC-023-B 边界/异常 (12.8104ms)
+  ✔ AC-023-P 权限/隔离 (139.6555ms)
+✔ REQ-023 正常、边界、权限 (569.0911ms)
+▶ REQ-024 正常、边界、权限
+  ✔ AC-024 正常 (4.941ms)
+  ✔ AC-024-B 边界/异常 (16.5306ms)
+  ✔ AC-024-P 权限/隔离 (121.9822ms)
+✔ REQ-024 正常、边界、权限 (564.6925ms)
+▶ REQ-025 正常、边界、权限
+  ✔ AC-025 正常 (24.6684ms)
+  ✔ AC-025-B 边界/异常 (14.0831ms)
+  ✔ AC-025-P 权限/隔离 (153.9307ms)
+✔ REQ-025 正常、边界、权限 (654.5239ms)
+▶ REQ-026 正常、边界、权限
+  ✔ AC-026 正常 (31.0767ms)
+  ✔ AC-026-B 边界/异常 (5.5519ms)
+  ✔ AC-026-P 权限/隔离 (134.9102ms)
+✔ REQ-026 正常、边界、权限 (589.6882ms)
+▶ REQ-027 正常、边界、权限
+  ✔ AC-027 正常 (26.1238ms)
+  ✔ AC-027-B 边界/异常 (4.2412ms)
+  ✔ AC-027-P 权限/隔离 (83.6673ms)
+✔ REQ-027 正常、边界、权限 (509.9493ms)
+▶ REQ-028 正常、边界、权限
+  ✔ AC-028 正常 (8.4837ms)
+  ✔ AC-028-B 边界/异常 (5.3283ms)
+  ✔ AC-028-P 权限/隔离 (74.2987ms)
+✔ REQ-028 正常、边界、权限 (524.247ms)
+▶ REQ-029 正常、边界、权限
+  ✔ AC-029 正常 (340.5231ms)
+  ✔ AC-029-B 边界/异常 (14.5769ms)
+  ✔ AC-029-P 权限/隔离 (100.0551ms)
+✔ REQ-029 正常、边界、权限 (994.3836ms)
+▶ REQ-030 正常、边界、权限
+  ✔ AC-030 正常 (14.2147ms)
+  ✔ AC-030-B 边界/异常 (4.868ms)
+  ✔ AC-030-P 权限/隔离 (70.7858ms)
+✔ REQ-030 正常、边界、权限 (616.9991ms)
+▶ REQ-031 正常、边界、权限
+  ✔ AC-031 正常 (169.0357ms)
+  ✔ AC-031-B 边界/异常 (4.6348ms)
+  ✔ AC-031-P 权限/隔离 (146.9102ms)
+✔ REQ-031 正常、边界、权限 (723.2876ms)
+▶ REQ-032 正常、边界、权限
+  ✔ AC-032 正常 (141.7541ms)
+  ✔ AC-032-B 边界/异常 (4.4239ms)
+  ✔ AC-032-P 权限/隔离 (165.9548ms)
+✔ REQ-032 正常、边界、权限 (780.438ms)
+▶ REQ-033 正常、边界、权限
+  ✔ AC-033 正常 (65.2801ms)
+  ✔ AC-033-B 边界/异常 (6.8584ms)
+  ✔ AC-033-P 权限/隔离 (116.7791ms)
+✔ REQ-033 正常、边界、权限 (668.4955ms)
+▶ REQ-034 正常、边界、权限
+  ✔ AC-034 正常 (43.6152ms)
+  ✔ AC-034-B 边界/异常 (12.1911ms)
+  ✔ AC-034-P 权限/隔离 (183.7224ms)
+✔ REQ-034 正常、边界、权限 (822.4348ms)
+▶ REQ-035 正常、边界、权限
+  ✔ AC-035 正常 (53.8182ms)
+  ✔ AC-035-B 边界/异常 (5.6721ms)
+  ✔ AC-035-P 权限/隔离 (304.8729ms)
+✔ REQ-035 正常、边界、权限 (966.5943ms)
+▶ REQ-036 正常、边界、权限
+  ✔ AC-036 正常 (36.5337ms)
+  ✔ AC-036-B 边界/异常 (17.4964ms)
+  ✔ AC-036-P 权限/隔离 (152.8529ms)
+✔ REQ-036 正常、边界、权限 (726.5131ms)
+▶ REQ-037 正常、边界、权限
+  ✔ AC-037 正常 (29.275ms)
+  ✔ AC-037-B 边界/异常 (4.1258ms)
+  ✔ AC-037-P 权限/隔离 (85.6524ms)
+✔ REQ-037 正常、边界、权限 (549.1039ms)
+▶ REQ-038 正常、边界、权限
+  ✔ AC-038 正常 (10.2772ms)
+  ✔ AC-038-B 边界/异常 (11.6936ms)
+  ✔ AC-038-P 权限/隔离 (75.0377ms)
+✔ REQ-038 正常、边界、权限 (555.1466ms)
+▶ REQ-039 正常、边界、权限
+  ✔ AC-039 正常 (25.4131ms)
+  ✔ AC-039-B 边界/异常 (4.9897ms)
+  ✔ AC-039-P 权限/隔离 (68.6809ms)
+✔ REQ-039 正常、边界、权限 (517.6715ms)
+▶ REQ-040 正常、边界、权限
+  ✔ AC-040 正常 (38.0374ms)
+  ✔ AC-040-B 边界/异常 (13.3477ms)
+  ✔ AC-040-P 权限/隔离 (90.4487ms)
+✔ REQ-040 正常、边界、权限 (569.6612ms)
+▶ REQ-041 正常、边界、权限
+  ✔ AC-041 正常 (18.4446ms)
+  ✔ AC-041-B 边界/异常 (4.4249ms)
+  ✔ AC-041-P 权限/隔离 (70.3879ms)
+✔ REQ-041 正常、边界、权限 (504.2139ms)
+▶ REQ-042 正常、边界、权限
+  ✔ AC-042 正常 (6.3051ms)
+  ✔ AC-042-B 边界/异常 (5.171ms)
+  ✔ AC-042-P 权限/隔离 (82.5878ms)
+✔ REQ-042 正常、边界、权限 (463.3061ms)
+▶ REQ-043 正常、边界、权限
+  ✔ AC-043 正常 (18.9088ms)
+  ✔ AC-043-B 边界/异常 (15.8913ms)
+  ✔ AC-043-P 权限/隔离 (153.2581ms)
+✔ REQ-043 正常、边界、权限 (593.3788ms)
+▶ REQ-044 正常、边界、权限
+  ✔ AC-044 正常 (43.6567ms)
+  ✔ AC-044-B 边界/异常 (30.9112ms)
+  ✔ AC-044-P 权限/隔离 (139.2758ms)
+✔ REQ-044 正常、边界、权限 (602.7026ms)
+▶ REQ-045 正常、边界、权限
+  ✔ AC-045 正常 (14.2679ms)
+  ✔ AC-045-B 边界/异常 (27.4262ms)
+  ✔ AC-045-P 权限/隔离 (153.1899ms)
+✔ REQ-045 正常、边界、权限 (613.7247ms)
+▶ REQ-046 正常、边界、权限
+  ✔ AC-046 正常 (90.8297ms)
+  ✔ AC-046-B 边界/异常 (14.0618ms)
+  ✔ AC-046-P 权限/隔离 (153.4498ms)
+✔ REQ-046 正常、边界、权限 (623.1626ms)
+▶ REQ-047 正常、边界、权限
+  ✔ AC-047 正常 (26.0759ms)
+  ✔ AC-047-B 边界/异常 (13.1753ms)
+  ✔ AC-047-P 权限/隔离 (153.8854ms)
+✔ REQ-047 正常、边界、权限 (604.6134ms)
+▶ REQ-048 正常、边界、权限
+  ✔ AC-048 正常 (36.6952ms)
+  ✔ AC-048-B 边界/异常 (6.0843ms)
+  ✔ AC-048-P 权限/隔离 (130.3192ms)
+✔ REQ-048 正常、边界、权限 (586.3708ms)
+▶ REQ-049 正常、边界、权限
+  ✔ AC-049 正常 (91.7136ms)
+  ✔ AC-049-B 边界/异常 (4.2126ms)
+  ✔ AC-049-P 权限/隔离 (58.1028ms)
+✔ REQ-049 正常、边界、权限 (550.858ms)
+▶ REQ-050 正常、边界、权限
+  ✔ AC-050 正常 (5.8649ms)
+  ✔ AC-050-B 边界/异常 (4.8201ms)
+  ✔ AC-050-P 权限/隔离 (59.6545ms)
+✔ REQ-050 正常、边界、权限 (446.7434ms)
+▶ REQ-051 正常、边界、权限
+  ✔ AC-051 正常 (166.9212ms)
+  ✔ AC-051-B 边界/异常 (12.7339ms)
+  ✔ AC-051-P 权限/隔离 (79.1598ms)
+✔ REQ-051 正常、边界、权限 (620.8571ms)
+▶ REQ-052 正常、边界、权限
+  ✔ AC-052 正常 (34.9962ms)
+  ✔ AC-052-B 边界/异常 (15.6079ms)
+  ✔ AC-052-P 权限/隔离 (140.006ms)
+✔ REQ-052 正常、边界、权限 (583.0791ms)
+▶ REQ-053 正常、边界、权限
+  ✔ AC-053 正常 (136.4494ms)
+  ✔ AC-053-B 边界/异常 (14.5325ms)
+  ✔ AC-053-P 权限/隔离 (76.3101ms)
+✔ REQ-053 正常、边界、权限 (594.2059ms)
+▶ REQ-054 正常、边界、权限
+  ✔ AC-054 正常 (61.2845ms)
+  ✔ AC-054-B 边界/异常 (3.9001ms)
+  ✔ AC-054-P 权限/隔离 (152.4775ms)
+✔ REQ-054 正常、边界、权限 (619.5787ms)
+▶ REQ-055 正常、边界、权限
+  ✔ AC-055 正常 (71.3653ms)
+  ✔ AC-055-B 边界/异常 (15.222ms)
+  ✔ AC-055-P 权限/隔离 (75.2705ms)
+✔ REQ-055 正常、边界、权限 (567.5298ms)
+▶ REQ-056 正常、边界、权限
+  ✔ AC-056 正常 (5.6419ms)
+  ✔ AC-056-B 边界/异常 (14.7842ms)
+  ✔ AC-056-P 权限/隔离 (73.9523ms)
+✔ REQ-056 正常、边界、权限 (490.4967ms)
+▶ REQ-057 正常、边界、权限
+  ✔ AC-057 正常 (22.0061ms)
+  ✔ AC-057-B 边界/异常 (3.0589ms)
+  ✔ AC-057-P 权限/隔离 (73.7524ms)
+✔ REQ-057 正常、边界、权限 (522.1327ms)
+✔ 数据库外键、幂等种子及金额整数精度 (572.5231ms)
+✔ HTTP鉴权、只读、CSRF和主体隔离 (1186.5262ms)
+✔ 需求分配守恒、版本冲突和幂等键内容冲突 (602.3038ms)
+✔ 真实SQLite联动：推演→整批派单→本人车次→退回→核验→汇总 (1071.1632ms)
+✔ 费用更正版仅在核验后替代原版，参数参考禁止启用 (816.2674ms)
+✔ 队列/规划/能源结果持久化且不冒充实际投运 (725.4571ms)
+✔ 已登录请求的CSRF、跨源与SQL字段白名单 (548.6042ms)
+✔ 方案确认识别资源版本变化，待派发量可重算但不超额 (572.3263ms)
+✔ 拒单重派不重复有效补能计划，终止余量保留已交付量 (921.1523ms)
+✔ 作业更正有独立核验，原费用不被自动覆盖 (609.9895ms)
+✔ 仿真接入识别重复、冲突和无效SOC，越权批次整体回滚 (713.2749ms)
+✔ 账号主体与操作授权上限；秘密不回显 (947.7053ms)
+✔ 能源调整与候选参数形成新记录，历史版本保持可追溯 (741.3144ms)
+✔ 时序候选确认识别过期计划，全批不改动 (563.6502ms)
+✔ 需求走廊按订单和核验车次聚合；纯充电不套换电备用配比 (544.0941ms)
+✔ 版本预警区分来源过期与SOC风险，重复运行不重复未关闭事件 (747.7751ms)
+✔ 合作实施只关联已核验资产，计划确认不创建车辆或投运量 (741.4901ms)
+✔ 未执行改派重新核验电量和时效，旧补能保留取消历史 (558.6379ms)
+✔ 个人资料只维护本人、版本冲突和密码校验；修改密码清除旧会话 (1323.808ms)
+✔ 电池人工出入站不自动认定可用库存，核验后才恢复；未完成运输禁止脱离电池 (787.0802ms)
+✔ 提交、退回、再次提交及核验保留历史，审计所属主体跟随实际对象 (985.4777ms)
+✔ AI解释标注输入变化，资料修改不沿用旧预测作当前建议 (769.4744ms)
+✔ roads use the station waypoint, remove duplicate junctions and coalesce/cache requests (681.2863ms)
+✔ missing coordinates, malformed or failed upstream routes never produce a straight line fallback (665.6832ms)
+✔ road API preserves login, subject scope and driver boundaries; sends only origin as cross-site referrer (991.1425ms)
+✔ 磁盘迁移重复执行、重启持久化与SQLite一致性备份 (1110.0843ms)
+✔ 任务列表与轨迹使用业务索引，千条样本查询记录实际时延 (743.7096ms)
+✔ goal search exhausts declared counts, tighter deadlines need more vehicles, cost option meets constraints (595.6706ms)
+✔ direct trial, confirmation and parsing never create business objects; final creation is explicit and atomic (678.3414ms)
+✔ final delivery does not demand an unnecessary empty return, and replenishment remains reachable over repeated trips (509.003ms)
+✔ manual trial links an existing matching order, protects its version and rejects mismatched freight (457.2879ms)
+✔ actual fleet is scoped and filtered; resource changes invalidate committed results and mappings (429.6242ms)
+✔ no available fleet or impossible deadlines explain a genuine lack of feasible plans (566.1171ms)
+✔ DeepSeek adjustment preview is bounded, rejects unknown fields and preserves selected baseline and data (731.0943ms)
+✔ new HTTP fleet and adjustment endpoints enforce roles, CSRF and source versions (1113.432ms)
+✔ floating chat guides without results, filters facts, and validates history and failures (3.8623ms)
+✔ floating scene chat explains selected candidate, previews changes and locks execution scenes (428.5082ms)
+✔ all candidates conserve delivered mass, SOC and shared station capacity (607.9673ms)
+✔ loading/unloading throughput and social traffic alter computed waits, not fixed cards (661.4674ms)
+✔ low-SOC paths, impossible time windows and invalid configuration remain non-executable (539.5834ms)
+✔ draft and scenario confirmation do not reserve source quantities or create execution objects (434.1408ms)
+✔ demand conversion is an explicit atomic action; mapping conflicts roll back the order too (430.5816ms)
+✔ source version changes invalidate results before confirmation or execution (601.7134ms)
+✔ DeepSeek consumes bounded numeric evidence; rejects fabricated feasible IDs and unsafe patches (715.6926ms)
+✔ playback interpolates along road geometry, with SOC and station queues on the same clock (2.5026ms)
+✔ demand manual generation allocates exactly once and generated tasks pass the existing dispatch validator (573.8782ms)
+✔ HTTP scenario commands enforce roles/CSRF, stay idempotent, and never create tasks during AI computation (938.2075ms)
+✔ CR2 需求保存并确认、资料边界与主体操作授权 (1194.2827ms)
+✔ CR2 多批确认、运量守恒、版本冲突和请求幂等 (802.7512ms)
+✔ CR2 草稿不占量，单批错误整批回滚且不残留命令结果 (547.2794ms)
+✔ CR2 订单保存确认原子性、来源不能被确认后切换及并发超分配保护 (663.0478ms)
+✔ CR2 全量组合查询、关联计数与SQL核验量，分配不代替交付 (965.2506ms)
+ℹ tests 280
+ℹ suites 0
+ℹ pass 280
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 40101.4707

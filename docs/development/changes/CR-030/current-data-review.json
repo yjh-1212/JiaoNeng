@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T03:34:36.602Z",
+  "original_rows_preserved": true,
+  "table_count": 23,
+  "concurrent_appends": [
+    {
+      "table": "audit",
+      "appended_rows": 15
+    },
+    {
+      "table": "command_results",
+      "appended_rows": 9
+    },
+    {
+      "table": "records",
+      "appended_rows": 1
+    }
+  ],
+  "note": "Initial post-restart exact snapshot passed. Later concurrent scenario.save/run operations appended records/audit/command results; no rollback or restoration performed."
+}

@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-16T07:10:11.777572+00:00",
+  "source_sha256": {
+    "client/app.jsx": "04e82ac9e4415d923ca0fa6f2274d06792d62907ef8d77e62ef46848614268c0",
+    "client/goal-simulation.jsx": "48075192c199caa09b5b6c4d7dd6a8ac5270b92dbb49d3d38faf3c5731df3b3f",
+    "client/scenario-panels.jsx": "d28b1e473aa88a38ac4b4ff20fe71ca74d2437bfbcf4ecdde4cb700fc679a014",
+    "client/scenario-map.jsx": "6d286d32fe6318f4f0b41203476b35ab0f62e045e9a4590f3f08b2871b6d038d",
+    "client/floating-plans.jsx": "fa91ad3e79fe9ed3cdb8ade699637f96dc51c154ee2fd52c69408c8c3fc62a2f",
+    "client/scenario-chat.jsx": "8662b342e8956ed6f7419815521b3aba7852bedb532f6104fae911c305a08f21",
+    "client/simulation-goals.css": "6eb884eb6fa188506b9c7d57b21cb1ab816feecdfcea17db3a53941a6df1e361",
+    "client/simulation-floating.css": "aa528ba5112f0ed6c37bbc276aabddf375f2859a0159142179159c1474991610",
+    "client/assets/jiaoneng-ai-v1.png": "01c63539456743f8e0802c0f7d18c3ed764a6c5481389ef5547c628ebdf4052e",
+    "server/scenario-goals.mjs": "481786e8a6a0b38753043a7c9c1ca5522df121d66e7678558e5ac8b87a996335",
+    "server/scenarios.mjs": "e2fb0e18854af6390e846be2cc5b0261b311319d0dff0bf68c8dfc63c800c54c",
+    "server/scenario-engine.mjs": "fb8400124485f2b7dc79c6d65f664ea1580395acd0462b4a257ba54b87e6601b",
+    "server/scenario-adjustments.mjs": "8e1ea456b60a74b1c4fd59e5d999f8750ed902c18aaabbc24b94c4c766ae8396",
+    "server/transport.mjs": "7655ef0d0d85b96525247b7a962aef821139ed1e197fc389b222e20ff9c0b68d",
+    "server/app.mjs": "7545e0dcb7e5562cd2b15778d7c9985a6aaf389f93d148da4121c41fe8f1c9f5",
+    "tests/scenario-goals.test.mjs": "274064acc789d7febddd4f90828a5eed1a04adc35511b8046a7716db903cc5e6",
+    "tests/scenario-goals-browser.mjs": "8ea5671935d2ad8b33e63e10d0c1575f98a7fd7a481f0db0f7fc3f332e371500",
+    "scripts/build.mjs": "21ae84468d772a484dc0df27b44f1e784944690cc140ac2e93ccee179442bd69",
+    "package.json": "5849863f0403365a4b8719336bfcdef726f00f4b8854344e43f48a2e83ed886b"
+  },
+  "design_baseline": "docs/design/07-baseline/design-baseline-CR-010.json",
+  "deployment": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:30:42.875Z",
+  "checks": [
+    {
+      "width": 1680,
+      "composer_top": 119,
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "composer_top": 109,
+      "status": "PASS"
+    }
+  ],
+  "removed_selectors_and_hero": true,
+  "square_and_chat_work": true,
+  "return_to_business": true,
+  "model_calls": 0,
+  "business_writes": 0,
+  "errors": []
+}

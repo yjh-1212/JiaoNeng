@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T02:55:25.565Z",
+  "checks": [
+    {
+      "width": 1920,
+      "count": 7,
+      "labels": [
+        "运营总览",
+        "订单管理",
+        "任务调度",
+        "能源管理",
+        "运行保障",
+        "规划决策",
+        "系统管理"
+      ],
+      "center": 955,
+      "header_center": 955,
+      "arrows": 6,
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "count": 7,
+      "labels": [
+        "运营总览",
+        "订单管理",
+        "任务调度",
+        "能源管理",
+        "运行保障",
+        "规划决策",
+        "系统管理"
+      ],
+      "center": 678,
+      "header_center": 678,
+      "arrows": 6,
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "count": 7,
+      "labels": [
+        "运营总览",
+        "订单管理",
+        "任务调度",
+        "能源管理",
+        "运行保障",
+        "规划决策",
+        "系统管理"
+      ],
+      "center": 635,
+      "header_center": 635,
+      "arrows": 6,
+      "status": "PASS"
+    },
+    {
+      "name": "二级菜单跳转、当前父级高亮及Logo返回首页",
+      "status": "PASS"
+    }
+  ],
+  "dark_logo_readable": true,
+  "narrow_overflow": false,
+  "business_writes": 0,
+  "external_model_calls": 0,
+  "errors": []
+}

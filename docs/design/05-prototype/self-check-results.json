@@ -1,0 +1,43 @@
+{
+  "stage": "D5",
+  "status": "PASS_WITH_EXTERNAL_LIMITATION",
+  "pages": 26,
+  "features": 47,
+  "requirements": 57,
+  "anchors_match": true,
+  "core_browser_checks": 45,
+  "module_browser_checks": 15,
+  "core_status": "PASS",
+  "module_status": "PASS",
+  "runtime_errors": [],
+  "approved_hash_checks": [
+    {
+      "stage": "D0",
+      "result": true
+    },
+    {
+      "stage": "D1",
+      "result": true
+    },
+    {
+      "stage": "D2",
+      "result": true
+    },
+    {
+      "stage": "D3",
+      "result": true
+    },
+    {
+      "stage": "D4",
+      "result": true
+    }
+  ],
+  "map_status": "EXTERNAL_UNAVAILABLE",
+  "map_limit": "高德外部加载失败，默认示意图已验证；真实路线未验证",
+  "html_sha256": "61afd371f33d7e93fa346fa89fa613f844e2eb426ffbdf874539f4054583b948",
+  "approval": "D5未登记批准；待用户明确确认",
+  "source_boundary": "只有docs/design及prototypes/design-preview设计成果；没有正式源码/API/数据库/部署写入",
+  "visual_revision": "002",
+  "revision_browser_checks": 11,
+  "revision_status": "PASS"
+}

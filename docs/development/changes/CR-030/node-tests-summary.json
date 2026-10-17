@@ -1,0 +1,1 @@
+{"status":"PASS","command":"npm test","tests":333,"pass":333,"fail":0,"duration_ms":24036.7622,"evidence":"本轮 npm test 执行输出，退出码 0；包含新增 portal-auth 三组接口测试"}

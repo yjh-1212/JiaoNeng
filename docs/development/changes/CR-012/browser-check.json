@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "default_ten_routes": [
+    "demands",
+    "orders",
+    "tasks",
+    "resources",
+    "alerts",
+    "assets"
+  ],
+  "switch_to_20": true,
+  "next_page": true,
+  "reset_to_10": true,
+  "business_mutations": false
+}

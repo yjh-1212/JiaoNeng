@@ -1,0 +1,289 @@
+{
+  "stage": "D4",
+  "scope": "文档结构/覆盖/哈希/颜色计算；不含浏览器交互或模型效果验收",
+  "pages": 26,
+  "requirements": 57,
+  "features": 47,
+  "field_mappings": 261,
+  "page_field_placements": 319,
+  "contrast_pairs": 58,
+  "checks": [
+    {
+      "check": "26个页面ID、路由、菜单归属保持D2不变",
+      "result": "PASS"
+    },
+    {
+      "check": "管理端7个一级入口、19工作区/18二级；司机3个入口",
+      "result": "PASS"
+    },
+    {
+      "check": "57项需求在页面规格均可追踪",
+      "result": "PASS"
+    },
+    {
+      "check": "47个功能都有指定主工作区且不重复",
+      "result": "PASS"
+    },
+    {
+      "check": "261字段全部有基础控件与校验映射",
+      "result": "PASS"
+    },
+    {
+      "check": "所有页面字段引用存在且有明确控件与可编辑性",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-001包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-001所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-004包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-004所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-005包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-005所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-007包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-007所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-009包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-009所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-010包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-010所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-012包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-012所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-016包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-016所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-031包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-031所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-034包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-034所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-022包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-022所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-024包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-024所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-030包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-030所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-028包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-028所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-029包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-029所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-035包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-035所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-036包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-036所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-038包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-038所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-040包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-040所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-041包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-041所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-042包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-042所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-043包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-043所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-044包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-044所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-045包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-045所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-046包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-046所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-048包含10节、具体查询/字段/异常/权限/响应式/验收",
+      "result": "PASS"
+    },
+    {
+      "check": "PAGE-048所有PAGE跳转ID有效",
+      "result": "PASS"
+    },
+    {
+      "check": "司机不能编辑管理员核验量",
+      "result": "PASS"
+    },
+    {
+      "check": "司机不填管理员处置措施",
+      "result": "PASS"
+    },
+    {
+      "check": "车辆指派能选择已有引用而不修改档案",
+      "result": "PASS"
+    },
+    {
+      "check": "仅两类业务角色",
+      "result": "PASS"
+    },
+    {
+      "check": "交能推演遵从用户指定辽粮上下布局",
+      "result": "PASS"
+    },
+    {
+      "check": "D0已批准文件哈希保持不变",
+      "result": "PASS"
+    },
+    {
+      "check": "D1已批准文件哈希保持不变",
+      "result": "PASS"
+    },
+    {
+      "check": "D2已批准文件哈希保持不变",
+      "result": "PASS"
+    },
+    {
+      "check": "D3已批准文件哈希保持不变",
+      "result": "PASS"
+    },
+    {
+      "check": "D4没有擅自登记批准/开发授权",
+      "result": "PASS"
+    },
+    {
+      "check": "所有正文、语义、主要按钮与必要控件对比度达设计门槛",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

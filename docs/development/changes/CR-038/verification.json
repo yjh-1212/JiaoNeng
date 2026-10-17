@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "projects": [
+    {
+      "project_id": "PP-34df3ee5-59a3-4534-89e6-eed64833d6f8",
+      "name": "庆阳煤运当班保障规划",
+      "business_records": 9,
+      "sites": 6,
+      "vehicles": 7,
+      "available": 7,
+      "transport_feasible": true,
+      "handoff": true
+    },
+    {
+      "project_id": "PP-d68fd22e-c21a-4dd7-ad7b-ebf5dd301827",
+      "name": "庆阳及周边跨日运力与补能规划",
+      "business_records": 9,
+      "sites": 6,
+      "vehicles": 4,
+      "available": 7,
+      "transport_feasible": true,
+      "handoff": true
+    }
+  ],
+  "foreign_keys": 0,
+  "integrity": "ok",
+  "at": "2026-10-17T07:55:42.927Z",
+  "backup": "D:\\项目资料\\Code\\JiaoNeng_v0.2\\docs\\development\\changes\\CR-038\\before-planning-data.sqlite",
+  "idempotent": false
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-022",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-021.json",
+  "parent_manifest_sha256": "f07c505bf05633b26075ae6f50f56a1e92943041c0b415e9c7321879c3f8ef19",
+  "approved_by": "当前用户明确要求暂时移除经营管理",
+  "evidence": "经营管理这里全部先去掉",
+  "recorded_at": "2026-10-17T00:29:19.079561+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-022-hide-business-management.md": "a628afffd00ad44874031a9671299c888a67c95aefcb44a44b0471d65c48ebf6"
+  }
+}

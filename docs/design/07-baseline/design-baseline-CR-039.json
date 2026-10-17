@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-039",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-038.json",
+  "parent_manifest_sha256": "6153397eedc2ee5df3f43fa2e854d09219f335cbf0a02e5d4dd9eca4d6eab106",
+  "approved_by": "当前用户",
+  "evidence": "当前用户批准单页二维驾驶舱方案并提供辽粮驾驶舱源码，明确要求参考此风格开发。",
+  "recorded_at": "2026-10-17T08:36:48.274751+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-039-integrated-cockpit.md": "4d959c238b3c18691c06963a5e01877f3032726ed74910707f2bc36c2a6af898"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-036.json",
+  "baseline_sha256": "3f22e0a8d1430c3939f5ab9ad2ca03edcd53d174e4789d1ea0c671b0dbea23cc",
+  "evidence": "当前用户：核查现有资料，若不合适则生成10条适合当前业务并能走通流程的数据。"
+}

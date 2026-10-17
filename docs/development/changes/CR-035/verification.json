@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "route": "overview",
+      "status": "PASS"
+    },
+    {
+      "route": "demands",
+      "status": "PASS"
+    },
+    {
+      "route": "simulation",
+      "status": "PASS"
+    },
+    {
+      "route": "monitoring",
+      "status": "PASS"
+    },
+    {
+      "route": "resources",
+      "status": "PASS"
+    },
+    {
+      "check": "账号菜单保留",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "build": "PASS",
+  "user_acceptance_signature": false
+}

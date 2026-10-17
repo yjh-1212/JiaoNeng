@@ -1,0 +1,14 @@
+{
+  "database": "D:\\项目资料\\Code\\JiaoNeng_v0.2\\data\\jiaoneng.sqlite",
+  "staging": "D:\\项目资料\\Code\\JiaoNeng_v0.2\\docs\\development\\changes\\CR-036\\prepared.sqlite",
+  "backup": "D:\\项目资料\\Code\\JiaoNeng_v0.2\\docs\\development\\changes\\CR-036\\before-business-data.sqlite",
+  "manifest_checksum": "3b546bab2b22ff56dcacb4699279137b2780bb59125e5c1793ce17eed485c3ae",
+  "prepared_at": "2026-10-17T07:41:14.468Z",
+  "expected": {
+    "status": "PASS",
+    "cases": 10,
+    "foreign_keys": 0,
+    "integrity": "ok"
+  },
+  "status": "PREPARED"
+}

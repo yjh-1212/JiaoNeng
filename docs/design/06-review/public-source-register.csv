@@ -1,0 +1,12 @@
+﻿source_id,title,type,published,url,facts,limits,retrieved
+PUB-001,三一350kWh 4x2产品页,厂商产品资料,页面未标发布日期,https://www.sanyglobal.com/cn/product/truck/semi-trailer_tractor/138/1448/,350kWh；SOC20%至80%≤40min,出口4x2样本；实际选型、桩功率和工况须核验,2026-10-13
+PUB-002,三一云南350度换电重卡案例,厂商案例自述,2023-09-14,https://www.sanygroup.com/activity/12924.html,平均1.58kWh/km；单趟110km,云南矿石等运输；非庆阳实测,2026-10-13
+PUB-003,宁德时代百威重卡换电案例,厂商案例自述,2024-05-24,https://www.catl.com/news/7942.html,513kWh；换电5min；满载高速能耗<1.5kWh/km,特定干线案例，不是所有重卡保证值,2026-10-13
+PUB-004,三一2026重卡新品资料,厂商产品资料,2026-02-25,https://www.sanygroup.com/activity/15977.html,SE882：882kWh；SOC20%至80%50min,对应车型及测试条件，不覆盖其他车型,2026-10-13
+PUB-005,宁德时代骐骥模块化换电方案,厂商技术说明,2023-06-12,https://www.catl.com/news/7214.html,171kWh/块，可选1至3块,须匹配车型及换电接口,2026-10-13
+PUB-006,甘肃能源监管办创新市场机制推动高比例新能源发展,国家能源局公开资料,2026-08-28,https://www.nea.gov.cn/20260828/f4ec97126c5f4d7e8ac8f38c100f221b/c.html,甘肃中长期市场由市场自主形成分时价格,不是具体用户电费账单，不推断所有用户适用同一合同,2026-10-13
+PUB-007,甘肃2025版政府定价经营服务收费目录,地方发改委历史目录,2025版,https://fzgg.gansu.gov.cn/fzgg/zfdj/202502/174079896/files/6c95115ab29a4f47ae2a867114b5a366.pdf,历史充换电服务费0.50至0.70元/kWh，不含电费,仅历史敏感性参考，不是2026庆阳合同价格,2026-10-13
+PUB-008,高德货车路径规划基础版,官方API文档,2026-10-13核对,https://lbs.amap.com/api/logistic-service/guide/wagon_path/truck-route-plan-basis,货车尺寸重量轴数和限行信息契约,须确认账户权限、路网覆盖与字段含义，不能承诺矿区通行,2026-10-13
+PUB-009,高德货车未来时间路径规划,官方API文档,2022-08-26页面更新,https://lbs.amap.com/api/webservice/guide/logistics-api/routeplan,出发时间支持当前至未来6天,账户可用能力和未来路况预测需实测,2026-10-13
+PUB-010,高德其他坐标转高德坐标示例,官方示例,2026-10-13核对,https://developer.amap.com/demo/javascript-api-v2/example/other-gaode/othertoamap-more,支持按来源类型转换坐标,来源坐标未知不能盲转或重复转换,2026-10-13
+PUB-011,DeepSeek首次调用与错误码,官方API文档,2026-10-13核对,https://api-docs.deepseek.com/,API基址与可配置模型；错误码另见官方quick_start/error_codes/,文档可读不等于账户模型额度或服务已联通,2026-10-13

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-019",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-018.json",
+  "parent_manifest_sha256": "66bbe10c4072b71db971bbca7977745e19a1f15be0ad62ec28e346cc5eefc281",
+  "approved_by": "当前用户",
+  "evidence": "按这个来帮我开发",
+  "recorded_at": "2026-10-16T11:46:08.777332+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-019-operational-assurance.md": "1fa440962702d0389980bc0a102d74d5e8d0559b1e28dc314cac970f8a05557f",
+    "prototypes/design-preview/operations-pages-v1/01-operation-monitoring.png": "b14946bf877fe559ad835e90d23860da3ce14e5d721fa36892203abf15c96aaa",
+    "prototypes/design-preview/operations-pages-v1/02-incident-handling.png": "77f84f59dcbfc7cf3d300a87946a6bde744455f30c8d96d3b4a5bcada69849c7",
+    "prototypes/design-preview/operations-pages-v1/README.md": "fdae1b30ab52fd4922dd10aab9d5a871877de3b48a5daac65a9b84d2d3896582"
+  }
+}

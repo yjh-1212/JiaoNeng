@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-018",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-017.json",
+  "parent_manifest_sha256": "1b195f450d99d410d762bac41540c2a0bc1cdbcc8db4b340ca3f0c1d281ebb2c",
+  "approved_by": "当前用户明确批准V2图和业务解释并要求开发",
+  "evidence": "可以，按这个来帮我开发，然后补能与能源帮我改成能源管理",
+  "recorded_at": "2026-10-16T08:54:42.841Z",
+  "sha256": {
+    "docs/design/08-change/CR-018-energy-workspaces.md": "7f8f76c5c48946f5706edc4952577468f9e9cefde5c59a955027e8be666ed51a",
+    "prototypes/design-preview/energy-pages-v2/01-charging-dispatch.png": "60ed55e62f62e478176df781e860301b2717f2c02bcad35c477f9fcc74972294",
+    "prototypes/design-preview/energy-pages-v2/02-station-operations.png": "3ed7dc9eddb261958580a87c356bdc894441bbfd91fe77e5f1d95a973b8f48f1",
+    "prototypes/design-preview/energy-pages-v2/03-energy-management.png": "adfa2099ad4385d998d0030982d0ccd0642edff8c89207e8bb3dae25fe584403"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "source": "isolated simulated SQLite",
+  "routeCount": 10,
+  "candidates": [
+    {
+      "id": "A",
+      "feasible": true,
+      "metrics": {
+        "finish_at": "2026-10-16T05:46:16.285Z",
+        "duration_minutes": 466.27,
+        "total_cost_cents": 202364,
+        "transport_cost_cents": 155678,
+        "charging_cost_cents": 46686,
+        "charge_count": 2,
+        "energy_kwh": 480.58,
+        "distance_km": 345.95,
+        "queue_minutes": 17.98,
+        "loading_wait": 0,
+        "unloading_wait": 0,
+        "charging_wait": 17.98,
+        "vehicle_count": 2,
+        "delivered_kg": 300000,
+        "ontime_rate": 100,
+        "load_peak": 0,
+        "unload_peak": 0,
+        "station_peak": 3,
+        "resource_utilization": 18.77,
+        "high_risk_stations": 0
+      }
+    },
+    {
+      "id": "B",
+      "feasible": true,
+      "metrics": {
+        "finish_at": "2026-10-16T05:49:36.285Z",
+        "duration_minutes": 469.6,
+        "total_cost_cents": 202614,
+        "transport_cost_cents": 155928,
+        "charging_cost_cents": 46686,
+        "charge_count": 2,
+        "energy_kwh": 480.58,
+        "distance_km": 345.95,
+        "queue_minutes": 9.31,
+        "loading_wait": 0,
+        "unloading_wait": 0,
+        "charging_wait": 9.31,
+        "vehicle_count": 2,
+        "delivered_kg": 300000,
+        "ontime_rate": 100,
+        "load_peak": 0,
+        "unload_peak": 0,
+        "station_peak": 3,
+        "resource_utilization": 18.63,
+        "high_risk_stations": 0
+      }
+    },
+    {
+      "id": "C",
+      "feasible": true,
+      "metrics": {
+        "finish_at": "2026-10-16T05:46:16.285Z",
+        "duration_minutes": 466.27,
+        "total_cost_cents": 202364,
+        "transport_cost_cents": 155678,
+        "charging_cost_cents": 46686,
+        "charge_count": 2,
+        "energy_kwh": 480.58,
+        "distance_km": 345.95,
+        "queue_minutes": 11.98,
+        "loading_wait": 0,
+        "unloading_wait": 0,
+        "charging_wait": 11.98,
+        "vehicle_count": 2,
+        "delivered_kg": 300000,
+        "ontime_rate": 100,
+        "load_peak": 0,
+        "unload_peak": 0,
+        "station_peak": 3,
+        "resource_utilization": 18.77,
+        "high_risk_stations": 0
+      }
+    }
+  ],
+  "ai": {
+    "status": "ready",
+    "model": "deepseek-flash",
+    "summary": "模拟计算显示300吨、2车、装卸各2口的方案均可行，三方案均100%准时、无违规，瓶颈均为补能等待。A与C完成时间、成本、能耗相同，C充电等待更低；B成本略高且完成更晚。综合时效、成本与等待，推荐C。社会车流为模拟到达，非实时预测；道路与货车限行条件未核验。",
+    "recommended_id": "C",
+    "reasons": [
+      "三方案均可行且准时率100%",
+      "A与C指标相同，C补能等待更低",
+      "B成本略高且完成时间更晚",
+      "共同瓶颈为补能等待，非装卸环节"
+    ],
+    "suggestions": [
+      {
+        "label": "小幅增加发车间隔以错峰补能",
+        "patch": {
+          "departure_interval": 5
+        }
+      },
+      {
+        "label": "适度提高目标SOC减少补能次数",
+        "patch": {
+          "target_soc": 92
+        }
+      },
+      {
+        "label": "增加一辆车以降低单车补能压力",
+        "patch": {
+          "vehicle_count": 3
+        }
+      },
+      {
+        "label": "放宽最大等待以吸收补能排队",
+        "patch": {
+          "max_wait": 30
+        }
+      }
+    ],
+    "generated_at": "2026-10-16T03:47:20.810Z",
+    "source": "DEEPSEEK"
+  },
+  "errors": [],
+  "secrets_logged": false
+}

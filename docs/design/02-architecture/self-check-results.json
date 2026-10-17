@@ -1,0 +1,15 @@
+{
+  "stage": "D2",
+  "revision": "V0.2-menu",
+  "approval": "待用户确认",
+  "primary_nav_groups": 7,
+  "second_level_menus": 18,
+  "overview_direct_entry": 1,
+  "independent_destinations": 26,
+  "legacy_function_locations_covered": 61,
+  "requirements_covered": 57,
+  "modules_preserved": 9,
+  "driver_bottom_entries": 3,
+  "d3_started": false,
+  "upstream_approvals_unchanged": true
+}

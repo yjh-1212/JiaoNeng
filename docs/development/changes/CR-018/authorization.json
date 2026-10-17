@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-018.json",
+  "baseline_sha256": "66bbe10c4072b71db971bbca7977745e19a1f15be0ad62ec28e346cc5eefc281",
+  "evidence": "可以，按这个来帮我开发，然后补能与能源帮我改成能源管理",
+  "scope": "本地前后端、司机关联和菜单改名，无部署"
+}

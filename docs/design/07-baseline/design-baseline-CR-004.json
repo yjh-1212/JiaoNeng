@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-004",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-003.json",
+  "parent_manifest_sha256": "718582173599ee3a61ee73c967cbdc6ece1c9cf80f098f058cfa8915cdd671be",
+  "approved_by": "当前用户（明确修改指令）",
+  "evidence": "为啥里面有个框，然后帮我把查询重置和条件放到一行中",
+  "recorded_at": "2026-10-16T02:28:15.354138+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-004-query-row-focus.md": "75990ba43e8025f8d4af0b26f7b5e9cd1596ae388883cd7e5ebeb99406a64694"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:35:40.060Z",
+  "checks": [
+    "banner 1680",
+    "banner 1280",
+    "DEMAND two row prompts and send",
+    "SIMULATION two row prompts and send",
+    "DISPATCH two row prompts and send",
+    "CHARGING two row prompts and send",
+    "INCIDENT two row prompts and send",
+    "PLANNING two row prompts and send"
+  ],
+  "local_service": false,
+  "business_writes": 0,
+  "model_service": "explicit isolated test double",
+  "external_model_calls": 0,
+  "errors": []
+}

@@ -1,0 +1,1203 @@
+{
+  "status": "PASS",
+  "executed": 171,
+  "records": [
+    {
+      "acceptance_id": "AC-001",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:38.237Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-001-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:38.312Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-001-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:38.548Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-002",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:39.345Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-002-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:39.378Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-002-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:39.574Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-003",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:40.106Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-003-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:40.129Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-003-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:40.307Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-004",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:41.113Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-004-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:41.146Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-004-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:41.371Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-005",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:42.104Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-005-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:42.130Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-005-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:42.352Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-006",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:42.853Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-006-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:42.859Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-006-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:43.047Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-007",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:43.635Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-007-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:43.663Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-007-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:43.929Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-008",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:44.804Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-008-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:44.815Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-008-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:44.920Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-009",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:46.012Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-009-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:46.059Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-009-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:46.292Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-010",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:47.444Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-010-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:47.460Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-010-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:47.619Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-011",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:48.100Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-011-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:48.116Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-011-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:48.325Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-012",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:48.975Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-012-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:48.991Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-012-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:49.188Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-013",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:49.934Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-013-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:49.962Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-013-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:50.157Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-014",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:50.646Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-014-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:50.652Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-014-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:50.792Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-015",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:51.262Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-015-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:51.267Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-015-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:51.399Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-016",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:51.875Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-016-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:51.891Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-016-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:52.029Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-017",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:52.458Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-017-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:52.474Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-017-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:52.628Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-018",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:53.037Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-018-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:53.042Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-018-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:53.116Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-019",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:53.563Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-019-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:53.578Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-019-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:53.729Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-020",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:54.127Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-020-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:54.150Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-020-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:54.271Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-021",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:54.729Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-021-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:54.735Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-021-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:54.866Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-022",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:55.308Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-022-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:55.313Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-022-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:55.453Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-023",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:55.869Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-023-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:55.882Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-023-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:56.021Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-024",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:56.445Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-024-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:56.462Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-024-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:56.583Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-025",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:57.077Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-025-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:57.092Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-025-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:57.246Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-026",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:57.692Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-026-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:57.698Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-026-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:57.833Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-027",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:58.254Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-027-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:58.258Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-027-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:58.342Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-028",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:58.784Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-028-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:58.790Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-028-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:58.865Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-029",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:59.742Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-029-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:59.755Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-029-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:05:59.853Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-030",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:00.401Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-030-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:00.406Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-030-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:00.477Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-031",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:01.048Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-031-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:01.053Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-031-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:01.200Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-032",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:01.813Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-032-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:01.818Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-032-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:01.984Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-033",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:02.523Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-033-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:02.529Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-033-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:02.646Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-034",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:03.274Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-034-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:03.282Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-034-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:03.471Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-035",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:04.121Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-035-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:04.132Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-035-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:04.437Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-036",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:04.994Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-036-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:05.011Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-036-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:05.163Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-037",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:05.626Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-037-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:05.630Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-037-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:05.716Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-038",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:06.182Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-038-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:06.194Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-038-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:06.269Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-039",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:06.718Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-039-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:06.723Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-039-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:06.791Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-040",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:07.254Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-040-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:07.267Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-040-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:07.358Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-041",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:07.787Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-041-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:07.792Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-041-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:07.862Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-042",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:08.235Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-042-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:08.241Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-042-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:08.323Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-043",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:08.750Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-043-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:08.765Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-043-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:08.919Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-044",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:09.350Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-044-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:09.381Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-044-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:09.521Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-045",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:09.953Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-045-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:09.981Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-045-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:10.134Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-046",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:10.594Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-046-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:10.608Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-046-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:10.762Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-047",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:11.195Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-047-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:11.209Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-047-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:11.362Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-048",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:11.812Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-048-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:11.819Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-048-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:11.950Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-049",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:12.439Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-049-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:12.443Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-049-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:12.501Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-050",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:12.881Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-050-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:12.887Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-050-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:12.946Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-051",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:13.474Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-051-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:13.487Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-051-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:13.566Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-052",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:13.993Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-052-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:14.009Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-052-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:14.148Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-053",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:14.656Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-053-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:14.671Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-053-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:14.748Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-054",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:15.210Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-054-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:15.214Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-054-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:15.366Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-055",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:15.843Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-055-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:15.858Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-055-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:15.934Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-056",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:16.333Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-056-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:16.348Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-056-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:16.422Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-057",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:16.870Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-057-B",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:16.873Z",
+      "model_service": "deterministic test double; no external calls"
+    },
+    {
+      "acceptance_id": "AC-057-P",
+      "status": "PASS",
+      "evidence": "tests/ac-cases.mjs",
+      "executed_at": "2026-10-16T07:06:16.946Z",
+      "model_service": "deterministic test double; no external calls"
+    }
+  ]
+}

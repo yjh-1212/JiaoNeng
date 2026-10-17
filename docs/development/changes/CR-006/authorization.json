@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-006.json",
+  "baseline_sha256": "5bca5fc5e415cff0fa26c0eed46e1093445dbdf4cc13c347f64852e8df86acf3",
+  "evidence": "交能推演帮我去掉历史版本，然后页面参考辽粮项目的联运方案-求解页面，地图为啥没有加载出来",
+  "scope": "交能推演求解布局、移除历史入口与地图默认加载及恢复"
+}

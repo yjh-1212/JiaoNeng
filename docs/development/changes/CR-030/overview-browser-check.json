@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T03:20:30.928Z",
+  "checks": [
+    {
+      "name": "辽粮式欢迎横幅、四入口、概况、进度、六待办、近期任务与AI侧栏完整",
+      "status": "PASS"
+    },
+    {
+      "name": "全部授权范围内待派发筛选正确带入运输任务",
+      "status": "PASS"
+    },
+    {
+      "name": "待补能进入全部授权范围及待安排分组",
+      "status": "PASS"
+    },
+    {
+      "name": "异常待办进入全部授权范围",
+      "status": "PASS"
+    },
+    {
+      "name": "近期任务查看进入真实任务详情",
+      "status": "PASS"
+    },
+    {
+      "name": "需求入口打开原右侧编辑抽屉，未保存不写业务",
+      "status": "PASS"
+    },
+    {
+      "name": "AI建议带入对应智能体及可编辑问题，不自动调用模型或创建业务",
+      "status": "PASS"
+    },
+    {
+      "name": "1366/1280/390布局无整页横向溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "汇总失败明确显示并可重试，不把失败显示为零或旧主体数据",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "local_service": false,
+  "formal_business_writes": 0,
+  "external_model_calls": 0
+}

@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "name": "需求/订单只提供来源，地图浮层+底部结果完整，推演调用模型且不生成任务",
+      "status": "PASS"
+    },
+    {
+      "name": "播放暂停、10倍速、关键时刻、时间拖动及浮层收展可用",
+      "status": "PASS"
+    },
+    {
+      "name": "补能车辆/场站明细、三方案对比和事件定位均对应同次计算",
+      "status": "PASS"
+    },
+    {
+      "name": "桌面与手机无页面横向溢出，地图完整撑满且底部不悬浮",
+      "status": "PASS"
+    },
+    {
+      "name": "模型建议仅填入条件，不自动执行或生成任务",
+      "status": "PASS"
+    },
+    {
+      "name": "未保存条件离开页面前有保护，取消离开保留输入",
+      "status": "PASS"
+    },
+    {
+      "name": "确认方案与生成任务分离，手动核对映射后生成待派发任务，刷新不重复创建",
+      "status": "PASS"
+    },
+    {
+      "name": "需求来源在最后手动动作才创建订单并生成任务，数量守恒",
+      "status": "PASS"
+    },
+    {
+      "name": "智能助手跳转新版工作台并恢复已有方案，不再运行旧推演",
+      "status": "PASS"
+    },
+    {
+      "name": "没有可用来源时提供清晰空状态与运输需求入口",
+      "status": "PASS"
+    },
+    {
+      "name": "无页面运行错误，业务写入仅发生在隔离测试库",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "live_ai": false,
+  "model": "TEST_MODEL_DOUBLE",
+  "real_road_paths": 10,
+  "database": "isolated simulated SQLite",
+  "secrets_logged": false
+}

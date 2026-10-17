@@ -1,0 +1,2 @@
+req_id,source_id,role_id,flow_id,module_id,page_id,prototype_ref,acceptance_id,status
+REQ-001,SRC-001,ROLE-001,FLOW-001,MOD-001,PAGE-001,prototypes/design-preview/index.html#page-001,AC-001,待设计

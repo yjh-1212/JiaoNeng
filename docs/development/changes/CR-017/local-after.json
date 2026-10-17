@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "counts": {
+    "demands": 8,
+    "orders": 25,
+    "tasks": 18,
+    "trips": 27,
+    "charging": 4,
+    "sessions": 12,
+    "costs": 12
+  },
+  "business_rows_unchanged": true,
+  "compared_against": "data/backups/jiaoneng-pre-cr017.sqlite",
+  "business_rows_sha256": {
+    "demands": "04f7e02429980b4f397e2d9d010230b702486df0c86deb0622f0049ebe681cfe",
+    "orders": "5c7b0df3c5395c9f4cfcfcbce1d19b308b2d1605096cee2e085852449c6c54f5",
+    "tasks": "9810d869838540523bb79693b04c7d96c0cb937a3edd2a998758b182d3356251",
+    "trips": "402de796f9c295fc244149ad5ac9fddf43f37c3985fc4da353f1dc85031647bd",
+    "charging": "779f41066abe2dd8fbf178e9e844bce0e82e32cf82d3d40c7123f1ef6a704a75",
+    "sessions": "1739d46a7e507843ec2516c7e6d81e421b4b332a59f2082d68bec310094a7932",
+    "costs": "bff48626ab3ff7a0ab831ee1c9183e339a41ac929e5beae700c46839b2474b04"
+  }
+}

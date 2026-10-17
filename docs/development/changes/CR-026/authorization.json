@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-026.json",
+  "baseline_sha256": "6abc2df3bccf701c180c6a0281422cc8c1da5ac4cd4aa464cc02911aa6a2f5fc",
+  "evidence": "用户：各智能体里面的预设词也要同步修改，类似这种；截图为整行问题卡片和右箭头。继承必要后续步骤授权。",
+  "scope": "六智能体预设提问及展示；无业务规则或部署变更"
+}

@@ -1,0 +1,2 @@
+page_id,page_name,module_id,menu_path,page_type,role_id,spec_path,prototype_ref,status
+PAGE-001,⟦待填写⟧,MOD-001,⟦待填写⟧,列表页,ROLE-001,docs/design/04-ux-ui/pages/PAGE-001.md,prototypes/design-preview/index.html#page-001,待设计

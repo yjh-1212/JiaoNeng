@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-020",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-019.json",
+  "parent_manifest_sha256": "01f774a9040765d1dea75c4a207314990ad537be7225ac1db16d8c024810f245",
+  "approved_by": "当前用户明确修订开发中的布局",
+  "evidence": "运行监控的地图两侧的还是要悬浮到地图上，地图铺满页面",
+  "recorded_at": "2026-10-16T14:53:03.358488+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-020-monitoring-floating-map.md": "248a98d5b8c37158ddc0a3bf36440fe7e234855e5cf81ce65f653232a529e55e"
+  }
+}

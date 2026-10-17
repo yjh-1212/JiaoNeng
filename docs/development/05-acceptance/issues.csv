@@ -1,0 +1,8 @@
+issue_id,severity,description,status,evidence
+DEV-001,P1,171条AC已逐条执行正常/边界/权限断言且全数PASS,已关闭,ac-results.json;acceptance-evidence.csv;node-test.log
+DEV-002,P1,历史回放与仿真规则合作实施改派及余量处理已实现并回归,已关闭,tests/api.test.mjs;tests/ac-cases.mjs;evidence/browser-results.json
+DEV-003,P2,独立仿真库真实DeepSeek回答720吨且订单版本引用有效业务表指纹不变,已关闭,04-integration/live-browser.json;04-integration/ai-test-authorization.json
+DEV-004,P2,实际BMS及设备协议道路许可合同与模型校准资料按现场启用清单补齐,启用依赖（非本地开发缺陷）,site-enablement.md
+DEV-005,P2,已修复前端规划输入车次数类型运力搜索及助手输入组件问题,已关闭,evidence/browser-results.json;evidence/extended-browser.json
+DEV-006,P2,仿真车辆绑定主体不一致已修正并校验司机车辆场站主体,已关闭,tests/ac-cases.mjs;tests/api.test.mjs
+DEV-007,P2,电池出入站不自动认定可用库存并保留完工提交核验历史,已关闭,tests/final-regression.test.mjs;node-test.log

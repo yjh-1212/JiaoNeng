@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:19:40.572Z",
+  "provider": "DeepSeek official API",
+  "model": "deepseek-flash",
+  "live_model_requests": 1,
+  "isolated_simulated_database": true,
+  "persisted_turns": 1,
+  "draft_quantity": 100,
+  "unknown_time_unfilled": true,
+  "model_coordinates_absent": true,
+  "authorized_source_count": 8,
+  "business_rows_unchanged": true,
+  "page_errors": []
+}

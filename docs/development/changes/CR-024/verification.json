@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:31:10.687028+00:00",
+  "build": "PASS",
+  "interaction_regression_groups": 13,
+  "actual_local_browser": "PASS",
+  "baseline_count": 24,
+  "frozen_files": 324,
+  "user_acceptance_signature": false,
+  "business_writes": 0,
+  "model_calls": 0,
+  "deployment": false,
+  "source_sha256": {
+    "client/agent-center.jsx": "5f9e021cbb2a56f3f42a942b1ae7c27708954bd275a1150f45a008f244a748f0",
+    "client/agent-center.css": "234616849998d0eedab70cea0a91ffd796c36e549234989e71395f757f2b35d0"
+  }
+}

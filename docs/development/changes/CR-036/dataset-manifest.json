@@ -1,0 +1,510 @@
+{
+  "key": "business-dataset-v1",
+  "created_at": "2026-10-17T07:35:57.573Z",
+  "source_kind": "GENERATED_BUSINESS_DATA",
+  "source_note": "运输业务条件按载重、道路与作业规则生成；不是外部真实交易或设备遥测。",
+  "cases": [
+    {
+      "index": 1,
+      "name": "核桃峪煤炭日发运",
+      "demand_id": "DM-937d57cf-2b26-4b92-b975-db7757bb985e",
+      "order_id": "O-620d3911-cb64-419a-9662-405fbdc86878",
+      "stage": "草稿",
+      "quantity": 300,
+      "origin": {
+        "name": "核桃峪煤矿副立井",
+        "lng": 108.011215,
+        "lat": 35.295782
+      },
+      "destination": {
+        "name": "正宁电厂基建指挥部",
+        "lng": 107.982475,
+        "lat": 35.265975
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T20:05:57.573Z",
+      "task_ids": []
+    },
+    {
+      "index": 2,
+      "name": "新庄煤炭集运",
+      "demand_id": "DM-162155e7-ada2-4e14-9661-66580adb0c30",
+      "order_id": "O-e359af73-84f1-41db-825b-cfe8913f083c",
+      "stage": "待推演",
+      "quantity": 180,
+      "origin": {
+        "name": "庆阳新庄煤业有限公司",
+        "lng": 107.898491,
+        "lat": 35.287117
+      },
+      "destination": {
+        "name": "宁县长庆桥镇",
+        "lng": 107.74778,
+        "lat": 35.333339
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T20:05:57.573Z",
+      "task_ids": []
+    },
+    {
+      "index": 3,
+      "name": "长庆桥泾川转运",
+      "demand_id": "DM-b7cb65b7-5a9c-496e-bb69-2d3d6bc5d119",
+      "order_id": "O-f7344540-50c0-4325-8f17-d074319114fc",
+      "stage": "待推演",
+      "quantity": 90,
+      "origin": {
+        "name": "宁县长庆桥镇",
+        "lng": 107.74778,
+        "lat": 35.333339
+      },
+      "destination": {
+        "name": "平凉市泾川县",
+        "lng": 107.367608,
+        "lat": 35.332992
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T20:05:57.573Z",
+      "task_ids": []
+    },
+    {
+      "index": 4,
+      "name": "西峰彬州骨料运输",
+      "demand_id": "DM-d372ce88-22a4-4701-a8ce-616d07133044",
+      "order_id": "O-d5175816-fb71-4832-9c30-7db6275c08e8",
+      "stage": "已有方案",
+      "quantity": 60,
+      "origin": {
+        "name": "庆阳市西峰区彭原镇",
+        "lng": 107.612616,
+        "lat": 35.779468
+      },
+      "destination": {
+        "name": "陕西省彬州市",
+        "lng": 108.081892,
+        "lat": 35.035702
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T20:05:57.573Z",
+      "task_ids": [],
+      "scene_id": "SC-6498dc1c-20be-4fd3-b5b8-fa2c7e5b989c",
+      "candidate_id": "G2-time"
+    },
+    {
+      "index": 5,
+      "name": "新庄煤炭上午班",
+      "demand_id": "DM-5678fabd-1c38-4b54-84f8-e8d5ef201219",
+      "order_id": "O-3588a55a-5dac-4515-a890-0b5b9af6a743",
+      "stage": "待派发",
+      "quantity": 90,
+      "origin": {
+        "name": "庆阳新庄煤业有限公司",
+        "lng": 107.898491,
+        "lat": 35.287117
+      },
+      "destination": {
+        "name": "宁县长庆桥镇",
+        "lng": 107.74778,
+        "lat": 35.333339
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T20:05:57.573Z",
+      "task_ids": [
+        "T-327a8d0d-dfa7-47e6-a18e-d501dc037bfa"
+      ],
+      "scene_id": "SC-e29770ae-3c0c-4ba8-b0b9-14c37b228b96",
+      "candidate_id": "G1-time"
+    },
+    {
+      "index": 6,
+      "name": "新庄长庆桥下午班",
+      "demand_id": "DM-acd8d375-6c6b-422e-8c2f-c4d895d457bf",
+      "order_id": "O-8e83804e-4641-4c9a-9ba2-a607365b8712",
+      "stage": "待接收",
+      "quantity": 90,
+      "origin": {
+        "name": "庆阳新庄煤业有限公司",
+        "lng": 107.898491,
+        "lat": 35.287117
+      },
+      "destination": {
+        "name": "宁县长庆桥镇",
+        "lng": 107.74778,
+        "lat": 35.333339
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T20:05:57.573Z",
+      "task_ids": [
+        "T-52208deb-a416-459d-9f9a-2ede2a84462d"
+      ],
+      "scene_id": "SC-6956bb88-163e-4225-9cc4-f15403d611cf",
+      "candidate_id": "G1-time"
+    },
+    {
+      "index": 7,
+      "name": "核桃峪正宁电煤",
+      "demand_id": "DM-c67c3e87-934d-47f8-b2d0-67980c7cc802",
+      "order_id": "O-f57ebdf9-356c-4636-b41e-66bdb9a6861f",
+      "stage": "已接收",
+      "quantity": 120,
+      "origin": {
+        "name": "核桃峪煤矿副立井",
+        "lng": 108.011215,
+        "lat": 35.295782
+      },
+      "destination": {
+        "name": "正宁电厂基建指挥部",
+        "lng": 107.982475,
+        "lat": 35.265975
+      },
+      "start_at": "2026-10-17T08:05:57.573Z",
+      "finish_at": "2026-10-17T18:05:57.573Z",
+      "task_ids": [
+        "T-57378576-ffb9-4fd7-9d5c-7261b43f89f7"
+      ],
+      "scene_id": "SC-41c82465-d90b-40c5-897f-20d3d1efa0f6",
+      "candidate_id": "G1-time"
+    },
+    {
+      "index": 8,
+      "name": "新庄煤炭当班运输",
+      "demand_id": "DM-b4e0e576-f339-418d-b9a2-d972642b1494",
+      "order_id": "O-53744d9e-982e-48be-b66f-17495216a7ce",
+      "stage": "执行中",
+      "quantity": 60,
+      "origin": {
+        "name": "庆阳新庄煤业有限公司",
+        "lng": 107.898491,
+        "lat": 35.287117
+      },
+      "destination": {
+        "name": "宁县长庆桥镇",
+        "lng": 107.74778,
+        "lat": 35.333339
+      },
+      "start_at": "2026-10-16T22:35:57.573Z",
+      "finish_at": "2026-10-17T08:35:57.573Z",
+      "task_ids": [
+        "T-d7b9c7e1-9725-42f7-b59a-d5212d7922b8"
+      ],
+      "scene_id": "SC-36a8ea5f-abd8-42f1-9675-25b463130f66",
+      "candidate_id": "G1-time"
+    },
+    {
+      "index": 9,
+      "name": "核桃峪煤炭交付核验",
+      "demand_id": "DM-d7ab9046-373b-4f16-aa90-7582d4db9e27",
+      "order_id": "O-2e5f7d89-9611-4512-a4d3-7c399df9e8fe",
+      "stage": "待核验",
+      "quantity": 60,
+      "origin": {
+        "name": "核桃峪煤矿副立井",
+        "lng": 108.011215,
+        "lat": 35.295782
+      },
+      "destination": {
+        "name": "正宁电厂基建指挥部",
+        "lng": 107.982475,
+        "lat": 35.265975
+      },
+      "start_at": "2026-10-16T22:35:57.573Z",
+      "finish_at": "2026-10-17T08:35:57.573Z",
+      "task_ids": [
+        "T-a44a4f69-455e-4bfe-887c-ec3758ee4285"
+      ],
+      "scene_id": "SC-282a8c5b-b5cd-40a6-8a9b-af94374afcec",
+      "candidate_id": "G1-time"
+    },
+    {
+      "index": 10,
+      "name": "新庄集运交付完成",
+      "demand_id": "DM-a12f3df3-1bdf-4f8a-a784-85639345935d",
+      "order_id": "O-8b0d5646-eae3-4dc4-aa2d-406f7fe761e8",
+      "stage": "已完成",
+      "quantity": 60,
+      "origin": {
+        "name": "庆阳新庄煤业有限公司",
+        "lng": 107.898491,
+        "lat": 35.287117
+      },
+      "destination": {
+        "name": "宁县长庆桥镇",
+        "lng": 107.74778,
+        "lat": 35.333339
+      },
+      "start_at": "2026-10-16T22:35:57.573Z",
+      "finish_at": "2026-10-17T08:35:57.573Z",
+      "task_ids": [
+        "T-0cd680ca-99a5-48ce-a97a-1ac9c4bc7523"
+      ],
+      "scene_id": "SC-54e8a79a-4ddc-4a13-98f4-ee9955838de7",
+      "candidate_id": "G1-time"
+    }
+  ],
+  "drivers": [
+    "R-b5a6a5bc-5bfe-453b-a0a7-d3e5a2c18c50",
+    "R-6e2edcce-0583-4669-858a-4cf8df3bd6a6",
+    "R-377d2d9a-8572-4513-a063-f1eca9da6b26",
+    "R-0cfef38d-e6a2-467e-a0fa-a51da422d6b6",
+    "R-2f58b1bb-b06e-40ab-b01f-30cfc7a59890",
+    "R-5b0813c9-b1f2-4534-9322-793144daaf13",
+    "R-15ae6c2d-14f2-43d4-a2fa-c0dadae6425a",
+    "R-e901a003-095a-4291-93ff-4df5b90ece3d",
+    "R-9c4a0457-26b3-4b86-8df3-d9401e340db4",
+    "R-3dd5d724-b6e7-4e44-a80e-67efb60d89ec",
+    "R-06b9a0fb-dee0-4a2f-870c-9cd9d2e25861",
+    "R-52ed9fc9-6540-463e-bc90-09cf50028556",
+    "R-31300549-d348-4590-bca7-dcea4a7da00d",
+    "R-e7308b84-1612-429e-ac8c-ed5a8f5b13a4",
+    "R-d99a75b2-1a7b-4ab5-b68b-d653d448377c"
+  ],
+  "vehicles": [
+    "R-0a8e5de9-6816-4a6d-a820-d1597508f868",
+    "R-fe72bffd-7046-44da-865f-17be191cf330",
+    "R-5cfc9ceb-6bef-4d0a-af1a-5ae7f4d05435",
+    "R-a2f2e5a8-2ef9-4876-a8ec-3f765aa3ddd4",
+    "R-b21c48fb-150a-4553-8475-7a11be4b0999",
+    "R-c54faa37-d6ed-476a-a896-0338324ee5e0",
+    "R-14a27f90-3fc1-4b32-9ada-8ac1f942a751",
+    "R-c51422f9-1d7d-4f74-a78f-029368c703d7",
+    "R-2580389d-bfbc-4529-91f2-d0dfc31e23ff",
+    "R-96893c14-b279-4094-a5d4-5e637323104c",
+    "R-a4e42b59-50c0-47aa-8620-120600966064",
+    "R-7dfe289a-ba50-4149-acc3-9f4ed046da7d",
+    "R-1087c0c3-79df-4e0d-8fde-e17ca933f447",
+    "R-ccf4f35c-b6bd-40da-b266-dc1d60775f48",
+    "R-301b69da-74c3-4585-bdf7-4e515100aa8c"
+  ],
+  "stations": [
+    {
+      "reference_id": "QP-ZN",
+      "id": "R-d7f417ce-8752-4f64-b91d-5202dc62b214"
+    },
+    {
+      "reference_id": "QP-CQQ",
+      "id": "R-fb1390cc-54c1-4fb0-b22e-851f7c4908aa"
+    },
+    {
+      "reference_id": "QP-XF",
+      "id": "R-16150355-d3ed-43c9-bbba-44c2f6524942"
+    },
+    {
+      "reference_id": "QP-QZ",
+      "id": "R-387b81a6-40c6-43c1-824b-f3a86d721c03"
+    },
+    {
+      "reference_id": "QP-JC",
+      "id": "R-807fd137-42ad-4f8b-a527-aaaf4dab72ad"
+    },
+    {
+      "reference_id": "QP-GY",
+      "id": "R-8b484e61-70fa-4511-ab34-8cddcedac46a"
+    }
+  ],
+  "created": {
+    "drivers": [
+      "R-06b9a0fb-dee0-4a2f-870c-9cd9d2e25861",
+      "R-0cfef38d-e6a2-467e-a0fa-a51da422d6b6",
+      "R-15ae6c2d-14f2-43d4-a2fa-c0dadae6425a",
+      "R-2f58b1bb-b06e-40ab-b01f-30cfc7a59890",
+      "R-31300549-d348-4590-bca7-dcea4a7da00d",
+      "R-377d2d9a-8572-4513-a063-f1eca9da6b26",
+      "R-3dd5d724-b6e7-4e44-a80e-67efb60d89ec",
+      "R-52ed9fc9-6540-463e-bc90-09cf50028556",
+      "R-5b0813c9-b1f2-4534-9322-793144daaf13",
+      "R-6e2edcce-0583-4669-858a-4cf8df3bd6a6",
+      "R-9c4a0457-26b3-4b86-8df3-d9401e340db4",
+      "R-b5a6a5bc-5bfe-453b-a0a7-d3e5a2c18c50",
+      "R-d99a75b2-1a7b-4ab5-b68b-d653d448377c",
+      "R-e7308b84-1612-429e-ac8c-ed5a8f5b13a4",
+      "R-e901a003-095a-4291-93ff-4df5b90ece3d"
+    ],
+    "vehicles": [
+      "R-0a8e5de9-6816-4a6d-a820-d1597508f868",
+      "R-1087c0c3-79df-4e0d-8fde-e17ca933f447",
+      "R-14a27f90-3fc1-4b32-9ada-8ac1f942a751",
+      "R-2580389d-bfbc-4529-91f2-d0dfc31e23ff",
+      "R-301b69da-74c3-4585-bdf7-4e515100aa8c",
+      "R-5cfc9ceb-6bef-4d0a-af1a-5ae7f4d05435",
+      "R-7dfe289a-ba50-4149-acc3-9f4ed046da7d",
+      "R-96893c14-b279-4094-a5d4-5e637323104c",
+      "R-a2f2e5a8-2ef9-4876-a8ec-3f765aa3ddd4",
+      "R-a4e42b59-50c0-47aa-8620-120600966064",
+      "R-b21c48fb-150a-4553-8475-7a11be4b0999",
+      "R-c51422f9-1d7d-4f74-a78f-029368c703d7",
+      "R-c54faa37-d6ed-476a-a896-0338324ee5e0",
+      "R-ccf4f35c-b6bd-40da-b266-dc1d60775f48",
+      "R-fe72bffd-7046-44da-865f-17be191cf330"
+    ],
+    "stations": [
+      "R-16150355-d3ed-43c9-bbba-44c2f6524942",
+      "R-387b81a6-40c6-43c1-824b-f3a86d721c03",
+      "R-807fd137-42ad-4f8b-a527-aaaf4dab72ad",
+      "R-8b484e61-70fa-4511-ab34-8cddcedac46a",
+      "R-d7f417ce-8752-4f64-b91d-5202dc62b214",
+      "R-fb1390cc-54c1-4fb0-b22e-851f7c4908aa"
+    ],
+    "devices": [
+      "QY-GUN-10244f84-d39a-4449-a781-2e6b24c7dc8c",
+      "QY-GUN-3dec2a34-a355-48db-8c7d-d6a2ad003873",
+      "QY-GUN-50d81571-ac50-4c02-91d6-11124ebb56a0",
+      "QY-GUN-65744777-69b1-4221-9225-9945fcb67600",
+      "QY-GUN-74ecdb01-b895-4e22-a766-26db1672b37b",
+      "QY-GUN-83bcd6b7-8676-4c64-aa7a-682e6777b069",
+      "QY-GUN-857b199e-d722-4034-a67e-e397c52791d6",
+      "QY-GUN-93ce674f-277c-4ed4-9f37-54f1250fbadb",
+      "QY-GUN-98b30906-bcfd-474d-a59d-aa68a13c55d4",
+      "QY-GUN-9afb3452-19d2-4c58-9b3b-5b65fddaeec1",
+      "QY-GUN-a3da5f2d-2a9a-427f-9e7c-5ad1ce2daca3",
+      "QY-GUN-ae41e293-1d0e-4743-a370-0fffb7f323cb",
+      "QY-GUN-af4b0f63-aef5-47c7-aff9-639665a3f9dd",
+      "QY-GUN-bd967f3c-873f-454f-a4d6-1276caafcf25",
+      "QY-GUN-d10aa7ad-c16e-4bb2-b0f8-1899ecd42f07",
+      "QY-GUN-de66451f-739c-4b89-9a1a-7ddd1e386edc",
+      "QY-GUN-eb45747f-977d-47d0-a870-dfb163b8e4bf",
+      "QY-GUN-fb75a25c-3d04-4af2-bacd-da2befbdfcf5"
+    ],
+    "demands": [
+      "DM-162155e7-ada2-4e14-9661-66580adb0c30",
+      "DM-5678fabd-1c38-4b54-84f8-e8d5ef201219",
+      "DM-937d57cf-2b26-4b92-b975-db7757bb985e",
+      "DM-a12f3df3-1bdf-4f8a-a784-85639345935d",
+      "DM-acd8d375-6c6b-422e-8c2f-c4d895d457bf",
+      "DM-b4e0e576-f339-418d-b9a2-d972642b1494",
+      "DM-b7cb65b7-5a9c-496e-bb69-2d3d6bc5d119",
+      "DM-c67c3e87-934d-47f8-b2d0-67980c7cc802",
+      "DM-d372ce88-22a4-4701-a8ce-616d07133044",
+      "DM-d7ab9046-373b-4f16-aa90-7582d4db9e27"
+    ],
+    "orders": [
+      "O-2e5f7d89-9611-4512-a4d3-7c399df9e8fe",
+      "O-3588a55a-5dac-4515-a890-0b5b9af6a743",
+      "O-53744d9e-982e-48be-b66f-17495216a7ce",
+      "O-620d3911-cb64-419a-9662-405fbdc86878",
+      "O-8b0d5646-eae3-4dc4-aa2d-406f7fe761e8",
+      "O-8e83804e-4641-4c9a-9ba2-a607365b8712",
+      "O-d5175816-fb71-4832-9c30-7db6275c08e8",
+      "O-e359af73-84f1-41db-825b-cfe8913f083c",
+      "O-f57ebdf9-356c-4636-b41e-66bdb9a6861f",
+      "O-f7344540-50c0-4325-8f17-d074319114fc"
+    ],
+    "records": [
+      "SC-282a8c5b-b5cd-40a6-8a9b-af94374afcec",
+      "SC-36a8ea5f-abd8-42f1-9675-25b463130f66",
+      "SC-41c82465-d90b-40c5-897f-20d3d1efa0f6",
+      "SC-54e8a79a-4ddc-4a13-98f4-ee9955838de7",
+      "SC-6498dc1c-20be-4fd3-b5b8-fa2c7e5b989c",
+      "SC-6956bb88-163e-4225-9cc4-f15403d611cf",
+      "SC-e29770ae-3c0c-4ba8-b0b9-14c37b228b96",
+      "VIS-7ad8dd0b-6b13-43e0-bd49-1ba3bfdc79e3"
+    ],
+    "simulations": [
+      "SIM-5674c161-dff4-484c-b0c8-95f90b5e3a64",
+      "SIM-5984260c-89ca-4420-a535-35bc43e56e68",
+      "SIM-69bde7e1-193b-4f96-ba9f-a973de20ab93",
+      "SIM-6ce1f401-c16c-454a-b4a7-c00e9e99c7ac",
+      "SIM-76e1874a-12b4-4654-b9d9-9313a19c7c5b",
+      "SIM-d2f81f11-325a-4c47-b8c4-a3bb64ecc76b"
+    ],
+    "tasks": [
+      "T-0cd680ca-99a5-48ce-a97a-1ac9c4bc7523",
+      "T-327a8d0d-dfa7-47e6-a18e-d501dc037bfa",
+      "T-52208deb-a416-459d-9f9a-2ede2a84462d",
+      "T-57378576-ffb9-4fd7-9d5c-7261b43f89f7",
+      "T-a44a4f69-455e-4bfe-887c-ec3758ee4285",
+      "T-d7b9c7e1-9725-42f7-b59a-d5212d7922b8"
+    ],
+    "charging": [
+      "C-2d15799d-0169-41ac-a28f-aed7b887c2d2",
+      "C-373079e3-57c7-4446-a3ea-87d1adf9cd28",
+      "C-6580bfae-32bb-48a5-9e59-2abaedfb2024"
+    ],
+    "sessions": [
+      "SES-8eef45a3-4eb0-42de-b459-9988b7d3a018"
+    ],
+    "trips": [
+      "TR-10068ada-58e2-468c-a82a-54bbb286fe9d",
+      "TR-6435f500-310e-47aa-8a25-542a27893e40",
+      "TR-707b8879-b80d-457a-8bfe-cb6888258d14",
+      "TR-e557840c-f56d-4dfe-adff-93f2409bdbc5",
+      "TR-fc0026fa-20b8-4f76-bf33-877c16105b08"
+    ],
+    "events": [
+      "EV-2a2c3d81-9b16-4b0c-a2d5-5dff85325f74",
+      "EV-2f26fbbd-e567-4e45-bbee-cc620ca3cce3",
+      "EV-353a85a8-518d-4d3f-b24e-7c292dd7c725",
+      "EV-4afdcc0c-2da2-4c7c-bff9-1615ef9bcb02",
+      "EV-4d210b7c-a126-4689-993f-9cec57e4ea6c",
+      "EV-5947e429-ce32-403a-a6e0-8c147a07d103",
+      "EV-85673bc3-f2f3-4383-943b-79245b79ea97",
+      "EV-8e64c71a-7a43-44fd-a5c7-503a3cc6f055",
+      "EV-a1af6975-2f33-4ba4-bfe5-0f27053cd56c",
+      "EV-ad698f31-3d93-4d2c-9840-219eb816d448",
+      "EV-aeb305b8-4a95-4194-8b88-1d1fd70913af",
+      "EV-b11df306-25ac-4696-8d35-18e1f0625d6d",
+      "EV-b5c89ea3-4cdf-4b7d-8636-1a048e8710d4",
+      "EV-e7b4378e-3425-4fcb-8f7d-bbbe987e98c9"
+    ],
+    "costs": [
+      "F-42bba659-7885-4797-9244-219675214b55",
+      "F-c1d7eba3-2bb7-4b31-b10d-62da695ff8c0",
+      "F-e2731789-47a7-4f68-8234-ead5ed7bbd08"
+    ],
+    "alerts": [
+      "A-60480cc7-ad97-42d0-bab0-80d2fc0e4700"
+    ],
+    "users": [
+      "U-0c48c35a-dd8f-4cb8-ae97-8928a0ebf38c",
+      "U-41ebb150-113d-46a1-8266-7bf973a5b192",
+      "U-59b5fa52-2f4a-40f4-817f-31b8c6fea845",
+      "U-6bb51c1d-ac03-4a61-917b-e8b481b9af8f",
+      "U-7c1277d6-f8f4-447c-a12a-17d6dab72cb7",
+      "U-87c7821e-7dec-4142-9edd-a555423d31b7",
+      "U-8b9927bc-3f44-4443-8868-dde234bd6c98",
+      "U-8daa3041-14f6-4a1d-9a9a-f6d518a3bfcb",
+      "U-97ce1b70-e2d7-4dfa-97f7-f5a438dcbe70",
+      "U-bf4f492d-136f-49de-821c-71fe5f3c66ff",
+      "U-eeab2467-1781-43f6-8ba5-7230b232bf58"
+    ]
+  },
+  "user_mapping": [
+    {
+      "user_id": "U-DRIVER",
+      "username": "driver01",
+      "old_driver_id": "D001",
+      "new_driver_id": "R-b5a6a5bc-5bfe-453b-a0a7-d3e5a2c18c50"
+    },
+    {
+      "user_id": "U-DRIVER2",
+      "username": "driver02",
+      "old_driver_id": "D002",
+      "new_driver_id": "R-6e2edcce-0583-4669-858a-4cf8df3bd6a6"
+    },
+    {
+      "user_id": "U-CURRENT-DRIVER-4",
+      "username": "driver04",
+      "old_driver_id": "D004",
+      "new_driver_id": "R-0cfef38d-e6a2-467e-a0fa-a51da422d6b6"
+    },
+    {
+      "user_id": "U-CURRENT-DRIVER-5",
+      "username": "driver05",
+      "old_driver_id": "D005",
+      "new_driver_id": "R-2f58b1bb-b06e-40ab-b01f-30cfc7a59890"
+    }
+  ],
+  "public_sources": [
+    {
+      "title": "宁县长庆桥工业集中区",
+      "publisher": "甘肃政务服务网",
+      "url": "https://zwfw.gansu.gov.cn/qingyang/tsfw/qyrzyqzq/qyrylc/nxcqqgyjzq/art/2023/art_14a100704e0746de82993819974f495a.html",
+      "facts": "核实长庆桥煤电化产业集聚及庆阳、平凉、咸阳区位关系；不代表本次运量或运输合同。"
+    },
+    {
+      "title": "庆阳市现代流通战略支点城市建设方案",
+      "publisher": "庆阳市人民政府",
+      "url": "https://zgqingyang.gov.cn/gk/zfxxgk/zfgb35zwgkb/content_23387",
+      "facts": "核实煤炭物流、宁县货运中心及矿区转运业务背景。"
+    }
+  ]
+}

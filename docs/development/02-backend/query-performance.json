@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-17T09:21:56.404Z",
+  "sample_tasks": 1016,
+  "list_query_ms": 0.10110000000008768,
+  "query_plan": [
+    "SEARCH tasks USING INDEX idx_tasks_driver_state (driver_id=? AND status=?)"
+  ],
+  "performance_sla_confirmed": false
+}

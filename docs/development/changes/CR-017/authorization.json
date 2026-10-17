@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-017.json",
+  "baseline_sha256": "1b195f450d99d410d762bac41540c2a0bc1cdbcc8db4b340ca3f0c1d281ebb2c",
+  "evidence": "可以按这个来帮我修改完善",
+  "scope": "运输任务工作区前后端本地实施，无部署"
+}

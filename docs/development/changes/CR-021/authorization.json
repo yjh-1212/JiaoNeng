@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-021.json",
+  "baseline_sha256": "f07c505bf05633b26075ae6f50f56a1e92943041c0b415e9c7321879c3f8ef19",
+  "evidence": "按这个来进行开发，后面的不用询问我是否同意授权，全部授权，直接完成",
+  "scope": "按已批准规划页面设计开发，本地实施与自检，无部署"
+}

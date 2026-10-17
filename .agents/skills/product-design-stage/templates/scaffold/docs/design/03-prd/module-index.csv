@@ -1,0 +1,2 @@
+module_id,module_name,menu_path,flow_id,priority,spec_path,status
+MOD-001,⟦待填写⟧,⟦待填写⟧,FLOW-001,P0,docs/design/03-prd/modules/MOD-001.md,待设计

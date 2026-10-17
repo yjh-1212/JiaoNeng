@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-10-13T16:36:13.023Z",
+  "baseline": "V0.2-design-1",
+  "scope": "LOCAL_DEVELOPMENT",
+  "modules": 9,
+  "features": 47,
+  "requirements": 57,
+  "ac_pass": 171,
+  "node_tests_pass": 252,
+  "browser_checks_pass": 47,
+  "stage_approval_basis": "明确用户委托，按推荐方案完成自检后登记",
+  "site_enablement": "site-enablement.md",
+  "deployment": false
+}

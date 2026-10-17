@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-011",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-010.json",
+  "parent_manifest_sha256": "3351ab3c71880c5044274e98aaaf85d09b8831729d2f6e25d277f05939cab850",
+  "approved_by": "当前用户明确素材替换指令",
+  "evidence": "AI图标换成这个，并提供指定图片",
+  "recorded_at": "2026-10-16T07:15:49.937973+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-011-ai-avatar-replacement.md": "b56d68ce62870cf641de0a83617b659fece62e2e524c0e9f962d30a0fe24f157"
+  }
+}

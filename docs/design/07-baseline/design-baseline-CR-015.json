@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-015",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-014.json",
+  "parent_manifest_sha256": "41e714ab84f05a838b21c3e8cc8f10487353712d60e7927a591a26679d5b048f",
+  "approved_by": "当前用户明确变更指令",
+  "evidence": "货物类型是下拉的，煤炭、还有其他一些重卡经常运输的品类",
+  "recorded_at": "2026-10-16T07:34:10.397279+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-015-heavy-truck-cargo-select.md": "63776c10ca6dd54f12b004fb73f58baff29c71334571721d20b9064f66d898fd"
+  }
+}

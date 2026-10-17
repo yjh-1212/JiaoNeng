@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "map_ready": true,
+  "planned_road_route_points": 330,
+  "layout": {
+    "workspace": {
+      "x": 0,
+      "y": 102,
+      "width": 1680,
+      "height": 948
+    },
+    "map": {
+      "x": 0,
+      "y": 102,
+      "width": 1680,
+      "height": 948
+    },
+    "host": {
+      "x": 0,
+      "y": 102,
+      "width": 1680,
+      "height": 948
+    },
+    "left": {
+      "x": 20,
+      "y": 262,
+      "width": 280,
+      "height": 768
+    },
+    "right": {
+      "x": 1310,
+      "y": 262,
+      "width": 350,
+      "height": 768
+    },
+    "ancestors": [
+      {
+        "cls": "safety-map",
+        "height": "948px",
+        "position": "absolute",
+        "display": "block"
+      },
+      {
+        "cls": "safety-monitor-grid",
+        "height": "948px",
+        "position": "absolute",
+        "display": "block"
+      },
+      {
+        "cls": "ant-spin-container",
+        "height": "948px",
+        "position": "relative",
+        "display": "block"
+      },
+      {
+        "cls": "ant-spin css-jdb7z4 css-var-_r_6_",
+        "height": "948px",
+        "position": "absolute",
+        "display": "block"
+      },
+      {
+        "cls": "safety-workspace safety-monitor-workspace",
+        "height": "948px",
+        "position": "relative",
+        "display": "block"
+      }
+    ]
+  },
+  "responses": [
+    {
+      "path": "/api/safety/monitoring",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/options",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/monitoring",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/incidents",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/options",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/incidents/A1",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/options",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "readonly_business": true,
+  "external_model_calls": 0
+}

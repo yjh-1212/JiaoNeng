@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-025",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-024.json",
+  "parent_manifest_sha256": "ca39536d6eb6d1563be0e1bc71e8130102230d16913cefdaefbd96f686f94a01",
+  "approved_by": "当前用户明确要求增加参考标题横幅",
+  "evidence": "用户：上面还是增加一个标题把，类似这个；参考辽粮浅蓝标题横幅，继承必要后续步骤授权。",
+  "recorded_at": "2026-10-17T01:32:43.788011+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-025-agent-center-banner.md": "747896f788e8ef02d0ccb1e81b2a43f02927abfdeaeca7d5cfac878856a21aaf"
+  }
+}

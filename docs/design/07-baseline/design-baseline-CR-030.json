@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-030",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-029.json",
+  "parent_manifest_sha256": "dc6c618571e5aed116e05c61572a6671506c1b709365a59f50251f8dab921421",
+  "approved_by": "当前用户明确要求登录与入口调整",
+  "evidence": "用户要求移除总览筛选刷新、登录标题和身份切换，增加背景、PC预填及密码可见切换，司机独立免登录入口；继承后续开发授权。",
+  "recorded_at": "2026-10-17T03:08:28.647535+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-030-login-and-driver-entry.md": "d61eba9ff7a1ff4cc1c97091fbeea18038c18856df9ba8634166e6dbd6b5a076"
+  }
+}

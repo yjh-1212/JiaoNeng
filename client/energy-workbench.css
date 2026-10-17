@@ -1,0 +1,518 @@
+.energy-workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 0;
+}
+.energy-workspace .card {
+  min-width: 0;
+  overflow: hidden;
+}
+.energy-filters {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.energy-filters label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  flex: 1 1 165px;
+}
+.energy-filters label > span:first-child {
+  white-space: nowrap;
+  flex: none;
+  font-size: 13px;
+}
+.energy-filters .ant-select,
+.energy-filters .ant-input-affix-wrapper,
+.energy-filters input {
+  width: 100%;
+  min-width: 0;
+}
+.energy-filters .energy-filter-keyword {
+  flex: 1.4 1 235px;
+}
+.energy-query-actions,
+.energy-inline-actions {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.energy-query-actions {
+  margin-left: auto;
+  flex: none;
+}
+.energy-tabs-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 0 22px;
+  border-bottom: 1px solid var(--border);
+  min-height: 66px;
+}
+.energy-tabs-bar .ant-tabs {
+  min-width: 0;
+}
+.energy-tabs-bar .ant-tabs-nav {
+  margin: 0;
+}
+.energy-tabs-bar .ant-tabs-nav:before {
+  border: 0;
+}
+.energy-toolbar {
+  padding: 14px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.energy-cell-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+.energy-cell-stack small {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.energy-cell-stack .secondary {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.energy-row-actions {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.energy-row-actions .ant-btn {
+  padding: 2px 5px;
+  font-size: 12px;
+  height: auto;
+}
+.energy-warning {
+  color: #b45309 !important;
+}
+.energy-workspace .ant-table-cell {
+  font-size: 13px;
+}
+.energy-workspace .ant-table-thead .ant-table-cell {
+  font-size: 12px;
+  color: var(--secondary);
+  font-weight: 500;
+}
+.energy-workspace .ant-table-pagination {
+  padding: 0 20px;
+}
+.energy-drawer .ant-drawer-body {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.energy-drawer .ant-form-item {
+  margin-bottom: 22px;
+}
+.energy-drawer .ant-alert {
+  margin-bottom: 8px;
+}
+.energy-form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.energy-form-summary {
+  padding: 12px;
+  background: var(--subtle);
+  border-radius: 6px;
+  line-height: 1.8;
+}
+.energy-detail-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+.energy-lineage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px 0;
+}
+.energy-station-summary {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  padding: 15px 22px;
+}
+.energy-station-summary button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: transparent;
+  border: 0;
+  color: var(--secondary);
+  padding: 0 28px 0 0;
+  margin-right: 28px;
+  border-right: 1px solid var(--border);
+  cursor: pointer;
+}
+.energy-station-summary strong {
+  font-size: 21px;
+  color: var(--text);
+}
+.energy-station-summary small {
+  margin-left: auto;
+  color: var(--secondary);
+}
+.energy-station-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 270px;
+}
+.energy-station-main {
+  min-width: 0;
+}
+.energy-live-tabs {
+  padding: 0 16px;
+}
+.energy-live-tabs .ant-tabs-nav {
+  margin-bottom: 0;
+}
+.energy-device-list {
+  padding: 18px 16px;
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: stretch;
+}
+.energy-device-list h3,
+.energy-workspace h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.energy-device {
+  padding: 15px 12px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.energy-device > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+.energy-device small {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.energy-metrics {
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+  gap: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.energy-metrics > div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex: 1;
+  border-right: 1px solid var(--border);
+}
+.energy-metrics > div:last-child {
+  border: 0;
+}
+.energy-metrics span {
+  font-size: 12px;
+  color: var(--secondary);
+}
+.energy-metrics strong {
+  font-size: 19px;
+  font-variant-numeric: tabular-nums;
+}
+.energy-analysis-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(290px, 1fr);
+  border-bottom: 1px solid var(--border);
+}
+.energy-chart-section {
+  padding: 18px 22px;
+  min-width: 0;
+}
+.energy-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.energy-section-head small {
+  font-size: 12px;
+  color: var(--secondary);
+}
+.energy-chart-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--secondary);
+  padding: 18px 0;
+}
+.energy-chart-legend .actual {
+  color: #237bff;
+}
+.energy-chart-legend .prediction {
+  color: var(--brand);
+}
+.energy-load-chart {
+  width: 100%;
+  display: block;
+  min-height: 220px;
+}
+.energy-load-chart text {
+  font-size: 12px;
+  fill: var(--secondary);
+}
+.energy-risk {
+  padding: 20px;
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: flex-start;
+}
+.energy-risk-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+.energy-risk > small {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.energy-affected {
+  padding: 18px 22px;
+}
+.energy-affected h3 {
+  margin-bottom: 15px;
+}
+.energy-plans {
+  padding: 12px 0;
+}
+.energy-schedule {
+  padding: 18px 22px;
+  overflow: auto;
+}
+.energy-schedule-axis {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 170px;
+  font-size: 12px;
+  color: var(--secondary);
+  margin-bottom: 15px;
+  min-width: 720px;
+}
+.energy-schedule-row {
+  display: flex;
+  gap: 18px;
+  min-width: 720px;
+  min-height: 68px;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+.energy-schedule-row > span {
+  width: 150px;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.energy-schedule-row small {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.energy-schedule-row > div {
+  flex: 1;
+  position: relative;
+  height: 34px;
+  background: var(--subtle);
+}
+.energy-schedule-row button {
+  position: absolute;
+  top: 0;
+  height: 34px;
+  border: 0;
+  background: var(--brand-soft);
+  color: var(--brand);
+  border-radius: 4px;
+  font-size: 11px;
+  text-align: left;
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.energy-schedule-pagination .ant-table {
+  display: none;
+}
+.driver-energy-card .energy-lineage {
+  padding: 6px 0;
+}
+.driver-energy-card .energy-inline-actions {
+  margin-top: 14px;
+}
+.driver-energy-card .driver-change {
+  font-size: 12px;
+  color: #b45309;
+  margin-top: 10px;
+}
+@media (min-width: 1450px) {
+  .energy-filters {
+    flex-wrap: nowrap;
+  }
+}
+.energy-ai-launcher {
+  position: fixed;
+  right: 22px;
+  bottom: 24px;
+  border: 0;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  z-index: 80;
+  color: var(--text);
+  font-size: 11px;
+}
+.energy-ai-launcher img {
+  width: 64px;
+  height: 70px;
+  object-fit: contain;
+}
+.energy-ai-launcher span {
+  background: var(--panel);
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.energy-ai-drawer .page-action-bar {
+  display: none;
+}
+.energy-ai-drawer .card {
+  margin-bottom: 14px;
+}
+@media (max-width: 1200px) {
+  .energy-station-layout {
+    grid-template-columns: minmax(0, 1fr) 235px;
+  }
+  .energy-metrics {
+    flex-wrap: wrap;
+  }
+  .energy-metrics > div {
+    flex: 1 1 40%;
+  }
+  .energy-analysis-layout {
+    grid-template-columns: minmax(0, 1.5fr) minmax(260px, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .energy-station-layout,
+  .energy-analysis-layout {
+    display: block;
+  }
+  .energy-device-list {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .energy-device-list h3 {
+    grid-column: 1/-1;
+  }
+  .energy-risk {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+  }
+  .energy-station-summary {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .energy-station-summary button {
+    margin: 0;
+    padding-right: 15px;
+  }
+  .energy-station-summary small {
+    width: 100%;
+    margin: 0;
+  }
+  .energy-tabs-bar {
+    flex-wrap: wrap;
+    padding: 10px 15px;
+  }
+  .energy-filters {
+    padding: 15px;
+  }
+  .energy-filters label {
+    flex: 1 1 260px;
+  }
+}
+@media (max-width: 520px) {
+  .energy-device-list {
+    display: flex;
+  }
+  .energy-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .energy-metrics {
+    padding: 16px;
+    gap: 18px;
+  }
+  .energy-metrics > div {
+    flex: 1 1 100%;
+    border: 0;
+    justify-content: space-between;
+  }
+  .energy-chart-section,
+  .energy-affected {
+    padding: 15px 10px;
+  }
+  .energy-chart-legend {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .energy-filters label,
+  .energy-filters .energy-filter-keyword {
+    flex-basis: 100%;
+  }
+  .energy-drawer .ant-descriptions-item {
+    padding-bottom: 10px;
+  }
+  .energy-station-summary button {
+    font-size: 12px;
+    gap: 8px;
+  }
+  .energy-station-summary strong {
+    font-size: 17px;
+  }
+}

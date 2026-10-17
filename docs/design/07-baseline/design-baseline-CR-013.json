@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-013",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-012.json",
+  "parent_manifest_sha256": "b335b1138882a4a187192df6df6b382786eb7e08daf50f458c90fd18891ff3f6",
+  "approved_by": "当前用户明确变更指令",
+  "evidence": "交能推演中调整条件默认打开",
+  "recorded_at": "2026-10-16T07:22:37.354858+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-013-simulation-expanded-conditions.md": "f197f2cd65db21171068c3751f67343241acbd7975b309d9d1b3b5dc63e2369b"
+  }
+}

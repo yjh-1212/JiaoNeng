@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:3100",
+  "checks": 6,
+  "business_mutations": false,
+  "external_ai_calls": false,
+  "existing_database_preserved": true
+}

@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "demands": 8,
+    "orders": 25,
+    "tasks": 16,
+    "trips": 27,
+    "charging": 4,
+    "sessions": 12,
+    "costs": 12
+  },
+  "unchanged": true
+}

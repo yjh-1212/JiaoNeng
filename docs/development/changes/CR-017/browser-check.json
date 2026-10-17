@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "设计图布局、完整业务信息、真实状态数量与默认10条分页",
+      "status": "PASS"
+    },
+    {
+      "name": "订单/车牌关联搜索、固定状态选项、查询重置与选择失效",
+      "status": "PASS"
+    },
+    {
+      "name": "任务专用右侧详情分组、车次凭证、补能与操作记录",
+      "status": "PASS"
+    },
+    {
+      "name": "派单抽屉预检只读、冲突逐项反馈、提交再次校验且全批不生效、修正后统一派发",
+      "status": "PASS"
+    },
+    {
+      "name": "调整后禁止派发，明确取消原未执行安排再携订单剩余量新建推演，不重复生成任务",
+      "status": "PASS"
+    },
+    {
+      "name": "核验抽屉逐车次凭证、冲突保留输入，读取最新版本再人工确认通过",
+      "status": "PASS"
+    },
+    {
+      "name": "有差异退回补充，未用总量编辑绕过车次核验",
+      "status": "PASS"
+    },
+    {
+      "name": "统一时间轴排程、同页切换及390–1680px无页面横向溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "查询账号可读且无派发/核验入口",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "database": "isolated in-memory SQLite",
+  "external_model_calls": 0,
+  "local_business_mutations": false
+}

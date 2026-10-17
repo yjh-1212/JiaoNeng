@@ -1,0 +1,29 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "顶部完整AI中心与真实起讫地提示",
+      "status": "PASS"
+    },
+    {
+      "name": "真实道路、路线选项和运量计算；三种尺寸布局",
+      "status": "PASS",
+      "routes": 2,
+      "points": [
+        2464,
+        2989
+      ],
+      "facilities": 24
+    },
+    {
+      "name": "选择真实补能地点后重新计算经过该地点的道路",
+      "status": "PASS"
+    },
+    {
+      "name": "当前页面AI真实对话链路带入已保存路线成果，原页保持",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "message": "Error: Please use browser.newContext()\n    at _BrowserContext.newPage (C:\\Users\\Lenovo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright-core\\lib\\coreBundle.js:62018:17)\n    at file:///D:/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%96%99/Code/JiaoNeng_v0.2/docs/development/changes/CR-032/browser-review.mjs:36:33"
+}

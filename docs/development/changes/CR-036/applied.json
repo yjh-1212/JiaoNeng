@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T07:42:37.088Z",
+  "idempotent_recheck": true,
+  "cases": 10,
+  "foreign_keys": 0,
+  "integrity": "ok"
+}

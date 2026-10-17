@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-016.json",
+  "baseline_sha256": "d73090f0bcd85c6a63a66bbd3e2d09631e6ad2c245a602ae01d541cc67fe43db",
+  "evidence": "运输调度改为订单管理和任务调度；运力管理移至系统管理并改名运力档案",
+  "scope": "本地导航分组与运力档案命名调整"
+}

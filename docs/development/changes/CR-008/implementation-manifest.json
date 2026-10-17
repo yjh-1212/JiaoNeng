@@ -1,0 +1,33 @@
+{
+  "change": "CR-008",
+  "verified_at": "2026-10-16T04:13:42.816269+00:00",
+  "source_sha256": {
+    "client/app.jsx": "10f57798f6456169867f391e5220d23540b4428e069fd2d78ebaff19a75dff86",
+    "client/assistant-view.jsx": "b6d03a2eda0cb1c2f9021c3710362f90085c74ab47b06f6e5e6a8e2da5925dbd",
+    "client/simulation-workbench.jsx": "244d60eb0e0c157f6809c4fc62900d9d00f69a780ad7a0c09b4838e1a03466da",
+    "client/scenario-map.jsx": "7fbeed5559601f806424344f9cac479adb18c5e09b71ec513b00c1203e0277cf",
+    "client/simulation-playback.js": "e51e40a777f31d576dc353db48df771e98912bbeda7fc3ddd43791aa25d9f391",
+    "client/simulation.css": "de712ab7fc90083aede0c090b81b0ebcfe58037b41b73b9f851893397dfe4423",
+    "server/app.mjs": "552fc811022c1a012c68d1633c154a59f921fb32146809dc6e82c9275fe014b4",
+    "server/maps.mjs": "b9b548c6524b9f8bdf70930488edd843c79925f6d74cafeb036c658c0ed0a74f",
+    "server/scenarios.mjs": "6d45469e385a4974c475a78ab42982b825ac71edffbd86c51a2124eb286ad68f",
+    "server/scenario-engine.mjs": "641a48754b929feadde477b1dbf8792c244c41ba85e75ae7f385c2d5ffab2951",
+    "server/repository.mjs": "7d8fe75c78c404077c7fb9bed47afa52b15a13820c4587cab9ee28d2604138a2",
+    "server/transport.mjs": "293c4826d2bc09dc0549997dfb1e1eb303c145220bb1a1bf66a8c3bfc130781b",
+    "tests/scenarios.test.mjs": "88fa90d872c4c1c69259481e5bdf5b35cbb434551987e3843d6c32846dcbeef0",
+    "tests/scenario-workbench-browser.mjs": "b151554c168b9d19e2c83c024e8aed6febdf54364cef09584a93ade640189dc7",
+    "package.json": "7c05c7e0e7aa69dd4d297300b556f916ae3d03a44dfceb9c5b02d958a358939e"
+  },
+  "reports": [
+    "architecture.md",
+    "acceptance-report.md",
+    "baseline-check.json",
+    "node-tests.txt",
+    "ac-results.json",
+    "browser-regression.json",
+    "browser-live.json",
+    "live-integration.json",
+    "local-after.json"
+  ],
+  "deployment": false
+}

@@ -1,0 +1,31 @@
+{
+  "status": "VERIFIED",
+  "at": "2026-10-17T08:17:48.220Z",
+  "counts": {
+    "demands": 10,
+    "orders": 10,
+    "tasks": 6,
+    "vehicles": 15,
+    "drivers": 15,
+    "stations": 6,
+    "devices": 18,
+    "charging": 3,
+    "sessions": 1
+  },
+  "planning_projects": 2,
+  "planning_solutions": 2,
+  "candidates": 6,
+  "legacy_remaining": 0,
+  "foreign_keys": 0,
+  "integrity": "ok",
+  "restart_checks": 2,
+  "service_pid": 38272,
+  "node_tests": 348,
+  "workflow_cases": 10,
+  "local_browser": [
+    "CR-036/local-browser-check.json",
+    "CR-038/local-browser-check.json"
+  ],
+  "user_acceptance_signature": false,
+  "deployment": false
+}

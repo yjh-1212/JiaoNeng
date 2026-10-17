@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-17T02:27:08.563583+00:00",
+  "sha256": {
+    "server/overview.mjs": "89c33ce9a83fe241021a279278576ad300c534ee84dffa182630a9c3f2ff8538",
+    "server/app.mjs": "79b49755b14d5c9e479ca30f07c30ce64ba145b5597df27c51c1c98b64cbd26f",
+    "server/energy-workspace.mjs": "72dc61408c47bbb316a25fc581b93aceed691214ec3d056579a4a665514be2d1",
+    "server/safety-workspace.mjs": "b7ba6da748ac067266b1bb2073282783dd7aca75c819782e85fcea369e863e83",
+    "client/overview-workbench.jsx": "2067b05f301f71618d73471aa24c92028998d59bae98c4fd82ea8c1aa3e266f6",
+    "client/overview-workbench.css": "50645d5c44c6ee4ab591f88c274cc3fd2ce49995c6c776c0e4a42fad79680956",
+    "client/workspaces.jsx": "1030a3351b4da81276b2dee9f8590103675c55d939cd08ad0847621e13058dd7",
+    "client/app.jsx": "19aac36ce41b63f5c99fc312861c97fe4cc02754a5c2474c23e8c45f2e016448",
+    "client/agent-center.jsx": "4b12a000da5a2bd98ddb186c7f97e6ede87c0de838724298a146644726b68565",
+    "client/energy-workbench.jsx": "ce06b100f73e8a05690ca36060aecc823020eb52b9dbacde9899abcbd42797e2",
+    "client/safety-workbench.jsx": "c20c8e1227b270e4f894610d3bd0154ffe284240b3b8a5dc0ab59dde862294ef",
+    "client/assets/overview-energy-hub.webp": "ecaf94d426f8fc8d92ae3fe7482597e513147acf3c39d4ac1615c230b6ecbfb2",
+    "scripts/build.mjs": "993bd3acb62077184715bbdb0fbc45ee7875781f31fe8c4aef4170268c8b02c4",
+    "tests/overview.test.mjs": "1c54cc35331a6dd322f75d5530a85cf639f1f3ec5643fa5a9966b46ee33967da",
+    "tests/overview-browser.mjs": "0f26b034d1dd43aa3c0a0a154ec0a05a8642372301835ffb905039baf18560ee"
+  }
+}

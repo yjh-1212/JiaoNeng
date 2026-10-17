@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "demands": 8,
+    "orders": 25,
+    "tasks": 18,
+    "trips": 27,
+    "charging": 4,
+    "sessions": 12,
+    "costs": 12
+  },
+  "tests_database": "isolated in-memory SQLite"
+}

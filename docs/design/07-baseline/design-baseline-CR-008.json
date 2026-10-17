@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-008",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-007.json",
+  "parent_manifest_sha256": "3cfa9532b9c5933bdb89d16d7acb6a85b969b7dc48ee1b1638a652f73e4e9df5",
+  "approved_by": "当前用户明确重设计开发指令及业务澄清；推荐细节按既有委托代理自检",
+  "evidence": "根据设计说明重新设计开发；从需求/订单给出推演结果，最后由用户决定生成派单任务；调用DeepSeek",
+  "recorded_at": "2026-10-16T03:28:58.844507+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-008-simulation-workbench.md": "c83fcb1fb4a77155bfa8f0bdbdaba39c2061541a7de5bd00b4b1141a3f5faeba"
+  }
+}

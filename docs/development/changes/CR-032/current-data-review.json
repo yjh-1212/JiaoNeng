@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T05:25:40.519Z",
+  "original_rows_preserved": true,
+  "table_count": 23,
+  "concurrent_appends": [
+    {
+      "table": "records",
+      "appended_rows": 3
+    }
+  ],
+  "note": "Initial post-restart exact snapshot passed. This review saved public regional route calculations as additional records; original rows remain preserved. No rollback or restoration performed."
+}

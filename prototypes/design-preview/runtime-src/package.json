@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@babel/standalone": "^7.26.4",
+    "@lobehub/ui": "^5.61.1",
+    "antd": "^6.6.6",
+    "antd-style": "^4.1.0",
+    "esbuild": "^0.28.2",
+    "lucide-react": "^1.56.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

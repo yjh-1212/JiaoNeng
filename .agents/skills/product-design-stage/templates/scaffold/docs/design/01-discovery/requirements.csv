@@ -1,0 +1,2 @@
+req_id,requirement,role_id,source_id,priority,business_value,acceptance_target,certainty,status
+REQ-001,⟦待填写⟧,ROLE-001,SRC-001,P0,⟦待填写⟧,⟦待填写⟧,待核实,待设计

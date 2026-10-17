@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:46:35.676848+00:00",
+  "build": "PASS",
+  "desktop_viewports": 6,
+  "homepage_overflow": false,
+  "small_window_scroll_preserved": true,
+  "chat_scroll_preserved": true,
+  "business_writes": 0,
+  "external_model_calls": 0,
+  "user_acceptance_signature": false,
+  "deployment": false,
+  "source_sha256": {
+    "client/agent-center.css": "e57d000f30b1a976781583bd1495583fcce5d4b1ae1e7a6198b9eded80caeea5"
+  }
+}

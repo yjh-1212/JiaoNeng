@@ -1,0 +1,21 @@
+{
+  "total_requirements": 57,
+  "functional": 47,
+  "nonfunctional": 9,
+  "product_constraints": 1,
+  "roles": 2,
+  "scenarios": 14,
+  "questions": 19,
+  "question_status": {
+    "待确认": 15,
+    "部分解决": 2,
+    "已解决": 1,
+    "可选待确认": 1
+  },
+  "priorities": {
+    "P0": 37,
+    "P1": 20
+  },
+  "d0_approved_hashes_match": true,
+  "d1_approved": false
+}

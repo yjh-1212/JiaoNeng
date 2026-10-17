@@ -1,0 +1,14 @@
+{
+  "scope": "仅一次独立仿真测试库业务上下文联调；仿真交付量及少量订单、预警、预测、规划资料",
+  "approved_by": "当前用户",
+  "evidence": "允许发送这批仿真测试数据",
+  "recorded_at": "2026-10-13T15:15:42.786Z",
+  "actual_project_database_used": false,
+  "result_file": "live-browser.json",
+  "follow_up_delegation": {
+    "evidence": "我要睡觉了，后续需要审批的，你帮我按推荐确定就好",
+    "scope": "相同仿真资料范围、独立测试库的最终只读联调；不使用实际业务库、不发司机或任务明细",
+    "actor": "受用户明确委托的开发代理",
+    "result": "2026-10-14本地日期，最新live-browser.json为PASS"
+  }
+}

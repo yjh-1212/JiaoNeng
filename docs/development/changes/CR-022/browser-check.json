@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "business_menu_removed": true,
+  "checks": [
+    {
+      "hash": "reports",
+      "page": "运营总览",
+      "status": "PASS"
+    },
+    {
+      "hash": "assets",
+      "page": "运营总览",
+      "status": "PASS"
+    },
+    {
+      "hash": "replacements",
+      "page": "运营总览",
+      "status": "PASS"
+    },
+    {
+      "hash": "page-030",
+      "page": "运营总览",
+      "status": "PASS"
+    },
+    {
+      "hash": "page-028",
+      "page": "运营总览",
+      "status": "PASS"
+    },
+    {
+      "hash": "page-029",
+      "page": "运营总览",
+      "status": "PASS"
+    },
+    {
+      "hash": "orders",
+      "page": "运输订单",
+      "status": "PASS"
+    },
+    {
+      "hash": "tasks",
+      "page": "运输任务",
+      "status": "PASS"
+    },
+    {
+      "hash": "charging",
+      "page": "补能调度",
+      "status": "PASS"
+    },
+    {
+      "hash": "monitoring",
+      "page": "运行监控",
+      "status": "PASS"
+    },
+    {
+      "hash": "planning",
+      "page": "场站规划",
+      "status": "PASS"
+    },
+    {
+      "hash": "resources",
+      "page": "运力档案",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

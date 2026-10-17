@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "project_id": "PP-bfeebd89-7386-44fd-a2fa-2bbf449bc75f",
+  "created_simulated_project": false,
+  "project_reference_adopted": false,
+  "map": {
+    "ready": "true",
+    "routePoints": 330,
+    "width": 1604,
+    "height": 568,
+    "zoom": "11.38",
+    "canvas": 1
+  },
+  "errors": [],
+  "network": [
+    {
+      "host": "webapi.amap.com",
+      "path": "/maps",
+      "status": 200
+    },
+    {
+      "host": "webapi.amap.com",
+      "path": "/theme/v2.0/logo@1x.png",
+      "status": 200
+    },
+    {
+      "host": "jsapi-service.amap.com",
+      "path": "/mapsplugincdn",
+      "status": 200
+    },
+    {
+      "host": "webapi.amap.com",
+      "path": "/theme/v1.3/markers/b/mark_bs.png",
+      "status": 200
+    },
+    {
+      "host": "jsapi.amap.com",
+      "path": "/web/init",
+      "status": 200
+    },
+    {
+      "host": "jsapi.amap.com",
+      "path": "/web_map/get_tile",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data3.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/818_307_10",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data5.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/817_307_10",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data2.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/816_308_10",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/819_307_10",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data5.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/816_309_10",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/816_307_10",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data5.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/818_308_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data2.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/818_309_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data3.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/819_309_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/817_308_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/819_308_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_22_00/v2/building_region_road_transit/pbf/0/817_309_10",
+      "status": 200
+    },
+    {
+      "host": "custyle.amap.com",
+      "path": "/web/rendering/vdata/getMergedStyleData",
+      "status": 200
+    },
+    {
+      "host": "jsapi.amap.com",
+      "path": "/web_map/get_tile",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data2.amap.com",
+      "path": "/tile/26_09_22_00/v2/poi_region_road_transit/pbf/0/819_308_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_22_00/v2/poi_region_road_transit/pbf/0/819_309_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_22_00/v2/poi_region_road_transit/pbf/0/818_309_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data5.amap.com",
+      "path": "/tile/26_09_22_00/v2/poi_region_road_transit/pbf/0/818_308_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_22_00/v2/poi_region_road_transit/pbf/0/817_308_10",
+      "status": 200
+    },
+    {
+      "host": "jsapi-data3.amap.com",
+      "path": "/tile/26_09_22_00/v2/poi_region_road_transit/pbf/0/817_309_10",
+      "status": 200
+    },
+    {
+      "host": "webapi.amap.com",
+      "path": "/maps/checkredirect",
+      "status": 302
+    },
+    {
+      "host": "o4.amap.com",
+      "path": "/icon/2.0.2.45/v1/1_0_s/icons_9",
+      "status": 200
+    },
+    {
+      "host": "o4.amap.com",
+      "path": "/icon/2.0.2.45/v1/1_0_s/icons_4",
+      "status": 200
+    },
+    {
+      "host": "o4.amap.com",
+      "path": "/icon/2.0.2.45/v1/1_0_s/icons_64",
+      "status": 200
+    },
+    {
+      "host": "o4.amap.com",
+      "path": "/icon/2.0.2.45/v1/1_0_s/icons_1",
+      "status": 200
+    },
+    {
+      "host": "mapplugin.amap.com",
+      "path": "/maps/checkredirectcdn",
+      "status": 200
+    }
+  ],
+  "preserved_tables": [
+    "demands",
+    "orders",
+    "tasks",
+    "trips",
+    "simulations",
+    "vehicles",
+    "drivers",
+    "stations",
+    "devices",
+    "charging",
+    "sessions",
+    "costs",
+    "alerts",
+    "telemetry",
+    "events",
+    "organizations",
+    "records"
+  ],
+  "in_run_business_unchanged": true,
+  "changes_since_initial_backup": [
+    {
+      "table": "tasks",
+      "id": "TA002",
+      "previous_version": 1,
+      "current_version": 4,
+      "status": "执行中"
+    },
+    {
+      "table": "trips",
+      "id": "TR-8f97583d-658b-4d64-b528-f9bb41c7db38",
+      "previous_version": null,
+      "current_version": 1,
+      "status": "待装货"
+    }
+  ],
+  "related_existing_driver_actions": [
+    {
+      "action": "task.accept",
+      "entity_id": "TA002",
+      "user_id": "U-CURRENT-DRIVER-5",
+      "created_at": "2026-10-17T00:08:30.632Z"
+    },
+    {
+      "action": "task.start",
+      "entity_id": "TA002",
+      "user_id": "U-CURRENT-DRIVER-5",
+      "created_at": "2026-10-17T00:08:34.419Z"
+    },
+    {
+      "action": "trip.create",
+      "entity_id": "TA002",
+      "user_id": "U-CURRENT-DRIVER-5",
+      "created_at": "2026-10-17T00:08:53.225Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-015.json",
+  "baseline_sha256": "61eb02dad50cd532bb24e400d254ef135f83fbab8370cbddedb279a32f1c921b",
+  "evidence": "货物类型是下拉的，煤炭、还有其他一些重卡经常运输的品类",
+  "scope": "本地货物下拉，沿用CR-014统一表单与业务边界"
+}

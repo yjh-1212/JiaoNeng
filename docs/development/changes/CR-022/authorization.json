@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-022.json",
+  "baseline_sha256": "67ff00c95bc12f1e11f81f2333282f0d74cf4336c1a6f73b9007654df7d856ec",
+  "evidence": "经营管理这里全部先去掉",
+  "scope": "暂时关闭经营管理独立前端模块，保留业务数据，无部署"
+}

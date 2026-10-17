@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-039.json",
+  "baseline_sha256": "c2ed8a6f540bc674a589e8301600177d25847fee945547eaaa99416619a73d69",
+  "evidence": "当前用户批准单页二维驾驶舱方案并提供辽粮驾驶舱源码，明确要求参考此风格开发。"
+}

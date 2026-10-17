@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-012.json",
+  "baseline_sha256": "b335b1138882a4a187192df6df6b382786eb7e08daf50f458c90fd18891ff3f6",
+  "evidence": "这里默认都帮我改成10条/页",
+  "scope": "本地默认分页10条，无部署"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-021",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-020.json",
+  "parent_manifest_sha256": "428ac09cec17c46f5b69330f05a90c661faa0a90c2ec7b0d33a73a6e5bc8c6a8",
+  "approved_by": "当前用户批准设计图并授权开发",
+  "evidence": "按这个来进行开发，后面的不用询问我是否同意授权，全部授权，直接完成",
+  "recorded_at": "2026-10-16T16:07:20.417482+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-021-planning-workspaces.md": "3d1a27f98de13ca504d322688886e085cd7c38c18fdc2636cd14a2c444c07239"
+  }
+}

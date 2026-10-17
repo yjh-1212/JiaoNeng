@@ -1,0 +1,10 @@
+node_modules/
+dist/
+data/
+api_key/
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.log
+test-results/

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-13T16:14:56.268Z",
+  "scenario": {
+    "vehicles": 100,
+    "stations": 10,
+    "devices": 30,
+    "orders": 1000,
+    "users": 6
+  },
+  "targets_basis": "用户委托按推荐确定的本地开发基准；不代表现场或生产SLA",
+  "metrics": [
+    {
+      "name": "订单分页查询",
+      "samples": 20,
+      "p50_ms": 11.767500000000041,
+      "p95_ms": 18.944600000000037,
+      "max_ms": 19.013900000000035,
+      "target_ms": 500,
+      "result": "PASS"
+    },
+    {
+      "name": "统计下钻",
+      "samples": 20,
+      "p50_ms": 15.155399999999986,
+      "p95_ms": 16.729299999999967,
+      "max_ms": 17.4289,
+      "target_ms": 1000,
+      "result": "PASS"
+    },
+    {
+      "name": "参考推演",
+      "samples": 10,
+      "p50_ms": 15.526700000000005,
+      "p95_ms": 21.87360000000001,
+      "max_ms": 21.87360000000001,
+      "target_ms": 2000,
+      "result": "PASS"
+    },
+    {
+      "name": "10并发只读请求",
+      "elapsed_ms": 16.15169999999989,
+      "result": "PASS"
+    }
+  ]
+}

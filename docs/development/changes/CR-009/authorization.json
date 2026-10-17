@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-009.json",
+  "baseline_sha256": "b77f05d41371f93e6d0a8a55c3a42f9374912d7b7de65d94b7a08353b574cfbf",
+  "evidence": "可以，按这个来帮我开发",
+  "scope": "CR-009 local implementation; no deployment; manual task generation remains a human action"
+}

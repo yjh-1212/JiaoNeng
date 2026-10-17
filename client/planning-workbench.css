@@ -1,0 +1,583 @@
+.planning-workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  color: var(--text);
+  font-size: 13px;
+  min-width: 0;
+}
+.planning-toolbar {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.planning-project-select {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-width: 260px;
+}
+.planning-project-select > .ant-select {
+  width: 270px;
+}
+.planning-period {
+  display: flex;
+  gap: 12px;
+  color: var(--secondary);
+  font-size: 12px;
+}
+.planning-period b {
+  font-weight: 500;
+  color: var(--text);
+}
+.planning-toolbar-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+.planning-toolbar > .ant-select {
+  width: 160px;
+}
+.planning-context {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--secondary);
+  padding: 0 4px;
+}
+.planning-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--panel);
+  padding: 0 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  gap: 12px;
+}
+.planning-tabs .ant-tabs-nav {
+  margin: 0;
+}
+.planning-tabs .row {
+  flex-shrink: 0;
+}
+.planning-workspace .card {
+  overflow: hidden;
+}
+.planning-map-workbench {
+  position: relative;
+  height: 520px;
+  isolation: isolate;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eef1f4;
+}
+.planning-map,
+.planning-map-host {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+}
+.planning-map .planning-map-host {
+  height: 100%;
+  width: 100%;
+  min-height: 0;
+}
+.planning-floating {
+  position: absolute;
+  z-index: 3;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: 0 5px 24px #182a4112;
+  border-radius: 8px;
+  max-height: calc(100% - 40px);
+  overflow: auto;
+}
+.planning-candidates {
+  left: 16px;
+  top: 16px;
+  width: 280px;
+  padding: 16px;
+}
+.planning-recommendation {
+  right: 16px;
+  top: 16px;
+  width: 320px;
+  padding: 18px;
+}
+.planning-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.planning-panel-head > span {
+  font-size: 12px;
+  color: var(--secondary);
+}
+.planning-candidate {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 14px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel);
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: var(--text);
+}
+.planning-candidate.selected {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+.planning-candidate strong {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.planning-candidate p {
+  font-size: 12px;
+  color: var(--secondary);
+  margin: 12px 0 0;
+}
+.planning-candidate > div {
+  margin-bottom: 8px;
+}
+.planning-recommendation h3 {
+  font-size: 16px;
+  margin: 12px 0 18px;
+}
+.planning-recommend-values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  gap: 16px;
+}
+.planning-recommend-values span,
+.planning-recommend-values b {
+  display: block;
+}
+.planning-recommend-values span {
+  font-size: 12px;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+.planning-recommend-values b {
+  font-size: 24px;
+  font-weight: 600;
+}
+.planning-recommend-values small,
+.planning-metrics small {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+}
+.planning-accent {
+  color: var(--brand);
+}
+.planning-kv {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  font-size: 12px;
+}
+.planning-kv dt {
+  color: var(--secondary);
+}
+.planning-kv dd {
+  margin: 0;
+}
+.planning-recommend-actions {
+  display: flex;
+  gap: 8px;
+  padding-top: 16px;
+}
+.planning-recommendation .ant-alert {
+  padding: 8px 12px;
+  margin-top: 12px;
+}
+.planning-recommendation .ant-alert-title {
+  font-size: 12px;
+}
+.planning-map-message {
+  position: absolute;
+  top: 14px;
+  left: 310px;
+  right: 350px;
+  z-index: 4;
+  font-size: 12px;
+}
+.planning-map-message > span {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.planning-map-message .ant-alert {
+  font-size: 12px;
+  padding: 8px;
+}
+.planning-map-legend {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background: #ffffffee;
+  color: #596579;
+  padding: 8px 12px;
+  border-radius: 5px;
+  z-index: 2;
+  font-size: 11px;
+}
+.planning-map-controls {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  gap: 4px;
+  z-index: 4;
+}
+.planning-marker {
+  display: block;
+  background: white;
+  border: 1px solid #b6c5d6;
+  padding: 5px 8px;
+  border-radius: 4px;
+  color: #334155;
+  font-size: 12px;
+}
+.planning-marker.active {
+  color: #be1230;
+  border-color: #be1230;
+}
+.planning-metrics {
+  display: flex;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  align-items: center;
+  gap: 22px;
+}
+.planning-metrics > div {
+  flex: 1;
+  border-right: 1px solid var(--border);
+}
+.planning-metrics span {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.planning-metrics strong {
+  display: block;
+  font-size: 25px;
+  line-height: 1.4;
+  margin-top: 4px;
+  font-weight: 600;
+}
+.planning-fleet-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 14px;
+}
+.planning-muted {
+  font-size: 12px;
+  color: var(--secondary);
+}
+.planning-resource-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.planning-resource-name small {
+  display: block;
+  color: var(--secondary);
+  margin-top: 4px;
+}
+.planning-table-foot {
+  padding: 14px 20px;
+  font-size: 12px;
+  color: var(--secondary);
+}
+.planning-checks {
+  padding: 8px 16px;
+}
+.planning-checks > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.planning-checks b {
+  font-weight: 500;
+}
+.planning-checks small {
+  width: 100%;
+  color: var(--secondary);
+}
+.planning-budget {
+  padding: 8px 16px;
+}
+.planning-budget h3 {
+  font-size: 14px;
+  margin: 8px 0 14px;
+}
+.planning-budget p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--secondary);
+}
+.planning-side-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px 18px;
+  flex-wrap: wrap;
+}
+.planning-status {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  color: var(--secondary);
+  padding-inline: 4px;
+}
+.planning-status > .ant-btn {
+  margin-left: auto;
+}
+.planning-link {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  font-weight: 500;
+}
+.planning-link:hover {
+  color: var(--brand);
+}
+.planning-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 20px;
+}
+.planning-form-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.planning-editor .ant-input-number,
+.planning-editor .ant-select {
+  width: 100%;
+}
+.planning-editor .ant-form-item {
+  margin-bottom: 16px;
+}
+.planning-editor h3 {
+  font-size: 15px;
+  margin: 24px 0 18px;
+}
+.planning-editor h3:first-of-type {
+  margin-top: 8px;
+}
+.planning-editor h3 small {
+  font-size: 12px;
+  color: var(--secondary);
+  font-weight: 400;
+}
+.planning-import {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 12px;
+  color: var(--secondary);
+  padding-block: 6px;
+}
+.planning-site-editor {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.planning-site-checks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.planning-site-checks > .ant-btn {
+  margin-left: auto;
+}
+.planning-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.planning-json {
+  font-size: 12px;
+  white-space: pre-wrap;
+  background: var(--bg);
+  padding: 16px;
+  border-radius: 6px;
+}
+.planning-loading {
+  padding: 64px;
+  text-align: center;
+  color: var(--secondary);
+}
+.planning-workspace .ant-table-cell {
+  font-size: 12px;
+}
+.planning-workspace .card-head h2 {
+  font-size: 15px;
+}
+.planning-editor .ant-alert {
+  margin-bottom: 14px;
+}
+@media (min-width: 1600px) {
+  .planning-map-workbench {
+    height: 570px;
+  }
+  .planning-candidates {
+    width: 300px;
+  }
+  .planning-recommendation {
+    width: 350px;
+  }
+  .planning-fleet-grid {
+    grid-template-columns: minmax(0, 1fr) 390px;
+  }
+}
+@media (max-width: 1100px) {
+  .planning-toolbar-actions {
+    margin-left: 0;
+  }
+  .planning-fleet-grid {
+    grid-template-columns: 1fr;
+  }
+  .planning-candidates {
+    width: 245px;
+  }
+  .planning-recommendation {
+    width: 280px;
+  }
+  .planning-map-message {
+    left: 275px;
+    right: 305px;
+  }
+  .planning-tabs {
+    flex-wrap: wrap;
+  }
+  .planning-tabs > .row {
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .planning-toolbar {
+    padding: 12px;
+    gap: 12px;
+  }
+  .planning-project-select {
+    min-width: 0;
+    width: 100%;
+  }
+  .planning-project-select > .ant-select {
+    width: 100%;
+    min-width: 0;
+  }
+  .planning-period {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .planning-toolbar-actions {
+    flex-wrap: wrap;
+  }
+  .planning-form-grid.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .planning-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .planning-map-workbench {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 320px;
+    overflow: visible;
+  }
+  .planning-map {
+    height: 320px;
+    bottom: auto;
+  }
+  .planning-floating {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    width: auto;
+    max-height: none;
+    margin: 10px;
+  }
+  .planning-map-message {
+    left: 10px;
+    right: 10px;
+  }
+  .planning-map-legend {
+    left: 10px;
+    right: 10px;
+    transform: none;
+    white-space: normal;
+  }
+  .planning-context {
+    gap: 8px;
+  }
+  .planning-tabs {
+    padding: 0 10px;
+    min-width: 0;
+  }
+  .planning-tabs .ant-tabs {
+    width: 100%;
+  }
+  .planning-tabs > .row {
+    flex-wrap: wrap;
+  }
+  .planning-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+    gap: 12px;
+  }
+  .planning-metrics > div {
+    border-right: 0;
+  }
+  .planning-status {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .planning-import {
+    flex-wrap: wrap;
+  }
+  .planning-side-actions {
+    justify-content: flex-start;
+  }
+}

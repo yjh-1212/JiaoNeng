@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-037",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-036.json",
+  "parent_manifest_sha256": "3f22e0a8d1430c3939f5ab9ad2ca03edcd53d174e4789d1ea0c671b0dbea23cc",
+  "approved_by": "当前用户",
+  "evidence": "当前用户：旧数据没用就帮我删了把；备份后清理不适用业务数据，保留账号权限与配置。",
+  "recorded_at": "2026-10-17T07:10:53.224029+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-037-retire-legacy-data.md": "0439c785a68944f4e65bb169666b8d7cdf9a9d5a3b94e0a5e17797b34f5a5c42"
+  }
+}

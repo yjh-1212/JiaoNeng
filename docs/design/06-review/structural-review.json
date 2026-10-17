@@ -1,0 +1,113 @@
+{
+  "stage": "D6",
+  "candidate": "V0.2-D6-RC1",
+  "status": "REVIEW_READY_PENDING_APPROVAL",
+  "checks": [
+    {
+      "check": "57项需求唯一且追踪无缺失",
+      "result": "PASS"
+    },
+    {
+      "check": "9模块、26页面、47功能及接口独立可定位",
+      "result": "PASS"
+    },
+    {
+      "check": "需求来源、流程、主模块、主页面与验收编号均存在",
+      "result": "PASS"
+    },
+    {
+      "check": "171项验收有正常、边界及权限条件",
+      "result": "PASS"
+    },
+    {
+      "check": "功能输入输出字段及逻辑接口有效",
+      "result": "PASS"
+    },
+    {
+      "check": "261字段有控件契约、页面放置引用有效",
+      "result": "PASS"
+    },
+    {
+      "check": "未逐页放置的21字段均为COM共用契约",
+      "result": "PASS"
+    },
+    {
+      "check": "26原型文件和锚点可访问",
+      "result": "PASS"
+    },
+    {
+      "check": "所有辅助页面引用有效",
+      "result": "PASS"
+    },
+    {
+      "check": "D0—D4已批准原件哈希一致",
+      "result": "PASS"
+    },
+    {
+      "check": "二十组参数候选与上游登记一一对应",
+      "result": "PASS"
+    }
+  ],
+  "approved_hashes": [
+    {
+      "stage": "D0",
+      "matches": true,
+      "changed_files": [],
+      "note": ""
+    },
+    {
+      "stage": "D1",
+      "matches": true,
+      "changed_files": [],
+      "note": ""
+    },
+    {
+      "stage": "D2",
+      "matches": true,
+      "changed_files": [],
+      "note": ""
+    },
+    {
+      "stage": "D3",
+      "matches": true,
+      "changed_files": [],
+      "note": ""
+    },
+    {
+      "stage": "D4",
+      "matches": true,
+      "changed_files": [],
+      "note": ""
+    },
+    {
+      "stage": "D5",
+      "matches": false,
+      "changed_files": [
+        "prototypes/design-preview/index.html",
+        "prototypes/design-preview/app.bundle.js",
+        "prototypes/design-preview/source/app.jsx",
+        "prototypes/design-preview/source/common.jsx"
+      ],
+      "note": "D5变更仅CR-001授权修订，等待重新审查批准"
+    }
+  ],
+  "counts": {
+    "requirements": 57,
+    "priorities": {
+      "P0": 37,
+      "P1": 20
+    },
+    "modules": 9,
+    "features": 47,
+    "pages": 26,
+    "fields": 261,
+    "field_placements": 319,
+    "interfaces": 47,
+    "acceptance_designs": 171,
+    "public_sources": 11,
+    "parameter_groups": 20
+  },
+  "html_sha256": "d3bb6210147f44959daa5adf7e1c15ae4999478ea4ad037d0dd8d399c2a6e996",
+  "frozen": false,
+  "development_authorized": false
+}

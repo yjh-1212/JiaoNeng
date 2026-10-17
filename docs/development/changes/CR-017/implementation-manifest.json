@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-16T08:19:27.047Z",
+  "baseline": "docs/design/07-baseline/design-baseline-CR-017.json",
+  "baseline_sha256": "1b195f450d99d410d762bac41540c2a0bc1cdbcc8db4b340ca3f0c1d281ebb2c",
+  "source_sha256": {
+    "server/task-workspace.mjs": "e85e77c9d13f107b85ca95af46dd3cdcfd879a1072f0bdd4ae08ec62835f1194",
+    "server/app.mjs": "ff6ba375b2b72acf6f844f2ede23eab1b3e8a53fbfffb508bc8ca6c8e8d43b54",
+    "server/transport.mjs": "f3905a300f90e1c9a0641e02504ddc76d7c713b3123d54f212f12d3ab8470d9d",
+    "client/task-workbench.jsx": "b007d74ca787569064074f847a401df0d713d140f613183bdc2216adc962daf8",
+    "client/task-drawers.jsx": "62c3e9b19496e6b410bf1e4c171628734b88e919443043d629af3d2318b79901",
+    "client/task-workbench.css": "4b5f3fea4dd82a0f587e388a4d55e8be115fbcce634fcd507425c6798a34899a",
+    "client/transport.jsx": "1aca87bd633920de9a6d7704007f15c04e66c698bb5526c5f2c25fd2c55336d4",
+    "client/app.jsx": "34d89d8a9e2a6d325f58c47b6c3ddf09145b7dece2d3b1be3d86dec15949f294",
+    "client/goal-simulation.jsx": "86775229256b67329684614043635388671b8498d9749374c6b71cbaee1419ef",
+    "tests/task-workspace.test.mjs": "c9c9be54dc3599e511a213728aa66d110301d8b907383f6f07ba96d2141dbb56",
+    "tests/task-workbench-browser.mjs": "111471b43658773238d9d8deac56bd3e74456efa80680323801fe162c98f413f",
+    "package.json": "e00ac4be4ba3c7fe23b69df7e9ea4b9c2e893c695e91f907511d0c1a72c20fa7"
+  },
+  "evidence_sha256": {
+    "docs/development/changes/CR-017/architecture.md": "649d6c9404c082f43800c4b929bfe84dae8d31dd77d6f13487b0d2298db10dff",
+    "docs/development/changes/CR-017/acceptance-report.md": "25db563847d5c597df54c8de6dc9873f79a79fcb6bedd57bf69ae766f88322f8",
+    "docs/development/changes/CR-017/authorization.json": "a8a3bc4d6f10f4fd8b38fbc6f9266747a0788a3345f4cfc8f21f3201ddaf4051",
+    "docs/development/changes/CR-017/baseline-check.json": "5b1af8d7a84a4c76b6bc25673eab6d3ac84bbac24f98524c1af555d947b57bbd",
+    "docs/development/changes/CR-017/browser-check.json": "6d8076884a365b4a3571c7a1636f285d686345036cce11a33c235209f6c179b5",
+    "docs/development/changes/CR-017/node-tests.txt": "1937d869733cac8aa20531dfc1a0529f713c10a502f907e4ec1b538be623264f",
+    "docs/development/changes/CR-017/ac-results.json": "33a81a868a99cd3b66eeb72f285089e774ac13b23cee470f9d4d2f3a31379780",
+    "docs/development/changes/CR-017/local-before.json": "c294e5aef2d6f9ca5b8e63ca7dc678fc8c5e214afdc60430c428b529337b6cd3",
+    "docs/development/changes/CR-017/local-after.json": "b0eb0bdbb72e6e20004c1991dd5e1989388625d3d2ffc7267b63498b1892bf30",
+    "docs/development/changes/CR-017/local-smoke.json": "1f0374cf9d93e435f5761b54df9e585367f3bcc4e7ad2b4ff8177c6f67403cb4",
+    "docs/development/changes/CR-017/local-browser.json": "a6029a5af20e1145fb2d5d4c1ab2b2861c0c852552bb4db63ea9ba04f3eb531d"
+  },
+  "deployment": false
+}

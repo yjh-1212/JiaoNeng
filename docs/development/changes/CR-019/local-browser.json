@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "map_ready": true,
+  "planned_road_route_points": 330,
+  "responses": [
+    {
+      "path": "/api/safety/monitoring",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/options",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/monitoring",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/incidents",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/options",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/incidents/A1",
+      "status": 200
+    },
+    {
+      "path": "/api/safety/options",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "readonly_business": true,
+  "external_model_calls": 0
+}

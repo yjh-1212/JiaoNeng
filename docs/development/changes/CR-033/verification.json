@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "navigation": [
+    "运营总览",
+    "订单管理",
+    "任务调度",
+    "能源管理",
+    "运行保障",
+    "规划决策",
+    "AI智能体",
+    "系统管理"
+  ],
+  "build": "PASS",
+  "user_acceptance_signature": false
+}

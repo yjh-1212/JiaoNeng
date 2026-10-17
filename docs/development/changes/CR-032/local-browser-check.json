@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "页面、数据和本页AI：运营总览",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：运输需求",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：运输订单",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：运输任务",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：补能调度",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：场站作业",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：用能管理",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：运行监控",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：异常处置",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：场站规划",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：运力规划",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：运力档案",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：场站档案",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：基础资料",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：数据管理",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：用户权限",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：系统设置",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：个人信息",
+      "status": "PASS"
+    },
+    {
+      "name": "页面、数据和本页AI：交能推演",
+      "status": "PASS"
+    },
+    {
+      "name": "顶部完整AI中心与真实起讫地提示",
+      "status": "PASS"
+    },
+    {
+      "name": "真实道路、路线选项和运量计算；三种尺寸布局",
+      "status": "PASS",
+      "routes": 2,
+      "points": [
+        2464,
+        2989
+      ],
+      "facilities": 24
+    },
+    {
+      "name": "当前页面AI真实对话链路带入已保存路线成果，原页保持",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "isolated_model": false,
+  "model_calls": 0,
+  "business_orders_written": 0
+}

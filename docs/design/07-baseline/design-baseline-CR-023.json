@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-023",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-022.json",
+  "parent_manifest_sha256": "67ff00c95bc12f1e11f81f2333282f0d74cf4336c1a6f73b9007654df7d856ec",
+  "approved_by": "当前用户确认PC首批六智能体与入口并要求实施",
+  "evidence": "司机端先不做，然后先做pc端的，页面设计也参考辽粮的，入口就是右下方悬浮的图标。就做第一批的",
+  "recorded_at": "2026-10-17T00:40:56.400799+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-023-pc-agent-center.md": "35d3d9ca17f703f22467b18facfd7c0ab7ef39aed9a79b9bda7426fd3eebe686"
+  }
+}

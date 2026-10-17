@@ -1,0 +1,19 @@
+{
+  "stage": "D6",
+  "status": "SELF_CHECK_PASS_FINAL_APPROVAL_PENDING",
+  "browser_checks": 85,
+  "core": 45,
+  "modules": 15,
+  "layout": 11,
+  "review": 14,
+  "structure": 11,
+  "runtime_errors": [],
+  "html_sha256": "d3bb6210147f44959daa5adf7e1c15ae4999478ea4ad037d0dd8d399c2a6e996",
+  "formal_gate_remaining": [
+    "D5授权修订后重新确认",
+    "D6-004候选参数与项目启用边界确认",
+    "D6明确批准与冻结同意"
+  ],
+  "frozen": false,
+  "development_authorized": false
+}

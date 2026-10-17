@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "运力资料维护与来源边界",
+      "result": "PASS"
+    },
+    {
+      "name": "主体范围列表隔离",
+      "result": "PASS"
+    },
+    {
+      "name": "场站实际作业核验",
+      "result": "PASS"
+    },
+    {
+      "name": "补能预测与时序优化确认",
+      "result": "PASS"
+    },
+    {
+      "name": "能源负荷预测和协同业务计划",
+      "result": "PASS"
+    },
+    {
+      "name": "规划待核实阻止推荐及成果确认",
+      "result": "PASS"
+    },
+    {
+      "name": "车辆电池分阶段投放建议",
+      "result": "PASS"
+    },
+    {
+      "name": "费用更正仅汇总有效版本",
+      "result": "PASS"
+    },
+    {
+      "name": "资产投运依证明核验",
+      "result": "PASS"
+    },
+    {
+      "name": "合作置换与实际投运分开",
+      "result": "PASS"
+    },
+    {
+      "name": "数据质量纠正保留原始依据",
+      "result": "PASS"
+    },
+    {
+      "name": "预警闭环不改任务完成状态",
+      "result": "PASS"
+    },
+    {
+      "name": "两类角色与司机绑定授权约束",
+      "result": "PASS"
+    },
+    {
+      "name": "未核实参数禁启用且关键操作可审计",
+      "result": "PASS"
+    },
+    {
+      "name": "管理端手机无横向溢出",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-003",
+  "parent_version": "V0.2-design-1+CR-002",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-002.json",
+  "parent_manifest_sha256": "3cd3a4518535f63c15f9c4ab5dded3d3091d75ff832f5e9b3c88c2e5872bcf61",
+  "recorded_at": "2026-10-16T02:23:43.143414+00:00",
+  "approved_by": "当前用户（明确视觉变更与实施指令）",
+  "evidence": "所有的页面全部去掉上面的这个；附件明确指向面包屑下方独立大标题区",
+  "sha256": {
+    "docs/design/08-change/CR-003-remove-page-title.md": "7e09026f038d2ccb11ba3a0ef7d928058fe4864977433d52085be5257f1ea971"
+  }
+}

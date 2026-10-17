@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "name": "生成的人物图片正常加载，测算前AI引导、对话保留、Escape关闭并恢复焦点",
+      "status": "PASS"
+    },
+    {
+      "name": "推荐方案在地图右侧430px悬浮，不遮挡播放条，可收起与切换；真实道路与模型分析成功，未生成任务",
+      "status": "PASS"
+    },
+    {
+      "name": "设置抽屉、地图播放倍速、补能/成本/依据明细可操作",
+      "status": "PASS"
+    },
+    {
+      "name": "按期限逐个车数反算与按期成本比选实际计算，三种目标输入不同",
+      "status": "PASS"
+    },
+    {
+      "name": "DeepSeek只解析预览，用户确认后重算并展示原方案差值",
+      "status": "PASS"
+    },
+    {
+      "name": "模型失败保留已计算方案与输入，不冒充成功或自动执行",
+      "status": "PASS"
+    },
+    {
+      "name": "采用方案与实际生成分开，打开核对抽屉不创建任务",
+      "status": "PASS"
+    },
+    {
+      "name": "直接填写可地图选点，随后也可用真实POI替换",
+      "status": "PASS"
+    },
+    {
+      "name": "真实POI直接填写试算，最后手动新建需求/订单和任务；刷新恢复来源且不重复创建",
+      "status": "PASS"
+    },
+    {
+      "name": "390–1600px响应式，无页面横向溢出及运行错误",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "live_ai": true,
+  "model": "deepseek-flash",
+  "road_paths": 10,
+  "database": "isolated simulated SQLite",
+  "model_calls": "real DeepSeek",
+  "counts_before": {
+    "demands": 8,
+    "orders": 24,
+    "tasks": 16
+  },
+  "counts_after": {
+    "demands": 9,
+    "orders": 25,
+    "tasks": 18
+  },
+  "secrets_logged": false
+}

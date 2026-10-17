@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-019.json",
+  "baseline_sha256": "01f774a9040765d1dea75c4a207314990ad537be7225ac1db16d8c024810f245",
+  "evidence": "按这个来帮我开发",
+  "scope": "运行保障本地前后端、司机关联及真实接口测试，无部署"
+}

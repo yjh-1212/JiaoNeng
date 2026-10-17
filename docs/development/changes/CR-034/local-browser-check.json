@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "默认完整推演入口、时间区间及地图补能面板",
+      "status": "PASS"
+    },
+    {
+      "name": "切换运输目标保留已填写的时间区间",
+      "status": "PASS"
+    },
+    {
+      "name": "庆阳实际道路、按区间排程、逐车运量守恒及补能节点",
+      "status": "PASS",
+      "vehicles": 4,
+      "trips": 20,
+      "charge_count": 4,
+      "route_points": 324,
+      "ai_status": "ready"
+    },
+    {
+      "name": "桌面与移动窄屏布局无横向溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "采用方案进入实际车辆、司机和场站核对，不自动派发任务",
+      "status": "PASS"
+    },
+    {
+      "name": "方案AI解读在当前页面打开",
+      "status": "PASS"
+    },
+    {
+      "name": "地图内补能变更使旧方案失效，必须重算",
+      "status": "PASS"
+    },
+    {
+      "name": "收紧完成区间给出真实运量缺口，不提供可采用的无效方案",
+      "status": "PASS"
+    },
+    {
+      "name": "本地页面恢复为可行的12小时时间区间与逐车排程",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "isolated": false,
+  "business_orders_written": 0
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T03:34:36.701395+00:00",
+  "build": "PASS",
+  "tests": 333,
+  "browser": "PASS",
+  "business_writes": 0,
+  "deployment": false,
+  "user_acceptance_signature": false,
+  "source_sha256": {
+    "client/app.jsx": "e1f180c687ee0640cbe86e8dbb3a67bafa3f3e3e36727b794bc0cd230221f14f",
+    "client/api.js": "9e0536cf68ad77ee76d3db642d15069070bd428fb702fa7c99c012351d869c79",
+    "client/login.css": "d7e7dce5d8f0c36b2907f2fccc84e7d656acb1abb462e5fac74130356dcc089c",
+    "client/overview-workbench.jsx": "cd51d7eaecab15b8673f460ebe46ac57690d6235ef40c67bf6b8f5949e3aa02a",
+    "server/app.mjs": "97546de1ddccc8709553d59b2525b2a3321bc35d436d2efbea3af08878220258",
+    "tests/portal-auth.test.mjs": "e91f98df670cb039d0762f712f681b5b5108d898a375a19005999e0d4c8b3745",
+    "tests/overview-browser.mjs": "63d9fb55c1e805e0f4fb1b33c66cd9f1de822c92508d160674105693900c50ca"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-002.json",
+  "baseline_sha256": "3cd3a4518535f63c15f9c4ab5dded3d3091d75ff832f5e9b3c88c2e5872bcf61",
+  "authorized_by": "当前用户（明确变更和实施指令）",
+  "evidence": "运输需求我希望拆出去和运输订单平行；好帮我改动一下运输需求和运输订单，页面参考辽粮的多式联运，上面是搜索查询，下面是列表，新增编辑等在右侧。常规细节按既有推荐方案委托确定。",
+  "scope": "本地正式实现、测试和联调；不部署；原294个冻结文件保持不变"
+}

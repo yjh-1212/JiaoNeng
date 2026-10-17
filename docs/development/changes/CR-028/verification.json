@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T02:27:08.563583+00:00",
+  "stages": {
+    "E0": "SELF_VERIFIED",
+    "E1": "SELF_VERIFIED",
+    "E2": "SELF_VERIFIED",
+    "E3": "SELF_VERIFIED",
+    "E4": "SELF_VERIFIED",
+    "E5": "SELF_VERIFIED"
+  },
+  "node_tests_pass": 330,
+  "node_tests_fail": 0,
+  "original_acceptance_pass": 171,
+  "workbench_browser_pass": 9,
+  "local_browser_pass": 9,
+  "agent_browser_regression_pass": 13,
+  "existing_tables_preserved": 23,
+  "baseline_count": 28,
+  "frozen_files": 328,
+  "external_model_calls": 0,
+  "user_acceptance_signature": false,
+  "local_process_id": 21064,
+  "deployment": false
+}

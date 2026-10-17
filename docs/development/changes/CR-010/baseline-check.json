@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "manifest": "docs/design/07-baseline/design-baseline.json",
+      "files": 294,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-002.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-003.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-004.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-005.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-006.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-007.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-008.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-009.json",
+      "files": 1,
+      "status": "PASS"
+    },
+    {
+      "manifest": "docs/design/07-baseline/design-baseline-CR-010.json",
+      "files": 1,
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "D2",
+  "approval": "待用户批准",
+  "upstream_approval_hashes_match": true,
+  "mapped_requirements": 57,
+  "modules": 9,
+  "flows": 9,
+  "admin_primary_groups": 7,
+  "admin_business_destinations": 40,
+  "total_page_destinations": 61,
+  "driver_pages": 8,
+  "business_login_roles": 2,
+  "state_objects": 19,
+  "transitions": 168,
+  "permission_grant_rows": 57,
+  "all_transition_states_reachable": true,
+  "driver_transitions_use_self_permissions": true,
+  "prototype_files_created": false,
+  "notes": "页面及状态结构检查；不是运行中的系统测试或D2审批",
+  "manual_device_states_checked": true
+}

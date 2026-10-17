@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-032",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-031.json",
+  "parent_manifest_sha256": "44da0f0a4fa76ec15e6f2460ef372b9ab91a7aa293a245bc45807440472d551f",
+  "approved_by": "当前用户",
+  "evidence": "用户要求全省及周边省域推演、路线及补能多选、当前页面AI会话、顶部AI入口、清理测试和厂商文案；明确选择正式页面隐藏前期测试资料并保留原库，仅推演测算使用；补充要求查找真实数据。继承后续开发授权。",
+  "recorded_at": "2026-10-17T03:56:24.191373+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-032-regional-ai-and-operational-data.md": "c2f404a0a5bdac32e6d7eecc55eca8da3a5a60de686d9eb7dda7c2a064112e69"
+  }
+}

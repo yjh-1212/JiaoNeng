@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-006",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-005.json",
+  "parent_manifest_sha256": "ef2434f51977ee4128a3eaa27edb7d23dde2525ab2565e3aee5d32fd042a7027",
+  "approved_by": "当前用户（明确修改指令）",
+  "evidence": "交能推演帮我去掉历史版本，然后页面参考辽粮项目的联运方案-求解页面，地图为啥没有加载出来",
+  "recorded_at": "2026-10-16T02:42:02.186535+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-006-simulation-solve-map.md": "642c9894d6e8fd2b838a6ab803d56131024a87b91f46e0baf4d10fb8cafa706e"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "运输需求独立路由、查询卡与列表卡",
+      "status": "PASS"
+    },
+    {
+      "name": "查询显式生效、空结果及重置",
+      "status": "PASS"
+    },
+    {
+      "name": "右侧新增需求、必填关联错误及保存确认真实联动",
+      "status": "PASS"
+    },
+    {
+      "name": "需求内多批安排、余量反馈与整批生成",
+      "status": "PASS"
+    },
+    {
+      "name": "生成后进入独立订单页并定位来源需求",
+      "status": "PASS"
+    },
+    {
+      "name": "右侧调整订单、需求额度更新及列表上下文保留",
+      "status": "PASS"
+    },
+    {
+      "name": "快捷登记需求回填保留原输入，准确衔接订单推演且不自动派单",
+      "status": "PASS"
+    },
+    {
+      "name": "未保存退出保护与取消不写入业务库",
+      "status": "PASS"
+    },
+    {
+      "name": "手机列表和全宽编辑抽屉无页面溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "独立工作区深色主题",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "database": "isolated simulated SQLite",
+  "external_business_writes": false
+}

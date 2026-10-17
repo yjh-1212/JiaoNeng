@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "name": "页面 运营总览",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 运输订单",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 交能推演",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 运输任务",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 运力管理",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 场站运营",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 补能调度",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 能源管理",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 运行监测",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 预警处置",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 场站规划",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 资源投放",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 经营分析",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 资产管理",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 运力合作",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 基础资料",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 数据管理",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 用户权限",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 系统设置",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 智能助手",
+      "result": "PASS"
+    },
+    {
+      "name": "页面 个人信息",
+      "result": "PASS"
+    },
+    {
+      "name": "前端表单必填与API/SQLite保存",
+      "result": "PASS"
+    },
+    {
+      "name": "订单确认与需求量守恒",
+      "result": "PASS"
+    },
+    {
+      "name": "数据库计算方案、来源详情和待派发任务生成",
+      "result": "PASS"
+    },
+    {
+      "name": "浏览器整批校验与真实事务派发",
+      "result": "PASS"
+    },
+    {
+      "name": "缺测断点的数据表替代与预测持久化",
+      "result": "PASS"
+    },
+    {
+      "name": "规划条件推荐不创建已投运资产",
+      "result": "PASS"
+    },
+    {
+      "name": "规划需求走廊按有效订单和核验车次聚合",
+      "result": "PASS"
+    },
+    {
+      "name": "历史采样回放与来源时间，不插值为真实路线",
+      "result": "PASS"
+    },
+    {
+      "name": "预警规则登记、仿真识别与真实告警记录",
+      "result": "PASS"
+    },
+    {
+      "name": "查询账号的前端禁用与服务端权限",
+      "result": "PASS"
+    },
+    {
+      "name": "司机浏览器接收、车次装运卸货和完工提交",
+      "result": "PASS"
+    },
+    {
+      "name": "本人异常反馈及管理员处理进展",
+      "result": "PASS"
+    },
+    {
+      "name": "司机H5三工作区和本人数据",
+      "result": "PASS"
+    },
+    {
+      "name": "响应式 1280",
+      "result": "PASS"
+    },
+    {
+      "name": "响应式 1024",
+      "result": "PASS"
+    },
+    {
+      "name": "响应式 768",
+      "result": "PASS"
+    },
+    {
+      "name": "响应式 390",
+      "result": "PASS"
+    },
+    {
+      "name": "响应式 320",
+      "result": "PASS"
+    },
+    {
+      "name": "无JavaScript运行错误",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

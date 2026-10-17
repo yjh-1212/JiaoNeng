@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const out='docs/development/changes/CR-034/';
+const log=fs.readFileSync(out+'node-tests-verified.log','utf8'),browser=JSON.parse(fs.readFileSync(out+'local-browser-check.json','utf8'));
+if(!/tests 344/.test(log)||!/pass 344/.test(log)||!/fail 0/.test(log)||browser.status!=='PASS')throw new Error('验收证据未通过');
+const paths=['client/app.jsx','client/goal-simulation.jsx','client/scenario-map.jsx','client/scenario-panels.jsx','client/scenario-route-planner.jsx','client/qingyang-simulation.css','server/app.mjs','server/scenarios.mjs','server/scenario-engine.mjs','shared/qingyang-planning.js','shared/agents.js','tests/qingyang-simulation.test.mjs'];
+const report={status:'VERIFIED',baseline:'docs/design/07-baseline/design-baseline-CR-034.json',node_tests:344,browser_checks:browser.checks.length,real_map_and_ai:'PASS',business_orders_written:0,user_acceptance_signature:false,deployment:false,source_sha256:Object.fromEntries(paths.map(p=>[p,createHash('sha256').update(fs.readFileSync(p)).digest('hex')])),report:out+'implementation-notes.md'};
+fs.writeFileSync(out+'verification.json',JSON.stringify(report,null,2)+'\n');
+const statePath='docs/development/dev-state.json',state=JSON.parse(fs.readFileSync(statePath,'utf8'));state.changes??={};state.changes['CR-034']=report;fs.writeFileSync(statePath,JSON.stringify(state,null,2)+'\n');
+console.log('CR-034 VERIFIED: 344 tests, '+browser.checks.length+' browser checks; original business data preserved.');

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:38:17.479073+00:00",
+  "build": "PASS",
+  "isolated_browser_groups": 8,
+  "local_browser_groups": 8,
+  "agent_api_regression": 10,
+  "external_model_calls": 0,
+  "local_business_writes": 0,
+  "local_process_id": 33560,
+  "user_acceptance_signature": false,
+  "deployment": false,
+  "source_sha256": {
+    "client/agent-center.jsx": "83fbc947a9ffb1ca7e02e1e3b616e223d4d0d74abae8960a6d2d49eb102c8107",
+    "client/agent-center.css": "966338d66e94578eb1bcaf6eb2637de80f8bf7b32d132f367b7478f486680a58",
+    "shared/agents.js": "5c0501cd20f0b7fbe0e2caf6853a2805146a9be11bc930427a2798ac0191b4a6"
+  }
+}

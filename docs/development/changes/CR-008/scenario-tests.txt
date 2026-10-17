@@ -1,0 +1,18 @@
+✔ all candidates conserve delivered mass, SOC and shared station capacity (202.8035ms)
+✔ loading/unloading throughput and social traffic alter computed waits, not fixed cards (188.519ms)
+✔ low-SOC paths, impossible time windows and invalid configuration remain non-executable (188.9787ms)
+✔ draft and scenario confirmation do not reserve source quantities or create execution objects (206.3ms)
+✔ demand conversion is an explicit atomic action; mapping conflicts roll back the order too (189.6786ms)
+✔ source version changes invalidate results before confirmation or execution (184.916ms)
+✔ DeepSeek consumes bounded numeric evidence; rejects fabricated feasible IDs and unsafe patches (192.6836ms)
+✔ playback interpolates along road geometry, with SOC and station queues on the same clock (0.343ms)
+✔ demand manual generation allocates exactly once and generated tasks pass the existing dispatch validator (184.7597ms)
+✔ HTTP scenario commands enforce roles/CSRF, stay idempotent, and never create tasks during AI computation (435.8655ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2159.7986

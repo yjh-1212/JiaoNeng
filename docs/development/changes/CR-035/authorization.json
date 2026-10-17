@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-035.json",
+  "baseline_sha256": "d44597f5e35102ebc2dd754f46ff2bc015727e35e8ea20c3f699578444e21766",
+  "evidence": "当前用户：去掉右上角数据与面包屑整行，平台管理员移到顶部。"
+}

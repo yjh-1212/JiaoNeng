@@ -1,0 +1,7 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-003.json",
+  "baseline_sha256": "718582173599ee3a61ee73c967cbdc6ece1c9cf80f098f058cfa8915cdd671be",
+  "evidence": "所有的页面全部去掉上面的这个；附件明确指向面包屑下方独立大标题区",
+  "authorized_by": "当前用户（明确视觉变更与实施指令）",
+  "scope": "共用页面大标题视觉移除与相应布局；本地开发"
+}

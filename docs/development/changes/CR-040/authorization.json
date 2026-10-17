@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-040.json",
+  "baseline_sha256": "052795111ba50078d2d7ebab91ff04790b11f818291f9b4736f021dd9b995b0e",
+  "evidence": "当前用户提供新截图，明确要求去掉顶部统计，面板透明，地图更明亮偏蓝，并美化左右面板。"
+}

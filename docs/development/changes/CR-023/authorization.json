@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-023.json",
+  "baseline_sha256": "2007b2170e55bfe40020114d4c6dc93069fc742fc3b840a06ae3995c7317ad29",
+  "evidence": "司机端先不做，然后先做pc端的，页面设计也参考辽粮的，入口就是右下方悬浮的图标。就做第一批的",
+  "scope": "PC六智能体中心、全局悬浮入口、领域分析与业务交接；无司机端、无部署"
+}

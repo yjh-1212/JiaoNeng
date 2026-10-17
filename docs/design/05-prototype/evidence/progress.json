@@ -1,0 +1,224 @@
+{
+  "checks": [
+    {
+      "name": "PAGE-001路由与首屏",
+      "result": "PASS",
+      "page": "运营总览"
+    },
+    {
+      "name": "PAGE-004路由与首屏",
+      "result": "PASS",
+      "page": "运输订单"
+    },
+    {
+      "name": "PAGE-005路由与首屏",
+      "result": "PASS",
+      "page": "交能推演"
+    },
+    {
+      "name": "PAGE-007路由与首屏",
+      "result": "PASS",
+      "page": "运输任务"
+    },
+    {
+      "name": "PAGE-009路由与首屏",
+      "result": "PASS",
+      "page": "运力管理"
+    },
+    {
+      "name": "PAGE-010路由与首屏",
+      "result": "PASS",
+      "page": "场站运营"
+    },
+    {
+      "name": "PAGE-012路由与首屏",
+      "result": "PASS",
+      "page": "补能调度"
+    },
+    {
+      "name": "PAGE-016路由与首屏",
+      "result": "PASS",
+      "page": "能源管理"
+    },
+    {
+      "name": "PAGE-031路由与首屏",
+      "result": "PASS",
+      "page": "运行监测"
+    },
+    {
+      "name": "PAGE-034路由与首屏",
+      "result": "PASS",
+      "page": "预警处置"
+    },
+    {
+      "name": "PAGE-022路由与首屏",
+      "result": "PASS",
+      "page": "场站规划"
+    },
+    {
+      "name": "PAGE-024路由与首屏",
+      "result": "PASS",
+      "page": "资源投放"
+    },
+    {
+      "name": "PAGE-030路由与首屏",
+      "result": "PASS",
+      "page": "经营分析"
+    },
+    {
+      "name": "PAGE-028路由与首屏",
+      "result": "PASS",
+      "page": "资产管理"
+    },
+    {
+      "name": "PAGE-029路由与首屏",
+      "result": "PASS",
+      "page": "运力合作"
+    },
+    {
+      "name": "PAGE-035路由与首屏",
+      "result": "PASS",
+      "page": "基础资料"
+    },
+    {
+      "name": "PAGE-036路由与首屏",
+      "result": "PASS",
+      "page": "数据管理"
+    },
+    {
+      "name": "PAGE-038路由与首屏",
+      "result": "PASS",
+      "page": "用户权限"
+    },
+    {
+      "name": "PAGE-040路由与首屏",
+      "result": "PASS",
+      "page": "系统设置"
+    },
+    {
+      "name": "PAGE-041路由与首屏",
+      "result": "PASS",
+      "page": "管理端登录"
+    },
+    {
+      "name": "PAGE-042路由与首屏",
+      "result": "PASS",
+      "page": "个人信息"
+    },
+    {
+      "name": "PAGE-043路由与首屏",
+      "result": "PASS",
+      "page": "智能助手"
+    },
+    {
+      "name": "PAGE-044路由与首屏",
+      "result": "PASS",
+      "page": "我的任务"
+    },
+    {
+      "name": "PAGE-045路由与首屏",
+      "result": "PASS",
+      "page": "补能安排"
+    },
+    {
+      "name": "PAGE-046路由与首屏",
+      "result": "PASS",
+      "page": "我的"
+    },
+    {
+      "name": "PAGE-048路由与首屏",
+      "result": "PASS",
+      "page": "司机登录"
+    },
+    {
+      "name": "交能推演上条件下结果布局",
+      "result": "PASS",
+      "top": 186,
+      "bottom": 537.53125,
+      "resultTop": 553.53125
+    },
+    {
+      "name": "方案比较与DraggablePanel可打开关闭",
+      "result": "PASS"
+    },
+    {
+      "name": "整批冲突全部不生效",
+      "result": "PASS"
+    },
+    {
+      "name": "全批派单成功但司机仍待接收",
+      "result": "PASS"
+    },
+    {
+      "name": "司机本人接单、多节点反馈、车次不重复计量与必填校验",
+      "result": "PASS"
+    },
+    {
+      "name": "司机提交仅进入待核验",
+      "result": "PASS"
+    },
+    {
+      "name": "核验退回后重新提交保留版本",
+      "result": "PASS"
+    },
+    {
+      "name": "管理员核验后总览与任务同步",
+      "result": "PASS"
+    },
+    {
+      "name": "管理员只读操作阻止写入且保留输入",
+      "result": "PASS"
+    },
+    {
+      "name": "列表筛选无匹配与恢复",
+      "result": "PASS"
+    },
+    {
+      "name": "请求失败及版本冲突恢复",
+      "result": "PASS"
+    },
+    {
+      "name": "AI演示回答带依据并回业务工作区",
+      "result": "PASS"
+    },
+    {
+      "name": "系统深色主题",
+      "result": "PASS"
+    },
+    {
+      "name": "响应式1280",
+      "result": "PASS",
+      "scroll": 1280,
+      "client": 1280
+    },
+    {
+      "name": "响应式1024",
+      "result": "PASS",
+      "scroll": 1024,
+      "client": 1024
+    },
+    {
+      "name": "响应式768",
+      "result": "PASS",
+      "scroll": 768,
+      "client": 768
+    },
+    {
+      "name": "响应式390",
+      "result": "PASS",
+      "scroll": 390,
+      "client": 390
+    },
+    {
+      "name": "响应式320",
+      "result": "PASS",
+      "scroll": 320,
+      "client": 320
+    },
+    {
+      "name": "全部流程无JavaScript运行错误",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

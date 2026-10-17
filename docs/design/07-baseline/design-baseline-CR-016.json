@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-016",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-015.json",
+  "parent_manifest_sha256": "61eb02dad50cd532bb24e400d254ef135f83fbab8370cbddedb279a32f1c921b",
+  "approved_by": "当前用户明确导航调整指令",
+  "evidence": "运输调度改为订单管理和任务调度；运力管理移至系统管理并改名运力档案",
+  "recorded_at": "2026-10-16T07:40:25.415720+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-016-order-task-navigation.md": "26934dd62b00df68cf947abebe079b3054e481479e51dfe344e5a55f80062829"
+  }
+}

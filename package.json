@@ -1,0 +1,39 @@
+{
+  "name": "jiaoneng-platform",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "test:browser:extended": "node tests/extended-browser.mjs",
+    "test:browser:transport": "node tests/transport-workbench-browser.mjs",
+    "test:browser:tasks": "node tests/task-workbench-browser.mjs",
+    "test:browser:energy": "node tests/energy-workspace-browser.mjs",
+    "test:browser:safety": "node tests/safety-workspace-browser.mjs",
+    "test:browser:planning": "node tests/planning-workspace-browser.mjs",
+    "test:browser:simulation": "node tests/scenario-goals-browser.mjs",
+    "test:benchmark": "node tests/benchmark.mjs",
+    "seed": "node server/seed-cli.mjs"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "1.0.1",
+    "@lobehub/ui": "5.61.1",
+    "antd": "6.6.6",
+    "antd-style": "4.1.0",
+    "express": "5.1.0",
+    "lucide-react": "1.56.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "prettier": "^3.6.2"
+  }
+}

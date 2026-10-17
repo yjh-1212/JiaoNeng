@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-005",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-004.json",
+  "parent_manifest_sha256": "2db1bf1a47d636f65c5abfeb70809493b728fef6cab01207b3765eb00f6b6c73",
+  "approved_by": "当前用户（明确修改指令）",
+  "evidence": "帮我增加一个10条/页的",
+  "recorded_at": "2026-10-16T02:33:12.117465+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-005-pagination-ten.md": "49b9a5ecdac0666b0d3718608cce2fe5a8d466350073dfff8505e7aa15abcd3e"
+  }
+}

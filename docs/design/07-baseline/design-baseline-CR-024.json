@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-024",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-023.json",
+  "parent_manifest_sha256": "2007b2170e55bfe40020114d4c6dc93069fc742fc3b840a06ae3995c7317ad29",
+  "approved_by": "当前用户明确删除截图区域",
+  "evidence": "用户2026-10-17：把这块都去掉；截图明确包含三个选择框及欢迎介绍区。继承后续必要步骤全部授权。",
+  "recorded_at": "2026-10-17T01:29:21.645830+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-024-agent-center-simplify.md": "26ffd992155795070e9d3cc8471214ddf237226f3fe1e551e475c3f8d9dd4148"
+  }
+}

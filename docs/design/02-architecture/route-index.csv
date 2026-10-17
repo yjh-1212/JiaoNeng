@@ -1,0 +1,27 @@
+﻿page_id,page_name,nav_group,route,module_id,role_id,menu_visible,page_type,parent_page_id,related_requirements,prototype_ref,status,collaborating_module_ids
+PAGE-001,运营总览,运营总览,/overview/workbench,MOD-006,ROLE-001,是,业务工作区,,REQ-027;REQ-031;REQ-037;REQ-057,prototypes/design-preview/index.html#page-001,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-007
+PAGE-004,运输订单,运输调度,/transport/orders,MOD-001,ROLE-001,是,业务工作区,,REQ-001;REQ-002;REQ-005,prototypes/design-preview/index.html#page-004,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-005,交能推演,运输调度,/transport/simulation,MOD-001,ROLE-001,是,业务工作区,,REQ-003;REQ-004;REQ-005;REQ-047,prototypes/design-preview/index.html#page-005,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-009
+PAGE-007,运输任务,运输调度,/transport/tasks,MOD-002,ROLE-001,是,业务工作区,,REQ-005;REQ-007;REQ-009;REQ-010,prototypes/design-preview/index.html#page-007,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-001
+PAGE-009,运力管理,运输调度,/transport/resources,MOD-002,ROLE-001,是,业务工作区,,REQ-006;REQ-028;REQ-035,prototypes/design-preview/index.html#page-009,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-006;MOD-007
+PAGE-010,场站运营,补能与能源,/charging/stations,MOD-003,ROLE-001,是,业务工作区,,REQ-011;REQ-012;REQ-013;REQ-016,prototypes/design-preview/index.html#page-010,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-012,补能调度,补能与能源,/charging/plans,MOD-003,ROLE-001,是,业务工作区,,REQ-013;REQ-014;REQ-015,prototypes/design-preview/index.html#page-012,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-016,能源管理,补能与能源,/energy/resources,MOD-004,ROLE-001,是,业务工作区,,REQ-017;REQ-018;REQ-019;REQ-020;REQ-021,prototypes/design-preview/index.html#page-016,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-031,运行监测,运行保障,/safety/vehicles,MOD-006,ROLE-001,是,业务工作区,,REQ-028;REQ-029;REQ-030,prototypes/design-preview/index.html#page-031,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-034,预警处置,运行保障,/safety/alerts,MOD-006,ROLE-001,是,业务工作区,,REQ-031;REQ-032;REQ-042,prototypes/design-preview/index.html#page-034,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-008
+PAGE-022,场站规划,规划决策,/planning/locations,MOD-005,ROLE-001,是,业务工作区,,REQ-022;REQ-023;REQ-024;REQ-025;REQ-026,prototypes/design-preview/index.html#page-022,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-024,资源投放,规划决策,/planning/deployment,MOD-005,ROLE-001,是,业务工作区,,REQ-025,prototypes/design-preview/index.html#page-024,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-030,经营分析,经营管理,/management/reports,MOD-007,ROLE-001,是,业务工作区,,REQ-033;REQ-034;REQ-037;REQ-057,prototypes/design-preview/index.html#page-030,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-006
+PAGE-028,资产管理,经营管理,/management/assets,MOD-007,ROLE-001,是,业务工作区,,REQ-035,prototypes/design-preview/index.html#page-028,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-029,运力合作,经营管理,/management/replacements,MOD-007,ROLE-001,是,业务工作区,,REQ-036,prototypes/design-preview/index.html#page-029,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-035,基础资料,系统管理,/settings/entities,MOD-009,ROLE-001,是,业务工作区,,REQ-043,prototypes/design-preview/index.html#page-035,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-036,数据管理,系统管理,/settings/integrations,MOD-009,ROLE-001,是,业务工作区,,REQ-044;REQ-045;REQ-048;REQ-050;REQ-051;REQ-052;REQ-054,prototypes/design-preview/index.html#page-036,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-038,用户权限,系统管理,/settings/users,MOD-009,ROLE-001,是,业务工作区,,REQ-046;REQ-049,prototypes/design-preview/index.html#page-038,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-040,系统设置,系统管理,/settings/parameters,MOD-009,ROLE-001,是,业务工作区,,REQ-047;REQ-055,prototypes/design-preview/index.html#page-040,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-041,管理端登录,通用入口,/login,MOD-009,ROLE-001,否,登录,,REQ-046;REQ-049,prototypes/design-preview/index.html#page-041,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-042,个人信息,通用入口,/account,MOD-009,ROLE-001,否,通用工具,,REQ-046,prototypes/design-preview/index.html#page-042,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-043,智能助手,通用入口,/assistant,MOD-008,ROLE-001,否,通用工具,,REQ-038;REQ-039;REQ-040;REQ-041;REQ-042;REQ-056,prototypes/design-preview/index.html#page-043,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-044,我的任务,司机H5,/m/tasks,MOD-002,ROLE-002,是,司机工作区,,REQ-008;REQ-009;REQ-010;REQ-032;REQ-053,prototypes/design-preview/index.html#page-044,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,MOD-006;MOD-009
+PAGE-045,补能安排,司机H5,/m/energy-plans,MOD-003,ROLE-002,是,司机工作区,,REQ-013;REQ-016,prototypes/design-preview/index.html#page-045,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-046,我的,司机H5,/m/profile,MOD-009,ROLE-002,是,司机工作区,,REQ-046;REQ-053,prototypes/design-preview/index.html#page-046,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,
+PAGE-048,司机登录,司机H5,/m/login,MOD-009,ROLE-002,否,登录,,REQ-046;REQ-049;REQ-053,prototypes/design-preview/index.html#page-048,D2 V0.2菜单修订待确认；内部功能通过区块抽屉或流程步骤承接,

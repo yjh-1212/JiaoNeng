@@ -1,0 +1,20 @@
+{
+  "stage": "D3",
+  "approval": "待用户批准",
+  "module_prds": 9,
+  "functional_specs": 47,
+  "total_requirements_traced": 57,
+  "field_definitions": 261,
+  "logical_interfaces": 47,
+  "acceptance_cases": 171,
+  "parameter_groups": 20,
+  "independent_destinations_preserved": 26,
+  "admin_second_level_menus_preserved": 18,
+  "upstream_approval_hashes_match": true,
+  "new_permission_refinements": [
+    "entity.read",
+    "entity.write"
+  ],
+  "source_sample_or_model_verified": false,
+  "production_code_modified": false
+}

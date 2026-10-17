@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-032.json",
+  "baseline_sha256": "7b9f674bcad0d8123639c2f2cb8775ad6e02605577c1be77a76eb635ee025189",
+  "evidence": "用户要求全省及周边省域推演、路线及补能多选、当前页面AI会话、顶部AI入口、清理测试和厂商文案；明确选择正式页面隐藏前期测试资料并保留原库，仅推演测算使用；补充要求查找真实数据。继承后续开发授权。"
+}

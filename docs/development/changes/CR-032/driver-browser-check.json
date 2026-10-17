@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "司机页面：我的任务",
+      "status": "PASS"
+    },
+    {
+      "name": "司机页面：补能安排",
+      "status": "PASS"
+    },
+    {
+      "name": "司机页面：我的",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "driver": "driver05",
+  "historical_operational_rows_visible": 0
+}

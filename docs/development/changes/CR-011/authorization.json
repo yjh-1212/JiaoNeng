@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-011.json",
+  "baseline_sha256": "770e785f62a2de850ddbb2cda2b1881e74a1a1b9a7db396cbdb48ffe8792a853",
+  "evidence": "当前用户明确要求AI图标换成所附图片",
+  "scope": "仅本地替换交能AI人物资源，沿用既有交互"
+}

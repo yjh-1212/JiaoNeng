@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-16T07:41:34.468126+00:00",
+  "source_sha256": {
+    "client/routes.js": "5a6c3ab82865c0ff1ba726f2e9fd4a988b2654c74d6dc19cca8a55134cc31b23",
+    "client/workspaces.jsx": "69b39a56ebbf751bbde7ffc9fea8c5c6a30088f7b48d1011fbe8a67ed0369c10",
+    "tests/browser.mjs": "21b4718676db0627232009b2568feda5c2065ea57eb72cf0157172f84d3c83d5"
+  },
+  "deployment": false
+}

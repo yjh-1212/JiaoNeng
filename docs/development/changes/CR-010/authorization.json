@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-010.json",
+  "baseline_sha256": "3351ab3c71880c5044274e98aaaf85d09b8831729d2f6e25d277f05939cab850",
+  "evidence": "current user explicitly authorized the revised floating layout, AI chat and character generation",
+  "scope": "local CR-010 implementation, preserving CR-009 goals and human final execution decision"
+}

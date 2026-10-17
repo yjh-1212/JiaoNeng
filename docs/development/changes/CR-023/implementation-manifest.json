@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-17T01:26:08.259103+00:00",
+  "sha256": {
+    "shared/agents.js": "1676d17432d25e687256aa8b8f49b68b2c1542ce358921e7a5db3fb47aa2aebf",
+    "server/schema.sql": "1da01698ae6e6a5e808e3069759555d87831ea58a5ef92663520b6c8a43c164f",
+    "server/agent-center.mjs": "f02af64e6dfbad6e32228aed2894233ab19d07e0c89f30ab97387b1c67e3b519",
+    "server/app.mjs": "3218719e28833ba22b73fb48029efb9389eed8c23702f365b7c5e3d052cdb230",
+    "server/scenario-adjustments.mjs": "1639e0148cf7d6ba640a0f00dde9a55701e8fedced450405af653a8f51fd6eaf",
+    "client/agent-center.jsx": "867de0c6a1a54c0eea692819b685298fd114d177939386aeb349099b437ff384",
+    "client/agent-center.css": "09bea395fc364a1aba6f5481514c01a1143954d63eecc23c7ea638d0b632f1cc",
+    "client/agent-launcher.jsx": "00b0a5804024ddec2a7db94088967e341866b43bebbd37beebfd028074d0ceba",
+    "client/app.jsx": "bbd67e164031c48ae172c95b389cd3c5120ef02dacfc4b85491f49766d149ea8",
+    "client/energy-panels.jsx": "0c9ff163d41a22bfe9eaa9bf8221d320bf77e312f277ea78b07870ec176cdc65",
+    "client/routes.js": "b7f2f26ed7fd16b2d05498d60ba21a0d8d6b717c08f31d443670eb27a7ef9786",
+    "client/api.js": "e22d8b93bd935a5de282cfb264ec0a8feac82add960371800fab21d9fb352e9a",
+    "client/transport-workbench.jsx": "d11f52e97bd9d035ab987109a71c656c27d5618a0decbff5c71d662ea76fa542",
+    "client/goal-simulation.jsx": "504d3f734f32cb919a9607ffb3ff3774c4e3279ca7922b5c997d574fcb497add",
+    "tests/helpers.mjs": "7860e42cf74c9f624b3b898de74bf99293550ad875273a75e4141562455389d4",
+    "tests/agent-center.test.mjs": "eb9d1ece3471050115ed24595610915c58858ee30781ea2e088db4b255d099e6",
+    "tests/agent-center-fixture.mjs": "679ec6fb4239a6bb7747ca44230e152b3a3b437f2e3553ad8737c1d3c51afdcd",
+    "tests/agent-center-browser.mjs": "cef07aebb28a869d86781b870d8251bfb6a30cce4715648c0c39ec8d2cecfc4f"
+  }
+}

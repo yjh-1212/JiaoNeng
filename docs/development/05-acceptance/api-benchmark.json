@@ -1,0 +1,7 @@
+{
+  "scenario": "18车辆/3场站/24订单本地基准",
+  "request_count": 12,
+  "p95_ms": 16.797099999999773,
+  "target_ms": 500,
+  "production_sla": false
+}

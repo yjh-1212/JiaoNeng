@@ -1,0 +1,12 @@
+{
+  "backup": "data/backups/jiaoneng-pre-cr008-1792122520455.sqlite",
+  "counts": {
+    "demands": 8,
+    "orders": 25,
+    "tasks": 16,
+    "trips": 27,
+    "charging": 4,
+    "sessions": 12,
+    "costs": 12
+  }
+}

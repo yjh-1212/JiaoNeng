@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-007",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-006.json",
+  "parent_manifest_sha256": "5bca5fc5e415cff0fa26c0eed46e1093445dbdf4cc13c347f64852e8df86acf3",
+  "approved_by": "当前用户（明确修改指令）",
+  "evidence": "按实际的路线来，不要一条直线直接过去；同时去掉业务示意",
+  "recorded_at": "2026-10-16T02:50:18.553724+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-007-road-route-only.md": "4ae0f083bea611e270c2b0d43dde9d03df9b7cdd3c2e36ac4dabda8636a4f885"
+  }
+}

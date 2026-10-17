@@ -1,0 +1,42 @@
+{
+  "changes": [
+    "CR-019",
+    "CR-020"
+  ],
+  "created_at": "2026-10-16T15:35:34.248Z",
+  "source_sha256": {
+    "server/safety-workspace.mjs": "e6ccadd5f51ecf38f419cbf1788b14cd87b1fb1c567d9463424fedc9ed0f29ff",
+    "server/safety-commands.mjs": "3e2ed2703b680498bee90658f0a95a34b077487871bbeb5f10d9f58b8586b8f1",
+    "server/app.mjs": "546d8cdca22a7b60a0455e5988b13c4ecf07a574e22ba17af4fb9a46d0e5efad",
+    "server/repository.mjs": "e4ff59c6d356e58807df9d721a70a011d2d5e8e0650b012d2b314ea47db34af7",
+    "server/task-workspace.mjs": "d92808a247d167680250d650a23a15309b9e3cbd938332a31e633e21a4e8886c",
+    "client/safety-workbench.jsx": "191b9b6fd3192f16825d71382dba265021ebdbe58dd7e9f2036636c6d7073f95",
+    "client/safety-panels.jsx": "79c341e804d44f600884bdc15fa14106b2c53e12584fbe56ba66ae85c97226ae",
+    "client/safety-map.jsx": "b1b60165ecdcb205fd238e0ba7e43ecaf8a041524fd83c1c3924f55ac31283f8",
+    "client/safety-workbench.css": "a7437f6166631a77d2124a13b5442ac122af23d2460d87bbda37e41522d44a3e",
+    "client/driver-incidents.jsx": "08e95b9e9cea8e94177516b110c2639193a34722e37be92cdacc774c224ba0ed",
+    "client/app.jsx": "8a09f148f61a14b2e805cbc04889e9469f355671641f9137e5ae8eec99d24839",
+    "client/routes.js": "760ff474d19aa97213582730bac931532d381288fef8181ac6a19387f5eedc30",
+    "client/driver.jsx": "ea57ceb17b688bafd8042d430bc55e58c3f459815874204e4cc1b01fd9e00b06",
+    "client/energy-panels.jsx": "454dc47f0e848e4d8c9abf3c9d4b7780ee63de982028164f66ccc3acc7845fea",
+    "client/energy-workbench.jsx": "78560669b7dc2ba44317427570ca296d781e7243e8fd4ca815fe29a2e83bbc71",
+    "client/task-workbench.jsx": "d1b3ec4789ccbb8e71d48faa035a2412e6b25e7334cb2dbf5f4f3ea916ce462a",
+    "client/task-drawers.jsx": "af1c9d20c279a6daf03028c9b18e56cef736c32a44a7a3202704723c41fd1d21",
+    "client/transport-workbench.jsx": "e6e755b9caf8ab7b67de247c9a99144285f3b44f6fa0671773c4458a7a754121",
+    "client/goal-simulation.jsx": "3ed82297afcfe869cb2f51b108280f8d05354c8322e80085ef294bfaf9e3fd73",
+    "tests/safety-workspace.test.mjs": "29847f8babfb70f43be41934139b699751274267f829d8e554ccfd4ea568e1c9",
+    "tests/safety-workspace-browser.mjs": "2981348bb0e6421e68e8b9f32879532f61eaf64d334a0d89833de37358c24db5",
+    "tests/scenarios.test.mjs": "075fffc4cfa7b56e3e13244c380be920b0c7578dbf0c1225efd3addbdf445240",
+    "tests/energy-workspace-browser.mjs": "a12f5bbf2d3e74c2644adf4af719d4e55871ee9b0917cba190540a952de85960",
+    "package.json": "0fde6e4b2728b9dba01e4fa0234f8be788bf96fe93399c01f67dcc7fd3b5cad6",
+    "docs/development/changes/CR-019/architecture.md": "8269432fcfbdd82a383430bedecf32e56cb5562575a123b22faca24cc4db8218",
+    "docs/development/changes/CR-019/acceptance-report.md": "c6ce01f71a6b2a2f96aec37ddf95a05d5764574fd8d624873e293770eaac2cf4",
+    "docs/development/changes/CR-020/acceptance-report.md": "9b24f96ea9f05d9f4234d0082ac2b0d26e6fc4ba61dede78aca7925534afeebe"
+  },
+  "evidence": {
+    "node_tests": 306,
+    "original_ac": 171,
+    "browser_checks": 34,
+    "business_tables_unchanged": 17
+  }
+}

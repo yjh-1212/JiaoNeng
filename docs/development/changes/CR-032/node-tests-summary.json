@@ -1,0 +1,1 @@
+{"status":"PASS","command":"npm test","tests":338,"pass":338,"fail":0,"duration_ms":29619.0074,"evidence":"本轮最终完整执行输出，退出码0；包括新增5组区域计算、正式来源过滤、路线与补能选择集成测试"}

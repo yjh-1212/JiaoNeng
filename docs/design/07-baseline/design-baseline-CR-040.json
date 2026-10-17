@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-040",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-039.json",
+  "parent_manifest_sha256": "c2ed8a6f540bc674a589e8301600177d25847fee945547eaaa99416619a73d69",
+  "approved_by": "当前用户",
+  "evidence": "当前用户提供新截图，明确要求去掉顶部统计，面板透明，地图更明亮偏蓝，并美化左右面板。",
+  "recorded_at": "2026-10-17T09:04:36.849122+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-040-cockpit-visual-alignment.md": "6eae96a3202ac7addffa1ba776487ccc4611c493d6ac08571c721387b1871417"
+  }
+}

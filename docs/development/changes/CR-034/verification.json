@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED",
+  "baseline": "docs/design/07-baseline/design-baseline-CR-034.json",
+  "node_tests": 344,
+  "browser_checks": 9,
+  "real_map_and_ai": "PASS",
+  "business_orders_written": 0,
+  "user_acceptance_signature": false,
+  "deployment": false,
+  "source_sha256": {
+    "client/app.jsx": "e1b19adf17a9242e9f8e4a28cea76523e2dd656117bd0c889e2346983847f6c1",
+    "client/goal-simulation.jsx": "a75f815e7963ba9810ab62a7a19ec53133797bd853ea37ebcfc9855f9ed5d0f7",
+    "client/scenario-map.jsx": "2085720ce693972ebd03b525388c25ee8f7e5007fe601bbc4566610c4a383e8d",
+    "client/scenario-panels.jsx": "4eaf42fb0fc2963e4d1e5dbabe56f80ccaa1405c512297a2b6503af788ca4c3e",
+    "client/scenario-route-planner.jsx": "8a4b791f6e0679fd7cf0a82683d225250584e3756c5bb8f4289095564ed94972",
+    "client/qingyang-simulation.css": "4521a680663d3d55df9fdb17c3e1d0492d5cc0272bc07e8fa4e5fc0e12574528",
+    "server/app.mjs": "6941e5c60c64c64457cb03107af70cc05939dd2184b5ffbc1789e367f03d4691",
+    "server/scenarios.mjs": "504a82297b62c7dea7d436ac661f5e6cb2181a2c16a687d9da05807975dfd558",
+    "server/scenario-engine.mjs": "319380221579dc14e686177cd5ca007f8e67b365704c4df6366d909f63344f1c",
+    "shared/qingyang-planning.js": "1182053e681fa1cbde5216d1255e7f21d48477266752c9921ca71541e6e9ae81",
+    "shared/agents.js": "3584a5e6aded34443804ffdc9735c26f21b3da7ff03c9789a832d50595a0a9ff",
+    "tests/qingyang-simulation.test.mjs": "6acc0e8e0e0763740458a0f4f0e74fcffc7ff3fb390a9e6656d04da07aa62c78"
+  },
+  "report": "docs/development/changes/CR-034/implementation-notes.md"
+}

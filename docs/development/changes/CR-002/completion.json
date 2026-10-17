@@ -1,0 +1,27 @@
+{
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:17:22.631737+00:00",
+  "baseline_version": "V0.2-design-1+CR-002",
+  "baseline_file": "docs/design/07-baseline/design-baseline-CR-002.json",
+  "authorization_file": "docs/development/changes/CR-002/authorization.json",
+  "acceptance_report": "docs/development/changes/CR-002/acceptance-report.md",
+  "verification_actor": "开发代理自检；依当前用户明确变更授权及既有推荐方案委托，不伪称用户亲自审查",
+  "ac_pass": 171,
+  "node_tests_pass": 257,
+  "browser_checks_pass": 58,
+  "source_sha256": {
+    "client/transport-workbench.jsx": "4efdd3600290e5b0c79896ab0f683f6ee8f12e9793c5c0fe8c2dec4bb37923e8",
+    "client/app.jsx": "c19a75b0fdfdc3f8856bbff377d54525351cbccc50ba67f1fe32e7b0d60e05f3",
+    "client/transport.jsx": "b2bbc29bdf0b3e327dd2d44ef05b9ba4e40778cdd93716822237b7c2ab241c43",
+    "client/routes.js": "c9918e2513c98a97a29c24a52156426a74335d299a6d2efc175d00a2180ad56f",
+    "client/styles.css": "0e5d4d8e62c73934a78789740f1fd751971470b23ef77f0cb3ca81077918e6e5",
+    "client/ui.jsx": "717220e55c2c63ed21aebe8c981cee99bdfae9c35ef671b2c765ebbca8d676be",
+    "server/order-workbench.mjs": "051e640521118075e09342cfe851b75503873b3cf3ddc3314dba6ae17365211d",
+    "server/completion.mjs": "2416eea861e3df38754d5988c3e47d17b833769c2c78335a62d0a2f73ee76cc8",
+    "server/repository.mjs": "3c94bae4bcb5c74e35ffad2935afd650a7504a4796dc22301af39a1eefe51375",
+    "tests/transport-workbench.test.mjs": "d5cf76d5f0cdfb36a078bc48f5677aafb23f2620b1c1f23f8c516a3df30f1912",
+    "tests/transport-workbench-browser.mjs": "ad6491b595d29a6d15db257752041676d260de2bc06b8c0a23a2b96f2ad8ae6c"
+  },
+  "existing_database_preserved": true,
+  "deployment": false
+}

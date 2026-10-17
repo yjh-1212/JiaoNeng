@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T02:57:07.060923+00:00",
+  "build": "PASS",
+  "local_browser": "PASS",
+  "desktop_widths": [
+    1920,
+    1366,
+    1280
+  ],
+  "narrow_widths": [
+    1024,
+    390
+  ],
+  "unchanged_user_logo": true,
+  "user_acceptance_signature": false,
+  "business_writes": 0,
+  "deployment": false,
+  "source_sha256": {
+    "client/app.jsx": "e40df34f9fb5fdea16234a90828b6a2c0820c9339845ebcbed4ffd571afa3a68",
+    "client/header-navigation.css": "fb7d028b531184b66536ebac83aed76133f4d11bd961ab2161eb82ac18209809",
+    "client/assets/china-data-union-logo.png": "90e3a59b7629a889de95a1d9551c7e747aa07399516fcb266c43cf087545e561",
+    "tests/scenario-workbench-browser.mjs": "550791ae287c337a87fe49cd39f59d510c5e5f3e91f980d2508abcaa84256297"
+  }
+}

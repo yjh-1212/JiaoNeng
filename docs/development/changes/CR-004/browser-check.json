@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "page": "demands",
+      "width": 1440,
+      "conditions_and_actions_one_row": true
+    },
+    {
+      "page": "demands",
+      "width": 1280,
+      "conditions_and_actions_one_row": true
+    },
+    {
+      "page": "demands",
+      "width": 1024,
+      "conditions_and_actions_one_row": true
+    },
+    {
+      "page": "demands",
+      "focus": {
+        "inner_outline": "none",
+        "inner_border": "0px",
+        "outer_border": "rgb(217, 217, 217)",
+        "outer_shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+      }
+    },
+    {
+      "page": "orders",
+      "width": 1440,
+      "conditions_and_actions_one_row": true
+    },
+    {
+      "page": "orders",
+      "width": 1280,
+      "conditions_and_actions_one_row": true
+    },
+    {
+      "page": "orders",
+      "width": 1024,
+      "conditions_and_actions_one_row": true
+    },
+    {
+      "page": "orders",
+      "focus": {
+        "inner_outline": "none",
+        "inner_border": "0px",
+        "outer_border": "rgb(217, 217, 217)",
+        "outer_shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+      }
+    }
+  ],
+  "query_and_reset": "PASS",
+  "source_filter_placement": "PASS",
+  "mobile": "PASS",
+  "errors": [],
+  "business_mutations": false
+}

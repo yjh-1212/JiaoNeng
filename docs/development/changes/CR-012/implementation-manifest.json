@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-16T07:18:15.391956+00:00",
+  "source_sha256": {
+    "client/ui.jsx": "0e4a9aeabf694803e333971583a27a7467efaf437f4fe673319cf617f3e08e8c",
+    "client/transport-workbench.jsx": "2807f504e0169a12870f6d79522a04037262de16915c9bc7b286051fade6349f",
+    "client/transport.jsx": "bcfec7588169e7aab82ac5976581a42b68d3ff6efdd4094456a6e7327e2a53c4",
+    "client/advanced.jsx": "7a5c00b53e79897f383ddac444fee0ae6099e0300222099209634da2a13ae11a"
+  },
+  "deployment": false
+}

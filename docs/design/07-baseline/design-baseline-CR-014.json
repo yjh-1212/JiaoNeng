@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-014",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-013.json",
+  "parent_manifest_sha256": "74ad151e34efa1f6974666bf998006c06954bb042f74f66d4bf3a451bd564050",
+  "approved_by": "当前用户明确变更与实施指令",
+  "evidence": "把这个去掉，我希望就跟辽粮的求解一样，一方面是订单带过来的条件，另一方面是手动输入的",
+  "recorded_at": "2026-10-16T07:29:16.059348+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-014-unified-solve-input.md": "6293b4e0bd37c3072e3e3dc19419e6459721ceb2ad529fdb2f38725fc2d849fd"
+  }
+}

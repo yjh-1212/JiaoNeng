@@ -1,0 +1,54 @@
+.login-page.login-redesign {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: 56% 44%;
+  background: #fafbfc;
+  color: #202733;
+}
+.login-redesign .login-brand {
+  position: relative;
+  display: flex;
+  min-height: 100dvh;
+  padding: clamp(36px, 5vw, 92px);
+  overflow: hidden;
+  isolation: isolate;
+  background: #123b54 url('./assets/overview-energy-hub.webp') 65% center / cover no-repeat;
+}
+.login-redesign .login-brand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, #072d49d9 0%, #11374f80 70%, #11374f26), linear-gradient(0deg, #082b49d9, transparent 60%);
+}
+.login-brand-copy {margin-top: 24px; color: #fff;}
+.login-brand-copy > span {font-size: 14px; letter-spacing: 5px; color: #d2e4ed;}
+.login-redesign .login-brand h1 {
+  margin: 22px 0;
+  font-size: clamp(38px, 3.6vw, 66px);
+  line-height: 1.28;
+  letter-spacing: 2px;
+  font-weight: 650;
+  color: #fff;
+}
+.login-brand-copy p {font-size: 16px; letter-spacing: 2px; color: #dae7ee; margin: 0;}
+.login-brand-footer {position: absolute; bottom: 42px; font-size: 10px; letter-spacing: 3px; color: #c0d1df;}
+.login-redesign .login-card {width: 380px; max-width: calc(100% - 64px); gap: 28px; padding: 48px 0;}
+.login-redesign .field {display: flex; flex-direction: column; gap: 10px;}
+.login-redesign .field label {font-size: 14px; font-weight: 500; color: #4c5766;}
+.login-redesign .ant-input, .login-redesign .ant-input-affix-wrapper {height: 48px; border-radius: 8px; background: #fff; border-color: #d9dfe7; font-size: 15px;}
+.login-redesign .ant-input-affix-wrapper .ant-input {height: auto; box-shadow: none; padding: 0; border: 0; outline: 0; background: transparent;}
+.login-redesign .login-card > button {width: 100%; height: 48px; margin-top: 8px; font-size: 16px; border-radius: 8px;}
+.login-password-toggle {display: grid; place-items: center; border: 0; background: transparent; color: #8893a3; width: 32px; height: 32px; padding: 4px; cursor: pointer; border-radius: 5px;}
+.login-password-toggle:hover {color: #bc233b; background: #fff3f4;}
+.login-password-toggle:focus-visible {outline: 2px solid #bc233b; outline-offset: 2px;}
+.driver-entry-state {min-height:100dvh; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:20px; padding:24px; background:var(--canvas);}
+@media(max-width: 767px) {
+  .login-page.login-redesign {grid-template-columns: 1fr; grid-template-rows: minmax(265px, 38dvh) 1fr;}
+  .login-redesign .login-brand {min-height: 0; padding: 28px; background-position: center 55%;}
+  .login-brand-copy {margin-top:0;}
+  .login-brand-copy > span, .login-brand-footer {display:none;}
+  .login-redesign .login-brand h1 {font-size: 30px; margin:12px 0;}
+  .login-brand-copy p {font-size:12px; letter-spacing:1px;}
+  .login-redesign .login-card {width:380px; max-width:calc(100% - 56px); padding:40px 0; margin:auto;}
+}

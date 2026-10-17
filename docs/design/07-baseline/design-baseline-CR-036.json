@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-036",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-035.json",
+  "parent_manifest_sha256": "d44597f5e35102ebc2dd754f46ff2bc015727e35e8ea20c3f699578444e21766",
+  "approved_by": "当前用户",
+  "evidence": "当前用户：核查现有资料，若不合适则生成10条适合当前业务并能走通流程的数据。",
+  "recorded_at": "2026-10-17T07:06:04.820737+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-036-business-dataset.md": "055f0d5e4bf3c489a92653544b54fea072341d88a87bdc555632961a660be105"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-005.json",
+  "baseline_sha256": "ef2434f51977ee4128a3eaa27edb7d23dde2525ab2565e3aee5d32fd042a7027",
+  "evidence": "帮我增加一个10条/页的",
+  "scope": "本地列表分页增加10条选项"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "菜单改名，补能列表显示来源订单/任务和运输时限，默认10条",
+      "status": "PASS"
+    },
+    {
+      "name": "关联关键词查询、重置及计划/实际/历史抽屉",
+      "status": "PASS"
+    },
+    {
+      "name": "创建成功但响应中断时，核查原幂等请求，不重复建计划",
+      "status": "PASS"
+    },
+    {
+      "name": "右侧新增、人工确认、调整重新待确认、取消保留记录",
+      "status": "PASS"
+    },
+    {
+      "name": "优化限定当前查询计划，交能AI右侧入口可开关且不自动调用模型",
+      "status": "PASS"
+    },
+    {
+      "name": "司机只见本人安排，可反馈到站，未直接核验费用或完成运输",
+      "status": "PASS"
+    },
+    {
+      "name": "工位版本冲突保留输入，显式读取最新任务与工位版本后再提交",
+      "status": "PASS"
+    },
+    {
+      "name": "司机到站进入场站工作区，安排工位生成实际占用",
+      "status": "PASS"
+    },
+    {
+      "name": "结束生成实际作业、释放工位，人工核验后不误完成运输任务",
+      "status": "PASS"
+    },
+    {
+      "name": "司机刷新查看实际结果并直接返回关联任务",
+      "status": "PASS"
+    },
+    {
+      "name": "用能按场站日期计量对象查询、缺测断点、无数据不补零，能源策略真实生成",
+      "status": "PASS"
+    },
+    {
+      "name": "场站、工位和能源资源统一归档，原登记能力保留",
+      "status": "PASS"
+    },
+    {
+      "name": "390–1680px三页布局无页面横向溢出",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "database": "isolated in-memory SQLite",
+  "external_model_calls": 0,
+  "local_business_mutations": false
+}

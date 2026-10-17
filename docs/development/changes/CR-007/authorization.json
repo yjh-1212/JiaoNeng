@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-007.json",
+  "baseline_sha256": "3cfa9532b9c5933bdb89d16d7acb6a85b969b7dc48ee1b1638a652f73e4e9df5",
+  "evidence": "按实际的路线来，不要一条直线直接过去；同时去掉业务示意",
+  "scope": "高德真实道路几何、地图统一真实底图、原有轨迹与图层保留"
+}

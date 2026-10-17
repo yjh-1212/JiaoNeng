@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "route": "charging",
+      "status": "PASS",
+      "total": 4,
+      "date": null
+    },
+    {
+      "route": "stations",
+      "status": "PASS",
+      "total": 2,
+      "date": null
+    },
+    {
+      "route": "energy",
+      "status": "PASS",
+      "total": null,
+      "date": "2026-10-13"
+    }
+  ],
+  "errors": [],
+  "business_mutations": false,
+  "external_model_calls": 0
+}

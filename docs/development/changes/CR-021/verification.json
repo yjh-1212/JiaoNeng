@@ -1,0 +1,17 @@
+{
+  "change_id": "CR-021",
+  "status": "VERIFIED",
+  "reviewed_by": "开发代理按用户明确授权自检",
+  "user_acceptance_signature": false,
+  "user_authorization": "按这个来进行开发，后面的不用询问我是否同意授权，全部授权，直接完成",
+  "node_tests": {"pass": 315, "fail": 0},
+  "planning_browser_checks": {"pass": 14, "page_errors": 0},
+  "related_scenario_map_api_tests": {"pass": 23},
+  "baseline_chain": {"manifests": 21, "files": 321, "status": "PASS"},
+  "local_map": {"sdk": true, "basemap_tiles": true, "road_points": 330, "width": 1604, "height": 568},
+  "original_business_preserved": true,
+  "concurrent_driver_actions_preserved": true,
+  "schema_destructive_changes": false,
+  "deployment": false,
+  "stages": {"E0": "SELF_VERIFIED", "E1": "SELF_VERIFIED", "E2": "SELF_VERIFIED", "E3": "SELF_VERIFIED", "E4": "SELF_VERIFIED", "E5": "SELF_VERIFIED"}
+}

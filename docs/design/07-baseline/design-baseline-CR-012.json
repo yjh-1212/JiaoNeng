@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-012",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-011.json",
+  "parent_manifest_sha256": "770e785f62a2de850ddbb2cda2b1881e74a1a1b9a7db396cbdb48ffe8792a853",
+  "approved_by": "当前用户明确默认分页修改指令",
+  "evidence": "这里默认都帮我改成10条/页",
+  "recorded_at": "2026-10-16T07:17:08.070102+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-012-default-pagination-ten.md": "1748972079eb751ca65b208bfe4a8f52df1f6b4170cddad6b29640e6305336fa"
+  }
+}

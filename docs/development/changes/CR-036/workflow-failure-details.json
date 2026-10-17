@@ -1,0 +1,148 @@
+{
+  "case": 2,
+  "error": {
+    "code": "BUSINESS_RULE",
+    "message": "工位状态变化，全批未派发"
+  },
+  "devices": [
+    {
+      "id": "QY-GUN-00fc1646-fb37-4a5c-a711-ee4fc3495561",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-03d12182-b52c-4880-b254-9cfbdfc8ccba",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-0a173cc8-be04-4a7e-b8ae-84a6f1bbc078",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-3caa952c-96e5-4e56-9e21-3d0b4d3da59b",
+      "version": 5,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-d668253f-e570-42d7-8e61-576dcbcd3fb0",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-5d6e3636-13d9-4566-95f8-cf2367a1f1ad",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-52eeeb03-cbf3-467c-8c2b-021970062c87",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-192c9f2e-7624-4a8b-8c77-1b83e5d326ea",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-ecfe6678-22a7-4473-bbd7-cc18c131a718",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-d7889349-063b-43a9-aaa8-2f380109ed61",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-5c6e1240-c2bf-4fa5-8452-685bb7796ec7",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-2c4fb6bf-dae8-491b-9541-cb9ae237f8f7",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-04420bf7-81da-43d8-bd04-12ab909152f5",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-09ac7d1a-9123-4e35-a730-c0a5588f6a27",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-521f52ae-545a-4a9f-b501-dbbca8769ffc",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-adf8e953-73be-40da-b7d1-cc864cc51cf1",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-481d4d15-4342-4261-980b-fae204b94113",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    },
+    {
+      "id": "QY-GUN-e5e61c41-03a2-4ddf-8863-4048123304aa",
+      "version": 1,
+      "status": "空闲",
+      "connection": "在线"
+    }
+  ],
+  "simulations": [
+    {
+      "id": "SIM-ff29f78c-3d29-448f-ba46-d437dc57020e",
+      "refs": [
+        {
+          "id": "QY-GUN-0a173cc8-be04-4a7e-b8ae-84a6f1bbc078",
+          "version": 1
+        },
+        {
+          "id": "QY-GUN-03d12182-b52c-4880-b254-9cfbdfc8ccba",
+          "version": 1
+        },
+        {
+          "id": "QY-GUN-00fc1646-fb37-4a5c-a711-ee4fc3495561",
+          "version": 1
+        },
+        {
+          "id": "QY-GUN-5d6e3636-13d9-4566-95f8-cf2367a1f1ad",
+          "version": 1
+        },
+        {
+          "id": "QY-GUN-d668253f-e570-42d7-8e61-576dcbcd3fb0",
+          "version": 1
+        },
+        {
+          "id": "QY-GUN-3caa952c-96e5-4e56-9e21-3d0b4d3da59b",
+          "version": 3
+        }
+      ]
+    }
+  ]
+}

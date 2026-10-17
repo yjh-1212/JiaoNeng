@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-031",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-030.json",
+  "parent_manifest_sha256": "4d17364a2ced194e68288b3aacbc5696faa18c16803bf6e3a661f8889e01de09",
+  "approved_by": "当前用户",
+  "evidence": "当前用户：登录页不要加中国数联logo。直接实施，继承后续开发授权。",
+  "recorded_at": "2026-10-17T03:30:18.388037+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-031-login-without-logo.md": "3b2352d34f8834c1cb6266ee2453afcbfd5df713a5cdaaf4bb3b6dbb3eefe639"
+  }
+}

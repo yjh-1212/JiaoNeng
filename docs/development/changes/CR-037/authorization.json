@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-037.json",
+  "baseline_sha256": "d702900a2780c5e47e520e2d478acfef56404bc41bc25f04aad8da80b5c6cd62",
+  "evidence": "当前用户：旧数据没用就帮我删了把；备份后清理不适用业务数据，保留账号权限与配置。"
+}

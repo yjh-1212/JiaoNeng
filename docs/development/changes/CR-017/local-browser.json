@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:3100/#tasks",
+  "total": 18,
+  "visible_rows": 10,
+  "page_errors": [],
+  "business_mutations": false,
+  "external_ai_calls": 0
+}

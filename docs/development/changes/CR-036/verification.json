@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "cases": 10,
+  "foreign_keys": 0,
+  "integrity": "ok",
+  "retired": {
+    "alerts": 5,
+    "records": 122,
+    "charging": 4,
+    "costs": 12,
+    "demands": 8,
+    "devices": 9,
+    "drivers": 12,
+    "orders": 25,
+    "sessions": 12,
+    "simulations": 2,
+    "stations": 3,
+    "tasks": 18,
+    "telemetry": 432,
+    "trips": 28,
+    "vehicles": 18
+  },
+  "backup": "D:\\项目资料\\Code\\JiaoNeng_v0.2\\docs\\development\\changes\\CR-036\\before-business-data.sqlite",
+  "delta": {
+    "migrations": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 0
+    },
+    "organizations": {
+      "added": 0,
+      "updated": 2,
+      "deleted": 0
+    },
+    "sources": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 0
+    },
+    "drivers": {
+      "added": 15,
+      "updated": 0,
+      "deleted": 12
+    },
+    "users": {
+      "added": 11,
+      "updated": 4,
+      "deleted": 0
+    },
+    "user_scopes": {
+      "added": 11,
+      "updated": 0,
+      "deleted": 0
+    },
+    "auth_sessions": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 0
+    },
+    "vehicles": {
+      "added": 15,
+      "updated": 0,
+      "deleted": 18
+    },
+    "stations": {
+      "added": 6,
+      "updated": 0,
+      "deleted": 3
+    },
+    "devices": {
+      "added": 18,
+      "updated": 0,
+      "deleted": 9
+    },
+    "demands": {
+      "added": 10,
+      "updated": 0,
+      "deleted": 8
+    },
+    "orders": {
+      "added": 10,
+      "updated": 0,
+      "deleted": 25
+    },
+    "simulations": {
+      "added": 6,
+      "updated": 0,
+      "deleted": 2
+    },
+    "tasks": {
+      "added": 6,
+      "updated": 0,
+      "deleted": 18
+    },
+    "trips": {
+      "added": 5,
+      "updated": 0,
+      "deleted": 28
+    },
+    "events": {
+      "added": 14,
+      "updated": 0,
+      "deleted": 0
+    },
+    "charging": {
+      "added": 3,
+      "updated": 0,
+      "deleted": 4
+    },
+    "sessions": {
+      "added": 1,
+      "updated": 0,
+      "deleted": 12
+    },
+    "costs": {
+      "added": 3,
+      "updated": 0,
+      "deleted": 12
+    },
+    "alerts": {
+      "added": 1,
+      "updated": 0,
+      "deleted": 5
+    },
+    "records": {
+      "added": 8,
+      "updated": 0,
+      "deleted": 122
+    },
+    "audit": {
+      "added": 187,
+      "updated": 0,
+      "deleted": 0
+    },
+    "command_results": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 38
+    },
+    "telemetry": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 432
+    },
+    "agent_conversations": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 3
+    },
+    "agent_turns": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 3
+    },
+    "data_visibility": {
+      "added": 0,
+      "updated": 0,
+      "deleted": 713
+    },
+    "operational_records": {
+      "added": 107,
+      "updated": 0,
+      "deleted": 0
+    },
+    "data_view_state": {
+      "added": 1,
+      "updated": 0,
+      "deleted": 0
+    }
+  }
+}

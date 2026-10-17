@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "tables": {
+    "organizations": {
+      "rows": 2,
+      "sha256": "15e7f8d949d65d93b2d54b8c33c1776e97c79642ebf6da46f69824c5c61fa6a2",
+      "status": "UNCHANGED"
+    },
+    "drivers": {
+      "rows": 12,
+      "sha256": "e1a66a98082b5170c6e06523b687a436b9fb1cf95666ced10c668a0b9e7d513f",
+      "status": "UNCHANGED"
+    },
+    "vehicles": {
+      "rows": 18,
+      "sha256": "8d70186c1dff6fe968b627fd016002dc01ceec76e34dda03b62022361282cb94",
+      "status": "UNCHANGED"
+    },
+    "stations": {
+      "rows": 3,
+      "sha256": "373d94842642fe9d5286a6f6fe0f0d1650a3ce1c588e022bc1381dbc34a91541",
+      "status": "UNCHANGED"
+    },
+    "devices": {
+      "rows": 9,
+      "sha256": "8349648012c3c89dff6c0e3c98a352175ca0f22063df0ca77c2bf95bffbed6f6",
+      "status": "UNCHANGED"
+    },
+    "demands": {
+      "rows": 8,
+      "sha256": "04f7e02429980b4f397e2d9d010230b702486df0c86deb0622f0049ebe681cfe",
+      "status": "UNCHANGED"
+    },
+    "orders": {
+      "rows": 25,
+      "sha256": "5c7b0df3c5395c9f4cfcfcbce1d19b308b2d1605096cee2e085852449c6c54f5",
+      "status": "UNCHANGED"
+    },
+    "tasks": {
+      "rows": 18,
+      "sha256": "9810d869838540523bb79693b04c7d96c0cb937a3edd2a998758b182d3356251",
+      "status": "UNCHANGED"
+    },
+    "trips": {
+      "rows": 27,
+      "sha256": "402de796f9c295fc244149ad5ac9fddf43f37c3985fc4da353f1dc85031647bd",
+      "status": "UNCHANGED"
+    },
+    "simulations": {
+      "rows": 2,
+      "sha256": "09d988caa27a8be8e82101f179c3eaf4a3c3d5523df5bbb9059f42941bf1bf5f",
+      "status": "UNCHANGED"
+    },
+    "charging": {
+      "rows": 4,
+      "sha256": "779f41066abe2dd8fbf178e9e844bce0e82e32cf82d3d40c7123f1ef6a704a75",
+      "status": "UNCHANGED"
+    },
+    "sessions": {
+      "rows": 12,
+      "sha256": "1739d46a7e507843ec2516c7e6d81e421b4b332a59f2082d68bec310094a7932",
+      "status": "UNCHANGED"
+    },
+    "costs": {
+      "rows": 12,
+      "sha256": "bff48626ab3ff7a0ab831ee1c9183e339a41ac929e5beae700c46839b2474b04",
+      "status": "UNCHANGED"
+    },
+    "alerts": {
+      "rows": 5,
+      "sha256": "c129e0a0bc812c7e3ee0bbece5ada421d8d521e5a03505cd035b5c74d7f60893",
+      "status": "UNCHANGED"
+    },
+    "records": {
+      "rows": 140,
+      "sha256": "237a7d016f1f67a8e24c45e8e8fe359f570dcfebd899e4e2d8d718b0deae3bd5",
+      "status": "UNCHANGED"
+    },
+    "telemetry": {
+      "rows": 432,
+      "sha256": "7c7d33b4938770c02d42a927e9be339773feb65c12742cc3e36558d99d1e3500",
+      "status": "UNCHANGED"
+    },
+    "events": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "status": "UNCHANGED"
+    }
+  }
+}

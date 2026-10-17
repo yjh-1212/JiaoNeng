@@ -1,0 +1,1269 @@
+[
+  {
+    "query": "甘肃省庆阳市正宁县核桃峪煤矿",
+    "pois": [
+      {
+        "id": "B0KDUZYEH6",
+        "parent": [],
+        "childtype": [],
+        "name": "核桃峪煤矿副立井",
+        "type": "公司企业;公司;公司",
+        "typecode": "170200",
+        "biz_type": [],
+        "address": "通达北路12号",
+        "location": "108.011215,35.295782",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KDUZYEH6/comment/content_media_external_file_1000002317_ss__1751245308806_70501727.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b3807424122fdcbcf5144bfe5309f58d"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/8a4c70221ca35992a1ebe4c0dfa082c0"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      },
+      {
+        "id": "B0MDLHJRXV",
+        "parent": [],
+        "childtype": [],
+        "name": "核桃峪煤矿疏干水处理厂",
+        "type": "公司企业;工厂;工厂",
+        "typecode": "170300",
+        "biz_type": [],
+        "address": "正长路",
+        "location": "107.949835,35.269556",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": "24小时营业",
+          "opentime2": "周一至周日 00:00-24:00"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/648e75592f66a7d60000008837352181"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/401fa1ed95e0dba9d74e92b568362117"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "工厂"
+      },
+      {
+        "id": "B0MAUZRDYU",
+        "parent": [],
+        "childtype": [],
+        "name": "周家镇核桃峪煤矿采空区搬迁安置点华园小区",
+        "type": "商务住宅;住宅区;住宅小区",
+        "typecode": "120302",
+        "biz_type": [],
+        "address": "通达北路12号",
+        "location": "108.040180,35.298945",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e5a232d800af07b369ca3c6dd48ed97e"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/020d597ba3f0627736238ef894d5f363"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "住宅区"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:34.815Z"
+  },
+  {
+    "query": "甘肃省庆阳市正宁县新庄煤矿",
+    "pois": [
+      {
+        "id": "B0FFJPYYHN",
+        "parent": [],
+        "childtype": [],
+        "name": "庆阳新庄煤业有限公司",
+        "type": "公司企业;公司企业;公司企业",
+        "typecode": "170000",
+        "biz_type": [],
+        "address": "新庄镇北塬畔",
+        "location": "107.898491,35.287117",
+        "tel": "0934-6468007",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": "24小时营业",
+          "opentime2": "周一至周日 00:00-24:00"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/50110816397b9afdc041db1291942b53"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFJPYYHN/comment/content_media_external_images_media_100000213_1743908294677_26135453.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/9aeadb2be5f94737599497932c1ebb39"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      },
+      {
+        "id": "B0GU5XX37O",
+        "parent": [],
+        "childtype": [],
+        "name": "新庄煤场",
+        "type": "公司企业;公司企业;公司企业",
+        "typecode": "170000",
+        "biz_type": [],
+        "address": "南街与农机路交叉口东380米",
+        "location": "107.826000,35.339065",
+        "tel": "0934-6468007",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": "3.5",
+          "cost": [],
+          "open_time": "08:00-18:00",
+          "opentime2": "周一至周日 08:00-18:00"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/5b7efec2e15187f3e44e7309bf4d85ac"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04ef1057f5101571ef3305d2a22b4af6"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      },
+      {
+        "id": "B0MD3OH0O7",
+        "parent": [],
+        "childtype": [],
+        "name": "乔坡煤矿",
+        "type": "公司企业;公司;公司",
+        "typecode": "170200",
+        "biz_type": [],
+        "address": "核桃峪煤矿副立井西南侧130米",
+        "location": "108.010125,35.294975",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:35.725Z"
+  },
+  {
+    "query": "甘肃省庆阳市正宁县华能正宁电厂",
+    "pois": [
+      {
+        "id": "B0MRSX7HQL",
+        "parent": [],
+        "childtype": [],
+        "name": "正宁电厂基建指挥部",
+        "type": "公司企业;公司;公司",
+        "typecode": "170200",
+        "biz_type": [],
+        "address": "正长路与经四路交叉口西南440米",
+        "location": "107.982475,35.265975",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e5c8a38f646466df0000005011924925?type=pic"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      },
+      {
+        "id": "B0KRHDNP3V",
+        "parent": [],
+        "childtype": [],
+        "name": "甘肃正德工程建设集团有限公司华能正宁电厂项目部",
+        "type": "公司企业;公司;公司",
+        "typecode": "170200",
+        "biz_type": [],
+        "address": "正长路东南40米",
+        "location": "107.981134,35.259208",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": "24小时营业",
+          "opentime2": "周一至周日 00:00-24:00"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d5cbb200b86e9cf943e6ffbe68010772"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      },
+      {
+        "id": "B0J19C55O4",
+        "parent": [],
+        "childtype": [],
+        "name": "华能正宁电厂中国铁建大桥工程局项目部",
+        "type": "公司企业;公司;公司",
+        "typecode": "170200",
+        "biz_type": [],
+        "address": "正长路",
+        "location": "107.990162,35.266833",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "正宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "公司"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:36.588Z"
+  },
+  {
+    "query": "甘肃省庆阳市宁县长庆桥镇",
+    "pois": [
+      {
+        "id": "B0FFIAS7ZM",
+        "parent": [],
+        "childtype": [],
+        "name": "长庆桥镇人民政府",
+        "type": "政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+        "typecode": "130000",
+        "biz_type": [],
+        "address": "长庆桥镇长兴路6号",
+        "location": "107.749028,35.324324",
+        "tel": "0934-6651125",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      },
+      {
+        "id": "B0FFH2JTGZ",
+        "parent": [],
+        "childtype": [],
+        "name": "宁县长庆桥镇卫生院",
+        "type": "医疗保健服务;综合医院;卫生院",
+        "typecode": "090102",
+        "biz_type": [],
+        "address": "长庆桥镇",
+        "location": "107.744151,35.329577",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/da8179b583fe225e716af42eea2bf333"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "卫生院"
+      },
+      {
+        "id": "B0FFGXDBRY",
+        "parent": [],
+        "childtype": [],
+        "name": "中共宁县长庆桥镇西塬村党支部",
+        "type": "政府机构及社会团体;政府机关;乡镇以下级政府及事业单位",
+        "typecode": "130106",
+        "biz_type": [],
+        "address": "长庆桥镇",
+        "location": "107.715223,35.368713",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "宁县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "党委会"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:37.447Z"
+  },
+  {
+    "query": "甘肃省庆阳市西峰区彭原镇",
+    "pois": [
+      {
+        "id": "B0FFH202G9",
+        "parent": [],
+        "childtype": [],
+        "name": "彭原镇人民政府",
+        "type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+        "typecode": "130105",
+        "biz_type": [],
+        "address": "彭原镇",
+        "location": "107.615140,35.809149",
+        "tel": "0934-8471003",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "西峰区",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e3a21c50815503df647300a0e6fc0781"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      },
+      {
+        "id": "B03A616DP2",
+        "parent": [],
+        "childtype": [],
+        "name": "庆阳市西峰区彭原卫生院",
+        "type": "医疗保健服务;综合医院;卫生院",
+        "typecode": "090102",
+        "biz_type": [],
+        "address": "彭原街道1号",
+        "location": "107.617502,35.809368",
+        "tel": "0934-8471028",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "西峰区",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": "09:00-12:00 13:00-17:00",
+          "opentime2": "周一至周日 09:00-12:00,13:00-17:00"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/78a3b8b98f91b57b9bd04fd37dd84191"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "卫生院"
+      },
+      {
+        "id": "B03A616DIV",
+        "parent": [],
+        "childtype": [],
+        "name": "西峰区彭原镇彭原小学",
+        "type": "科教文化服务;学校;小学",
+        "typecode": "141203",
+        "biz_type": [],
+        "address": "彭原镇彭原村",
+        "location": "107.630919,35.782424",
+        "tel": "0934-8213101",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "西峰区",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/27b0b68ea671b0545e5b9be44dd17ad0"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "小学"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:38.342Z"
+  },
+  {
+    "query": "甘肃省庆阳市环县曲子镇",
+    "pois": [
+      {
+        "id": "B0FFG2XVDZ",
+        "parent": [],
+        "childtype": [],
+        "name": "曲子镇人民政府",
+        "type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+        "typecode": "130105",
+        "biz_type": [],
+        "address": "曲子镇北街6号",
+        "location": "107.515515,36.297707",
+        "tel": "0934-4451214",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "环县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/dab6936f89f07fed9ed727b6d7b202de"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      },
+      {
+        "id": "B03A616C39",
+        "parent": [],
+        "childtype": [],
+        "name": "环县曲子镇中心卫生院",
+        "type": "医疗保健服务;综合医院;卫生院",
+        "typecode": "090102",
+        "biz_type": [],
+        "address": "曲子镇",
+        "location": "107.521918,36.290426",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "环县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8f4d9dff2cfb41ca909efa13d9639110"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/1ba0e6ea89f169db0a670689de062140"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "卫生院"
+      },
+      {
+        "id": "B03A616OGF",
+        "parent": [],
+        "childtype": [],
+        "name": "环县曲子镇委",
+        "type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+        "typecode": "130105",
+        "biz_type": [],
+        "address": "曲子镇政府",
+        "location": "107.515513,36.297703",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "环县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "政府机关"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:39.225Z"
+  },
+  {
+    "query": "甘肃省庆阳市环县甜水镇",
+    "pois": [
+      {
+        "id": "B03A6165KS",
+        "parent": [],
+        "childtype": [],
+        "name": "甜水镇人民政府",
+        "type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+        "typecode": "130105",
+        "biz_type": [],
+        "address": "甜水镇甜水街",
+        "location": "106.788918,37.148783",
+        "tel": "0934-4482146",
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "环县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d8acfc38ef6b3037ca043e6c47aab719"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      },
+      {
+        "id": "B03A616ES6",
+        "parent": [],
+        "childtype": [],
+        "name": "环县甜水镇中心小学",
+        "type": "科教文化服务;学校;小学",
+        "typecode": "141203",
+        "biz_type": [],
+        "address": "甜水镇甜水中街",
+        "location": "106.789999,37.147842",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "环县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ccdc85f33efe78ecfdee25d8cf595d52"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "小学"
+      },
+      {
+        "id": "B0FFIYTGQ2",
+        "parent": [],
+        "childtype": [],
+        "name": "环县甜水初级中学",
+        "type": "科教文化服务;学校;中学",
+        "typecode": "141202",
+        "biz_type": [],
+        "address": "甜水镇",
+        "location": "106.784916,37.150763",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "庆阳市",
+        "adname": "环县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "中学"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:40.113Z"
+  },
+  {
+    "query": "甘肃省平凉市泾川县",
+    "pois": [
+      {
+        "id": "B03A50HXKS",
+        "parent": [],
+        "childtype": [],
+        "name": "泾川县",
+        "type": "地名地址信息;普通地名;区县级地名",
+        "typecode": "190105",
+        "biz_type": [],
+        "address": "泾川县",
+        "location": "107.367608,35.332992",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "平凉市",
+        "adname": "泾川县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B03A50HXKS/comment/content_media_external_images_media_100000180_1726672297498_02230901.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B03A50HXKS/comment/content_media_external_images_media_52625_1731857234133_80038711.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B03A50HXKS/comment/content_media_external_images_media_4996_1744266621223_15324915.jpg"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "区县"
+      },
+      {
+        "id": "B03A500CAI",
+        "parent": [],
+        "childtype": [],
+        "name": "泾川县人民政府",
+        "type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+        "typecode": "130104",
+        "biz_type": [],
+        "address": "安定街19号",
+        "location": "107.367608,35.332992",
+        "tel": [],
+        "pname": "甘肃省",
+        "cityname": "平凉市",
+        "adname": "泾川县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": "08:30-18:00",
+          "opentime2": "周一至周五 08:30-18:00"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/56003aba4b9d023e940b4261954f2130"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/1e9f5321b162f7c8d2d8f2c55c9baf1f"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/03cbc25d56ae4e8a6647d8f3fbbdf7b1"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      },
+      {
+        "id": "B03A51462M",
+        "parent": [],
+        "childtype": [],
+        "name": "中共泾川县委员会",
+        "type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+        "typecode": "130104",
+        "biz_type": [],
+        "address": "安定街21号",
+        "location": "107.368383,35.333095",
+        "tel": "0933-3321011",
+        "pname": "甘肃省",
+        "cityname": "平凉市",
+        "adname": "泾川县",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e28212aa6c189d54973f75bbf1e76f70"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "党委会"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:41.024Z"
+  },
+  {
+    "query": "陕西省咸阳市彬州市",
+    "pois": [
+      {
+        "id": "B038E0O9G6",
+        "parent": [],
+        "childtype": [],
+        "name": "彬州市",
+        "type": "地名地址信息;普通地名;区县级地名",
+        "typecode": "190105",
+        "biz_type": [],
+        "address": "彬州市",
+        "location": "108.081892,35.035702",
+        "tel": [],
+        "pname": "陕西省",
+        "cityname": "咸阳市",
+        "adname": "彬州市",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B038E0O9G6/comment/content_media_external_images_media_8039_1731216483106_12850009.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B038E0O9G6/comment/content_media_external_images_media_8040_1731216483106_47733773.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B038E0O9G6/comment/content_media_external_images_media_20762_1726606719605_39769652.jpg"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "区县"
+      },
+      {
+        "id": "B038E0O4FF",
+        "parent": [],
+        "childtype": [],
+        "name": "彬州汽车站",
+        "type": "交通设施服务;长途汽车站;长途汽车站",
+        "typecode": "150400",
+        "biz_type": [],
+        "address": "城关镇",
+        "location": "108.084482,35.040603",
+        "tel": "029-34843168",
+        "pname": "陕西省",
+        "cityname": "咸阳市",
+        "adname": "彬州市",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "0",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": "3.9",
+          "cost": [],
+          "open_time": "08:30-17:30",
+          "opentime2": "周一至周日 08:30-17:30"
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B038E0O4FF/comment/f6227d258d8fd7a2dd46f87db44fc809_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/cb70cd5d14b1552f968789d90ce4d3f7"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d3e1610b7028ed99d551579a686cd1f0"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "长途汽车站"
+      },
+      {
+        "id": "B038E0O3RT",
+        "parent": [],
+        "childtype": [],
+        "name": "彬州市人民政府",
+        "type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+        "typecode": "130104",
+        "biz_type": [],
+        "address": "西大街51号",
+        "location": "108.081892,35.035702",
+        "tel": "029-34922165",
+        "pname": "陕西省",
+        "cityname": "咸阳市",
+        "adname": "彬州市",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/21187633bdabc2ed3bc6fc881b208059"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:41.923Z"
+  },
+  {
+    "query": "宁夏回族自治区固原市",
+    "pois": [
+      {
+        "id": "B03BA0MI8B",
+        "parent": [],
+        "childtype": [],
+        "name": "固原市",
+        "type": "地名地址信息;普通地名;地市级地名",
+        "typecode": "190104",
+        "biz_type": [],
+        "address": "原州区",
+        "location": "106.24267,36.01628",
+        "tel": [],
+        "pname": "宁夏回族自治区",
+        "cityname": "固原市",
+        "adname": "原州区",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": "须弥山石窟",
+            "url": "http://store.is.autonavi.com/showpic/01decf76a34fa8897d893fa56378c76b"
+          },
+          {
+            "title": "六盘山红军长征景区",
+            "url": "http://store.is.autonavi.com/showpic/02e64b7a041ec4595fddbc9dae3c8c5e"
+          },
+          {
+            "title": "宁夏固原博物馆",
+            "url": "http://store.is.autonavi.com/showpic/2f52c8b8ce1182f48ec7575df246a918"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "地级市"
+      },
+      {
+        "id": "B03BA001I8",
+        "parent": [],
+        "childtype": [],
+        "name": "固原市人民政府",
+        "type": "政府机构及社会团体;政府机关;地市级政府及事业单位",
+        "typecode": "130103",
+        "biz_type": [],
+        "address": "小川子行政中心438室",
+        "location": "106.242670,36.016280",
+        "tel": "0954-2088876",
+        "pname": "宁夏回族自治区",
+        "cityname": "固原市",
+        "adname": "原州区",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": []
+        },
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6e6a5d7c7094b48c631f5e28ed30af41"
+          }
+        ],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "人民政府"
+      },
+      {
+        "id": "B0FFK2XKLY",
+        "parent": "B0FFGA9BBT",
+        "childtype": "202",
+        "name": "固原市民政局",
+        "type": "政府机构及社会团体;政府机关;政府机关相关",
+        "typecode": "130100",
+        "biz_type": [],
+        "address": "民生大厦13层",
+        "location": "106.245644,36.016900",
+        "tel": [],
+        "pname": "宁夏回族自治区",
+        "cityname": "固原市",
+        "adname": "原州区",
+        "importance": [],
+        "shopid": [],
+        "shopinfo": "2",
+        "poiweight": [],
+        "distance": [],
+        "biz_ext": {
+          "rating": [],
+          "cost": [],
+          "open_time": [],
+          "opentime2": "周一至周五 09:00-17:00"
+        },
+        "photos": [],
+        "building": [],
+        "atag": [],
+        "featured_reviews": [],
+        "favorite_num": [],
+        "space_num": [],
+        "featured_reviews_remake": [],
+        "keytag": "民政服务"
+      }
+    ],
+    "fetched_at": "2026-10-17T05:55:42.856Z"
+  }
+]

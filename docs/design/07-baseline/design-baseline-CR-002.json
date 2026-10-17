@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "design_version": "V0.2-design-1+CR-002",
+  "parent_version": "V0.2-design-1",
+  "parent_manifest": "docs/design/07-baseline/design-baseline.json",
+  "parent_manifest_sha256": "555abe77ad1d6d74abde2960e20ef85d714e555687e64541c4176622b0a1aaf6",
+  "status": "FROZEN",
+  "scope": "运输需求与运输订单增量设计；其他内容沿用父基线",
+  "approved_by": "当前用户（明确变更和实施指令）",
+  "evidence": "运输需求我希望拆出去和运输订单平行；好帮我改动一下运输需求和运输订单，页面参考辽粮的多式联运，上面是搜索查询，下面是列表，新增编辑等在右侧。常规细节按既有推荐方案委托确定。",
+  "recorded_at": "2026-10-16T01:50:52.148463+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-002-transport-workspaces.md": "b2f35176b24172f2c42b3c88b04a798f36559bd6c411072d34c26d6837f0549a"
+  }
+}

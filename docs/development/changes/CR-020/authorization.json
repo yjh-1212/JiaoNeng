@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-020.json",
+  "baseline_sha256": "428ac09cec17c46f5b69330f05a90c661faa0a90c2ec7b0d33a73a6e5bc8c6a8",
+  "evidence": "运行监控的地图两侧的还是要悬浮到地图上，地图铺满页面",
+  "scope": "继承已授权CR-019，修订本地地图及悬浮面板布局，无部署"
+}

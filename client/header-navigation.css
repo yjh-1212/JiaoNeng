@@ -1,0 +1,65 @@
+/* Equal side tracks keep the menu group centered on the viewport. */
+.app-shell { --app-header-height:72px; }
+.global-header {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr) 190px;
+  height: 72px;
+  gap: 20px;
+  padding-inline: 28px;
+  box-shadow: 0 1px 8px #21334c04;
+}
+.global-header .brand-home { width: 190px; height: 56px; gap: 0; justify-self: start; border-radius: 7px; }
+.global-header .corporate-logo { display: block; width: 208px; height: 52px; max-width: none; margin-left: -20px; object-fit: contain; }
+.global-header .horizontal-nav { width: 100%; min-width: 0; }
+.horizontal-nav > .ant-menu { display: flex; align-items: stretch; justify-content: center; height: 71px; line-height: 71px; }
+.horizontal-nav > .ant-menu > .ant-menu-item,
+.horizontal-nav > .ant-menu > .ant-menu-submenu { padding-inline: 12px !important; margin-inline: 2px; height: 71px; line-height: 71px; }
+.horizontal-nav .ant-menu-submenu-title { display: flex; align-items: center; }
+.horizontal-nav .ant-menu-title-content { font-size: 14px; letter-spacing: .3px; }
+.horizontal-nav .nav-group-label { display: inline-flex; align-items: center; gap: 7px; }
+.horizontal-nav .nav-dropdown-indicator { width: 12px; height: 12px; opacity: .62; flex-shrink: 0; transition: transform .16s, opacity .16s; }
+.horizontal-nav .ant-menu-submenu-open .nav-dropdown-indicator { transform: rotate(180deg); opacity: 1; }
+.horizontal-nav > .ant-menu .ant-menu-submenu-arrow { display: none; }
+.horizontal-nav .ant-menu-item-selected,
+.horizontal-nav .ant-menu-submenu-selected { font-weight: 600; }
+.horizontal-nav > .ant-menu > .ant-menu-item::after,
+.horizontal-nav > .ant-menu > .ant-menu-submenu::after { inset-inline: 15px; border-bottom-width: 3px !important; border-radius: 2px; }
+.global-header .header-actions { justify-self: end; gap: 12px; }
+.global-header .account-btn { display:flex; align-items:center; gap:8px; width:auto; max-width:100%; height:36px; padding:6px 8px; border-radius:8px; }
+.global-header .account-btn>svg { flex-shrink:0; }
+.global-header .account-name { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:12px; }
+.global-header .account-btn:hover { background: var(--brand-soft); }
+.brand-home:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+.header-nav-popup .ant-menu { padding: 7px; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 10px 30px #20314b12; min-width: 156px; }
+.header-nav-popup .ant-menu-item { margin: 2px 0; height: 38px; line-height: 38px; border-radius: 6px; font-size: 13px; }
+body[data-theme="dark"] .global-header .brand-home { background: #fff; }
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .global-header { grid-template-columns: 126px minmax(0, 1fr) 126px; gap:12px; padding-inline:22px; }
+  .horizontal-nav > .ant-menu > .ant-menu-item,
+  .horizontal-nav > .ant-menu > .ant-menu-submenu { padding-inline: 7px !important; margin-inline: 0; }
+  .horizontal-nav .ant-menu-title-content { font-size: 13px; }
+  .horizontal-nav .nav-group-label { gap: 6px; }
+}
+@media (max-width: 1199px) {
+  .global-header { grid-template-columns: 150px minmax(0, 1fr) 150px; gap: 16px; padding-inline: 20px; }
+  .global-header .brand-home { width: 150px; }
+  .global-header .corporate-logo { width: 178px; height: 46px; margin-left: -18px; }
+  .horizontal-nav > .ant-menu > .ant-menu-item,
+  .horizontal-nav > .ant-menu > .ant-menu-submenu { padding-inline: 10px !important; margin-inline: 0; }
+}
+@media (max-width: 767px) {
+  .app-shell { --app-header-height:60px; }
+  .global-header { height: 60px; grid-template-columns: 110px minmax(0, 1fr) 110px; gap: 8px; padding-inline: 12px; }
+  .global-header .brand-home { width: 110px; height: 44px; }
+  .global-header .corporate-logo { width: 140px; height: 36px; margin-left: -14px; }
+  .horizontal-nav > .ant-menu,
+  .horizontal-nav > .ant-menu > .ant-menu-item,
+  .horizontal-nav > .ant-menu > .ant-menu-submenu { height: 59px; line-height: 59px; }
+  .horizontal-nav > .ant-menu > .ant-menu-item,
+  .horizontal-nav > .ant-menu > .ant-menu-submenu { padding-inline: 8px !important; }
+  .horizontal-nav .ant-menu-title-content { font-size: 12px; letter-spacing: 0; }
+  .global-header .header-actions { gap: 6px; }
+  .global-header .account-btn { width:auto; height:32px; gap:5px; padding-inline:4px; }
+  .global-header .account-name { font-size:11px; }
+}
+@media (prefers-reduced-motion: reduce) { .horizontal-nav .nav-dropdown-indicator { transition: none; } }

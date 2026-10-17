@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "pages": 22,
+  "checks": [
+    {
+      "page": "overview",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "demands",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "orders",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "simulation",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "tasks",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "resources",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "stations",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "charging",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "energy",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "monitoring",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "alerts",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "planning",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "deployment",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "reports",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "assets",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "replacements",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "entities",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "integrations",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "users",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "parameters",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "assistant",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    },
+    {
+      "page": "account",
+      "status": "PASS",
+      "visible_large_title": false,
+      "actions_preserved": true
+    }
+  ],
+  "mobile": "PASS",
+  "runtime_errors": [],
+  "database": "isolated simulation",
+  "business_mutations": false
+}

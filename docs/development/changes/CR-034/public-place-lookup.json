@@ -1,0 +1,242 @@
+[
+  {
+    "query": "甘肃省庆阳市正宁县核桃峪煤矿",
+    "formatted_address": "甘肃省庆阳市正宁县核桃峪村",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "正宁县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621025",
+    "street": [],
+    "number": [],
+    "location": "108.059145,35.313855",
+    "level": "村庄",
+    "fetched_at": "2026-10-17T05:54:32.834Z"
+  },
+  {
+    "query": "甘肃省庆阳市正宁县新庄煤矿",
+    "formatted_address": "甘肃省庆阳市正宁县",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "正宁县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621025",
+    "street": [],
+    "number": [],
+    "location": "108.359964,35.492158",
+    "level": "区县",
+    "fetched_at": "2026-10-17T05:54:33.682Z"
+  },
+  {
+    "query": "甘肃省庆阳市正宁县华能正宁电厂",
+    "formatted_address": "甘肃省庆阳市正宁县",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "正宁县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621025",
+    "street": [],
+    "number": [],
+    "location": "108.359964,35.492158",
+    "level": "区县",
+    "fetched_at": "2026-10-17T05:54:34.488Z"
+  },
+  {
+    "query": "甘肃省庆阳市宁县长庆桥镇",
+    "formatted_address": "甘肃省庆阳市宁县长庆桥镇",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "宁县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621026",
+    "street": [],
+    "number": [],
+    "location": "107.747780,35.333339",
+    "level": "乡镇",
+    "fetched_at": "2026-10-17T05:54:35.266Z"
+  },
+  {
+    "query": "甘肃省庆阳市西峰区彭原镇",
+    "formatted_address": "甘肃省庆阳市西峰区彭原镇",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "西峰区",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621002",
+    "street": [],
+    "number": [],
+    "location": "107.612616,35.779468",
+    "level": "乡镇",
+    "fetched_at": "2026-10-17T05:54:36.065Z"
+  },
+  {
+    "query": "甘肃省庆阳市环县曲子镇",
+    "formatted_address": "甘肃省庆阳市环县曲子镇",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "环县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621022",
+    "street": [],
+    "number": [],
+    "location": "107.515730,36.297510",
+    "level": "乡镇",
+    "fetched_at": "2026-10-17T05:54:36.875Z"
+  },
+  {
+    "query": "甘肃省庆阳市环县甜水镇",
+    "formatted_address": "甘肃省庆阳市环县甜水镇",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0934",
+    "city": "庆阳市",
+    "district": "环县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "621022",
+    "street": [],
+    "number": [],
+    "location": "106.794207,37.145680",
+    "level": "乡镇",
+    "fetched_at": "2026-10-17T05:54:37.692Z"
+  },
+  {
+    "query": "甘肃省平凉市泾川县",
+    "formatted_address": "甘肃省平凉市泾川县",
+    "country": "中国",
+    "province": "甘肃省",
+    "citycode": "0933",
+    "city": "平凉市",
+    "district": "泾川县",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "620821",
+    "street": [],
+    "number": [],
+    "location": "107.367608,35.332992",
+    "level": "区县",
+    "fetched_at": "2026-10-17T05:54:38.497Z"
+  },
+  {
+    "query": "陕西省咸阳市彬州市",
+    "formatted_address": "陕西省咸阳市彬州市",
+    "country": "中国",
+    "province": "陕西省",
+    "citycode": "0910",
+    "city": "咸阳市",
+    "district": "彬州市",
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "610482",
+    "street": [],
+    "number": [],
+    "location": "108.081892,35.035702",
+    "level": "区县",
+    "fetched_at": "2026-10-17T05:54:39.291Z"
+  },
+  {
+    "query": "宁夏回族自治区固原市",
+    "formatted_address": "宁夏回族自治区固原市",
+    "country": "中国",
+    "province": "宁夏回族自治区",
+    "citycode": "0954",
+    "city": "固原市",
+    "district": [],
+    "township": [],
+    "neighborhood": {
+      "name": [],
+      "type": []
+    },
+    "building": {
+      "name": [],
+      "type": []
+    },
+    "adcode": "640400",
+    "street": [],
+    "number": [],
+    "location": "106.242670,36.016280",
+    "level": "市",
+    "fetched_at": "2026-10-17T05:54:40.092Z"
+  }
+]

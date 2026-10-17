@@ -1,0 +1,22 @@
+{
+  "status": "EXTERNAL_UNAVAILABLE",
+  "visibleStatus": "高德底图暂不可用（SDK_LOAD_FAILED），请使用示意图；业务查询仍可继续",
+  "markers": 0,
+  "network": [
+    {
+      "host": "webapi.amap.com",
+      "status": 200
+    },
+    {
+      "host": "restapi.amap.com",
+      "status": 200
+    }
+  ],
+  "diagnostics": {
+    "sdk": false,
+    "map": "undefined",
+    "getConfig": "undefined",
+    "loader": "function"
+  },
+  "credentialHandling": "通过文件选择仅加载到内存，未写入HTML、截图或localStorage；Web服务key与DeepSeek未使用"
+}

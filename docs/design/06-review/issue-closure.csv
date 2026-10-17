@@ -1,0 +1,5 @@
+﻿issue_id,severity,source,affected_req_or_page,description,owner,resolution,evidence,status
+D6-001,P2,R05/共用Source组件,REQ-004;REQ-045;PAGE-005,来源入口未显示传入的方案专属说明,设计代理,CR-001授权后将text纳入当前依据面板；不恢复常驻解释,evidence/browser-review.json R05,已解决
+D6-002,P2,R10/共用表单,PAGE-004及共用表单,可见错误未关联输入框，缺aria-invalid,设计代理,CR-001授权后加入错误ID、aria-invalid与aria-describedby；编辑时清除旧错误,evidence/browser-review.json R10,已解决
+D6-003,P2,D4壳层与D5修订002,全部管理端页面,D4历史文档侧导航与用户后续顶部导航决定冲突,设计代理/当前用户,不改历史原件；design-resolution.md明确D5修订002优先；2026-10-13用户明确进入开发并要求缺失数据按业务模拟、具体页面参考辽粮，接受候选作为设计/仿真边界，未声称项目实况已核实,design-resolution.md；D5 UI-REVISION-002.md；本轮待确认；当前聊天开发授权原文及approval.md,已关闭
+D6-004,P1,D3 parameter-register及冻结门槛,P-001至020；真实运行与非功能验收,公开参考不能证明项目专属参数已核实；候选量化值和实际启用门槛尚待本轮确认,当前用户/业务数据责任人,已新增11条公开来源及20组参数候选；待用户确认设计基线边界，实际运行仍须对应项目证据；2026-10-13用户明确进入开发并要求缺失数据按业务模拟、具体页面参考辽粮，接受候选作为设计/仿真边界，未声称项目实况已核实,public-reference-parameters.md；parameter-proposals.csv；approval.md；当前聊天开发授权原文及approval.md,已关闭

@@ -1,0 +1,160 @@
+{
+  "width": 1600,
+  "height": 900,
+  "scrollWidth": 1600,
+  "scrollHeight": 900,
+  "panels": [
+    {
+      "title": "运输总体态势",
+      "bottom": 364.15625,
+      "body": 159,
+      "scroll": 159,
+      "children": [
+        {
+          "class": "jn-cockpit-overview-grid",
+          "height": 124.859375,
+          "line": "17.55px",
+          "shrink": "1",
+          "margin": "0px",
+          "padding": "0px"
+        },
+        {
+          "class": "jn-cockpit-overview-foot",
+          "height": 28.5,
+          "line": "13.5px",
+          "shrink": "0",
+          "margin": "6px 0px 0px",
+          "padding": "6px 0px 0px"
+        }
+      ]
+    },
+    {
+      "title": "重点运输线路",
+      "bottom": 609.3203125,
+      "body": 159,
+      "scroll": 159,
+      "children": [
+        {
+          "class": "jn-cockpit-route-list",
+          "height": 159.3671875,
+          "line": "17.55px",
+          "shrink": "1",
+          "margin": "0px",
+          "padding": "0px"
+        }
+      ]
+    },
+    {
+      "title": "运输任务执行",
+      "bottom": 866,
+      "body": 171,
+      "scroll": 171,
+      "children": [
+        {
+          "class": "jn-cockpit-execution",
+          "height": 128.234375,
+          "line": "17.55px",
+          "shrink": "1",
+          "margin": "0px",
+          "padding": "0px"
+        },
+        {
+          "class": "jn-cockpit-foot",
+          "height": 17.1484375,
+          "line": "12.15px",
+          "shrink": "0",
+          "margin": "0px",
+          "padding": "5px 0px 0px"
+        },
+        {
+          "class": "jn-cockpit-focus-task",
+          "height": 20.5,
+          "line": "13.5px",
+          "shrink": "1",
+          "margin": "5px 0px 0px",
+          "padding": "6px 0px 0px"
+        }
+      ]
+    },
+    {
+      "title": "补能运行态势",
+      "bottom": 364.15625,
+      "body": 159,
+      "scroll": 159,
+      "children": [
+        {
+          "class": "jn-cockpit-energy-rings",
+          "height": 91.8125,
+          "line": "17.55px",
+          "shrink": "1",
+          "margin": "0px",
+          "padding": "0px"
+        },
+        {
+          "class": "jn-cockpit-energy-foot",
+          "height": 33,
+          "line": "13.5px",
+          "shrink": "0",
+          "margin": "8px 0px 0px",
+          "padding": "8px 0px 0px"
+        },
+        {
+          "class": "jn-cockpit-capacity-foot",
+          "height": 17.546875,
+          "line": "13.5px",
+          "shrink": "0",
+          "margin": "9px 0px 0px",
+          "padding": "0px"
+        }
+      ]
+    },
+    {
+      "title": "重点场站态势",
+      "bottom": 609.3203125,
+      "body": 159,
+      "scroll": 159,
+      "children": [
+        {
+          "class": "jn-cockpit-site-status",
+          "height": 139.8671875,
+          "line": "17.55px",
+          "shrink": "1",
+          "margin": "0px",
+          "padding": "0px"
+        },
+        {
+          "class": "jn-cockpit-site-foot",
+          "height": 19.5,
+          "line": "13.5px",
+          "shrink": "0",
+          "margin": "0px",
+          "padding": "6px 0px 0px"
+        }
+      ]
+    },
+    {
+      "title": "待处置预警",
+      "bottom": 866,
+      "body": 171,
+      "scroll": 171,
+      "children": [
+        {
+          "class": "jn-cockpit-incidents",
+          "height": 149.0390625,
+          "line": "17.55px",
+          "shrink": "1",
+          "margin": "0px",
+          "padding": "0px"
+        },
+        {
+          "class": "jn-cockpit-alert-link",
+          "height": 14.84375,
+          "line": "14.85px",
+          "shrink": "1",
+          "margin": "7px 0px 0px",
+          "padding": "0px"
+        }
+      ]
+    }
+  ]
+}

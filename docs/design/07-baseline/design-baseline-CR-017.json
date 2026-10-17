@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-017",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-016.json",
+  "parent_manifest_sha256": "d73090f0bcd85c6a63a66bbd3e2d09631e6ad2c245a602ae01d541cc67fe43db",
+  "approved_by": "当前用户明确批准设计图并要求修改完善",
+  "evidence": "可以按这个来帮我修改完善",
+  "recorded_at": "2026-10-16T07:57:07.484680+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-017-task-workspace.md": "b3857fc1a8ec043a1ab5b205eb73532520126cd825b8a6872a91969b0d3e5ede",
+    "docs/design/08-change/task-workspace-preview-v1.png": "f2310b091b79f4edd0a1ffd69fb1867b86ef49ca74fa32d73e42451d5a652961"
+  }
+}

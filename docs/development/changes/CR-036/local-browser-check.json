@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "正式页面可见10条需求、10条订单及完整资源",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：overview",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：demands",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：orders",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：tasks",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：charging",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：stations",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：monitoring",
+      "status": "PASS"
+    },
+    {
+      "name": "业务页面数据与文字：alerts",
+      "status": "PASS"
+    },
+    {
+      "name": "订单可以带入交能推演，装卸点、运量和时间区间关联",
+      "status": "PASS"
+    },
+    {
+      "name": "司机端默认登录且显示本人待接收任务",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "main_business_mutations": 0
+}

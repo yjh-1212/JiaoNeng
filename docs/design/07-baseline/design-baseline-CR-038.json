@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-038",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-037.json",
+  "parent_manifest_sha256": "d702900a2780c5e47e520e2d478acfef56404bc41bc25f04aad8da80b5c6cd62",
+  "approved_by": "当前用户",
+  "evidence": "当前用户要求生成10条适用业务数据并指出规划决策无数据；授权补齐现有规划功能的关联业务数据。",
+  "recorded_at": "2026-10-17T07:52:54.793670+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-038-planning-business-data.md": "dfb13ecc0fa7a383dc27ca37db30dc9bec7bd91ae410a1739d3ead5de13568aa"
+  }
+}

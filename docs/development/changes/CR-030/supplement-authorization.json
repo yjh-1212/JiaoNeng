@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-031.json",
+  "baseline_sha256": "44da0f0a4fa76ec15e6f2460ef372b9ab91a7aa293a245bc45807440472d551f",
+  "evidence": "当前用户：登录页不要加中国数联logo。直接实施，继承后续开发授权。"
+}

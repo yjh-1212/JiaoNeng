@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-014.json",
+  "baseline_sha256": "41e714ab84f05a838b21c3e8cc8f10487353712d60e7927a591a26679d5b048f",
+  "evidence": "把这个去掉，我希望就跟辽粮的求解一样，一方面是订单带过来的条件，另一方面是手动输入的",
+  "scope": "本地统一求解条件输入，保留计算和人工执行边界"
+}

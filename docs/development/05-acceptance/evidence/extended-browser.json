@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "换电作业表单与核验后电池库存联动",
+      "status": "PASS"
+    },
+    {
+      "name": "资产租赁登记、到期核查与预警关联",
+      "status": "PASS"
+    },
+    {
+      "name": "同边界能源策略比较与确认持久化",
+      "status": "PASS"
+    },
+    {
+      "name": "多布局、建设阶段比选及条件推荐",
+      "status": "PASS"
+    },
+    {
+      "name": "统一统计范围、任务成本差异和缺项表达",
+      "status": "PASS"
+    },
+    {
+      "name": "助手资料引用、条件核对及授权推演，不自动派单（模型测试替身）",
+      "status": "PASS"
+    },
+    {
+      "name": "个人资料维护、新功能深色与手机布局",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "real_database": true,
+  "external_calls": false,
+  "ai_model": "test-double"
+}

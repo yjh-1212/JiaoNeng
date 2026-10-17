@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-16T09:34:38.771Z",
+  "baseline": "docs/design/07-baseline/design-baseline-CR-018.json",
+  "baseline_sha256": "66bbe10c4072b71db971bbca7977745e19a1f15be0ad62ec28e346cc5eefc281",
+  "source_sha256": {
+    "server/energy-workspace.mjs": "f863fbb1d5fb22419ce031467eca86211dc3e1ab7465dd153d64fdb310c25fee",
+    "server/energy-commands.mjs": "8a8f5eb19c434d05ab3bc13e68d89cac187fdae01e8dfb0f9da7c430b09d116b",
+    "server/charging-model.mjs": "c0a7b13330cb003f08a170ebf17dbbb3a52cc1ce2afa25e2c2264c0548c21449",
+    "server/energy-model.mjs": "5610581578ec69eb0f4d788bafa4207e7fa2fc9fbd3625fc341e4c581871157c",
+    "server/app.mjs": "5fb232a465983ce83ee978d13a23fee10123469db00698f542105dda781eec28",
+    "server/repository.mjs": "59cf50787258fc3c70df6286cda4cb2da4eff68d757e46766019939d595d4fb8",
+    "client/energy-workbench.jsx": "8156dd2cdf2b3e7738566256ae18953e6d4cd616355139248f2a998cf2e1321d",
+    "client/energy-panels.jsx": "64dc82324fc08f4554b73efde84deea29ced27746ded2726a8f836635cfb7f60",
+    "client/energy-workbench.css": "c5395007a1e28812d73c85ad1be733874088db7487dea77bc9e926a44b3d6317",
+    "client/driver-energy.jsx": "7bd2df7ae4baf8b87e9630cc26681315b9e0a2cf58e251f51bc58d07a9eff398",
+    "client/driver.jsx": "a4d7cbfcd8e29f65e3bfae144a8136f7ee75f1a766c244d2197a8b7253ec9fe2",
+    "client/routes.js": "79b1af647a8a8847cc6b52aa0ac7636d990ca2681d1283360c5249d3c673eefa",
+    "client/app.jsx": "ec0e38fe8572be3649c143351e80436bfd448f1cbe88ca7bc46ae1d3cab5aceb",
+    "client/task-drawers.jsx": "166608d22b0ded15a9f6ddb9679d731e265b4a3236892761e94766602ae6ffa7",
+    "client/transport-workbench.jsx": "2e58213743d8038b8d069ca6ffff8ea3cbf1c8ea43c5e5fdcda71e58486bf6f3",
+    "tests/energy-workspace.test.mjs": "cb96d5629fc46aa0099a33e0cfdeaf581bfc23e1891e4301879481145cadc90d",
+    "tests/energy-workspace-browser.mjs": "aa0817543482445433f4ce16b362d6dd443d4b955649c8f177c967fd6cfc0387",
+    "tests/task-workbench-browser.mjs": "f9f3f04b6dabbbb4b88809bec5b542d1756350948c0eddc908103d48f7ee2c14",
+    "package.json": "bcc8e7eb23a5db802b3acf720fc313f2a29e9d2ec6e1441e64cc488d72b433a5"
+  },
+  "evidence_sha256": {
+    "docs/development/changes/CR-018/architecture.md": "bac286c75c5c7031ddc1aa9a7e0d4a8313b05da5aac123662c7739f0f64f9012",
+    "docs/development/changes/CR-018/acceptance-report.md": "bf01e4ea39e4ae1fa87faa270be3c8cb1df9c254edf584c021b5e1776099c6db",
+    "docs/development/changes/CR-018/authorization.json": "747699dcf3be27cfe0dc71914638226f3cfb5e9fd9a5d64e76587fc860027b90",
+    "docs/development/changes/CR-018/baseline-check.json": "cb3bd3a436a49e1620827e04ae5f37b1bffb7861be9e9108148f5b45cbd7be20",
+    "docs/development/changes/CR-018/node-tests.txt": "f55e4a9cf60c493b6f6b9d6e9dd0d2947ec000072a1c3009e4c3a456c91d7a35",
+    "docs/development/changes/CR-018/ac-results.json": "29c47d94c37ae3d40232d0f085ae481a878accf394e01867da89e65bfba23470",
+    "docs/development/changes/CR-018/browser-check.json": "eae7e1dcc66b6b1ce8b0d3762faaaa2ddf9f816d8df80b2ea01bcd315c4b6d9b",
+    "docs/development/changes/CR-018/task-regression/browser-check.json": "6d8076884a365b4a3571c7a1636f285d686345036cce11a33c235209f6c179b5",
+    "docs/development/changes/CR-018/local-before.json": "e546d0e089b8023dff015b4c6190031e0bcff0d845615ad853141b9a938687d8",
+    "docs/development/changes/CR-018/local-after.json": "04dd6b557497fd3611c14b239d05ce6006b0ed9dd383ba95865167f40985ecee",
+    "docs/development/changes/CR-018/local-browser.json": "e7b7ee590c79c04a52576664a775d72c4d0bf11e60b1ce151ff1f49d51dfb08c"
+  },
+  "deployment": false
+}

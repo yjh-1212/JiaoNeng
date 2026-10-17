@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-027.json",
+  "baseline_sha256": "2a9bcf0d2d3e8ba1a5ce001139bf86aff8fd9d2514c75e8099ed0fffcc7db1a9",
+  "evidence": "用户：参考一下辽粮的布局，现在交能的为啥页面还有滑动；要求按参考布局消除首页不必要滚动。继承必要后续步骤授权。",
+  "scope": "仅智能体中心布局；无业务规则或部署变更"
+}

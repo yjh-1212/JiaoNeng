@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T04:55:27.984Z",
+  "existing_tables": 23,
+  "all_existing_rows_unchanged": true,
+  "new_agent_tables": [
+    "agent_conversations",
+    "agent_turns"
+  ],
+  "data": {
+    "alerts": {
+      "count": 5,
+      "sha256": "c129e0a0bc812c7e3ee0bbece5ada421d8d521e5a03505cd035b5c74d7f60893"
+    },
+    "audit": {
+      "count": 55,
+      "sha256": "dabe3e4856a85d5057a3d916c6608eb0c43406b70c26eb7b76b5c951e36f5777"
+    },
+    "charging": {
+      "count": 4,
+      "sha256": "779f41066abe2dd8fbf178e9e844bce0e82e32cf82d3d40c7123f1ef6a704a75"
+    },
+    "command_results": {
+      "count": 38,
+      "sha256": "f666e20b8906957aeedc48051794f222ca6bd255639aec39b823e6df9bcaa06e"
+    },
+    "costs": {
+      "count": 12,
+      "sha256": "99c1c4cd3a45cc6dc0144be7d5815f011357ef647b466d3f33d552ea8d63baed"
+    },
+    "demands": {
+      "count": 8,
+      "sha256": "04f7e02429980b4f397e2d9d010230b702486df0c86deb0622f0049ebe681cfe"
+    },
+    "devices": {
+      "count": 9,
+      "sha256": "8349648012c3c89dff6c0e3c98a352175ca0f22063df0ca77c2bf95bffbed6f6"
+    },
+    "drivers": {
+      "count": 12,
+      "sha256": "e1a66a98082b5170c6e06523b687a436b9fb1cf95666ced10c668a0b9e7d513f"
+    },
+    "events": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "migrations": {
+      "count": 1,
+      "sha256": "a218c2a5a83cf28bab017170c928ec46eb45883ccf292fe58421b8cbd95dd5ca"
+    },
+    "orders": {
+      "count": 25,
+      "sha256": "26cc8a4acd37fd701e4193b3430797658895e68007f2681ada76027bc91d70b7"
+    },
+    "organizations": {
+      "count": 2,
+      "sha256": "15e7f8d949d65d93b2d54b8c33c1776e97c79642ebf6da46f69824c5c61fa6a2"
+    },
+    "records": {
+      "count": 144,
+      "sha256": "5a62eece3715ea1bc6e3401f5640176806aac9efa978bb64f5efac61bdff0dd9"
+    },
+    "sessions": {
+      "count": 12,
+      "sha256": "27d8c8782c742a1179784b4863420fa2e1f2292f7368dab1105b77b4e86c3947"
+    },
+    "simulations": {
+      "count": 2,
+      "sha256": "09d988caa27a8be8e82101f179c3eaf4a3c3d5523df5bbb9059f42941bf1bf5f"
+    },
+    "sources": {
+      "count": 11,
+      "sha256": "7c40061cdc9363e117bb66397675f9e22e3e03e865766514851b31470332c847"
+    },
+    "stations": {
+      "count": 3,
+      "sha256": "373d94842642fe9d5286a6f6fe0f0d1650a3ce1c588e022bc1381dbc34a91541"
+    },
+    "tasks": {
+      "count": 18,
+      "sha256": "86a2f01d78c1aeb84c7f22f628deca502f1606fc7a0c0db50d49297e2899f58c"
+    },
+    "telemetry": {
+      "count": 432,
+      "sha256": "03e6d6c172961737dfca91bcddb84064754a899892bc7f9cfa1219fa1c614dab"
+    },
+    "trips": {
+      "count": 28,
+      "sha256": "09aad408a232e3ef19543aa3e2bf3a8dd1793a9c17f6190d57b44794b035f0ce"
+    },
+    "user_scopes": {
+      "count": 7,
+      "sha256": "26c1ae24af9799a5d71a3d64a224f86c49adf3dedd31a7a294eee9b039fb1172"
+    },
+    "users": {
+      "count": 6,
+      "sha256": "c1e6d1612fca5d75605ec4f7f03db5d39271049cd8f124659406b4dcc1b08086"
+    },
+    "vehicles": {
+      "count": 18,
+      "sha256": "8d70186c1dff6fe968b627fd016002dc01ceec76e34dda03b62022361282cb94"
+    }
+  }
+}

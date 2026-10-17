@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-009",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-008.json",
+  "parent_manifest_sha256": "527918bd85e53ccc162e206a669ade73bb1ee98a20d2b2fb72fe34e96c029bf9",
+  "approved_by": "current human user",
+  "evidence": "Approved previous goal-oriented UI proposal and explicitly requested implementation in this turn.",
+  "recorded_at": "2026-10-16T06:19:04.176383+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-009-goal-driven-simulation.md": "af52b27bbc35b8b9e78ec07c2c5d9fdc76f39f9655517ef8a6309d9abc0d2625"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-13T14:37:16.180Z",
+  "secrets_logged": false,
+  "amap_rest": {
+    "configured": true,
+    "http_status": 200,
+    "valid": true,
+    "code": "10000",
+    "city_match": true
+  },
+  "deepseek": {
+    "configured": true,
+    "http_status": 200,
+    "valid": true,
+    "model": "deepseek-flash",
+    "token_usage": 15
+  },
+  "amap_jsapi": {
+    "configured": true,
+    "browser_verified": false
+  }
+}

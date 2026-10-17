@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "current_stage": "D5",
+  "approvals": {
+    "D0": {
+      "approved_at_utc": "2026-10-13T07:36:47+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13 当前聊天用户明确批准：目前D0可以了，然后可以进行下一步了。批准当前D0 V0.2产品范围梳理并继续D1；未批准D1-D6或正式开发。",
+      "file_hashes": {
+        "docs/design/00-intake/project-brief.md": "93be413bad415036ca704b6e466993ac261b5c75fd12bdb079a1f682225ddb79",
+        "docs/design/00-intake/source-register.csv": "e81550a8765a0f997cab9e2876bd05ab1831c5e1d401bcd4a22279e6208c4387"
+      }
+    },
+    "D1": {
+      "approved_at_utc": "2026-10-13T07:51:36+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13 上一轮明确请求用户批准D1并说明批准后进入D2；用户本轮回复：继续。按该审批上下文登记D1批准，未将其扩展为D2-D6或正式开发授权。",
+      "file_hashes": {
+        "docs/design/01-discovery/discovery.md": "f1aeffa74da8f6395ac342f2e7531bbfac1cebb3ebcfe1214a47d88961c89d30",
+        "docs/design/01-discovery/personas.md": "93bbbe15d91e32d6946be7bec166beb841bb695814d7356551e13b0aa64e7d9c",
+        "docs/design/01-discovery/requirements.csv": "18d25ae669444801afd4c66a260dfc51edd00a80c709ffb74b2a3186979833a6"
+      }
+    },
+    "D2": {
+      "approved_at_utc": "2026-10-13T08:26:04+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13 用户审阅精简菜单确认稿后明确答复：可以按这个来，继续。批准按七个一级入口、18个二级菜单、运营总览首页及司机任务补能我的结构继续D3，沿用D2流程和状态权限；未授权正式开发。",
+      "file_hashes": {
+        "docs/design/02-architecture/processes.md": "37914f30944363e1c943b5e0fb49674748cbab81ae9d798dfbcd5edec310257e",
+        "docs/design/02-architecture/information-architecture.md": "abba7f677a1dc63385d953508d94cb2b25625611d8e453be8e555b013a0a03a3",
+        "docs/design/02-architecture/state-permission.csv": "79618050a6ef34d94d9755ee4a5a404cfeac2d3fc0b6774206fbe05431210dd7"
+      }
+    },
+    "D3": {
+      "approved_at_utc": "2026-10-13T09:04:39+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13 用户在D3详细PRD及自检结果提交、明确请求批准后答复：确认继续。按此批准D3九模块详细PRD与配套契约及未决参数管理，进入D4页面规格；不预先批准D4-D6，不授权正式开发。",
+      "file_hashes": {
+        "docs/design/03-prd/prd-overview.md": "fbfb056f8c93574f141ac5a6e40a6453e5c626e782abf7764ffcd6c5b83685ee",
+        "docs/design/03-prd/module-index.csv": "220073a51e21f9dd7bc5dadd7a463571c59af82cce00d4915fa5fc8200592749",
+        "docs/design/03-prd/data-interface-requirements.md": "dcfaef3a4622f3e1da7fe2615a02b7f81809040fab6b9b13f192d91aae18ced6",
+        "docs/design/03-prd/traceability.csv": "bdc7eb3d1eb8c739d43cead65bebe3f21354cf8793b3d5c809fdd5d2e47e4f3e",
+        "docs/design/03-prd/modules/MOD-001.md": "8922cc83d754c9690b828a36b529c3fa2c7e09d09cfe33044288b5cb54c44673",
+        "docs/design/03-prd/modules/MOD-002.md": "513e9918afe015ad5d73ea3978b28ec24256c7933333e8c8b787d46d5862a1bc",
+        "docs/design/03-prd/modules/MOD-003.md": "69a8ac844d37af0f947e539977794e680cf562650ea10d42cbab7cd25d512a59",
+        "docs/design/03-prd/modules/MOD-004.md": "b9dfbbd9665140a0ce785b4a939540bff9de8536f825d8059897b579878f1b6d",
+        "docs/design/03-prd/modules/MOD-005.md": "f473633b304f8699cad4d4ee057799d865b9259c095c7f8e46a45357abc1c1d6",
+        "docs/design/03-prd/modules/MOD-006.md": "6bb22338796ab42dff3ee7d471c6603a04691e8084f47368c53b8a3dee8ce8b2",
+        "docs/design/03-prd/modules/MOD-007.md": "46c7452acb111e779fe2acc91ecbe6450ad599bc5d6cd042e4369a843e547ee2",
+        "docs/design/03-prd/modules/MOD-008.md": "4f9bb8f6ac3546b819a3c1452fc58a2b3eb06741155f743fdafe0416a99bab87",
+        "docs/design/03-prd/modules/MOD-009.md": "5604194a558360220ad7791af63204d2a190b61563618e893bd7ef16359f7689"
+      }
+    },
+    "D4": {
+      "approved_at_utc": "2026-10-13T09:42:24+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13 用户要求交能推演参考辽粮上下布局，D4页面规格、UI规范及版式图已修订并通过自检，提交明确请求确认后用户答复：继续。批准当前D4修订版并进入D5独立原型；不预先批准D5/D6，不授权正式开发。",
+      "file_hashes": {
+        "docs/design/04-ux-ui/page-inventory.csv": "780befc4810fb1ec87e67b21044adf614356289efa4db5a9b05e7dbbe403488f",
+        "docs/design/04-ux-ui/ui-system.md": "942af20ac838b6a2e18c9526fc536bb2f05b176abd879ff4743cd7d843fe31d1",
+        "docs/design/04-ux-ui/interaction-states.md": "a078d9c4e631bdcd19a3a71b000b2680d7b3f041bdcb93116b7d03d2c7cd9593",
+        "docs/design/04-ux-ui/pages/PAGE-001.md": "f1a504e146f1e4c715f7b394641f0523d1f245c70ea25564a8feffc5546a38a0",
+        "docs/design/04-ux-ui/pages/PAGE-004.md": "836c4601133eb3c83c46e2da253b8818aa36d84c7e6f0982a5f0773e899a6bcd",
+        "docs/design/04-ux-ui/pages/PAGE-005.md": "b6f9b47fdcc08c905d20f2a90382efc53d2697ca0a09e01e303b6d22bfcb3ab6",
+        "docs/design/04-ux-ui/pages/PAGE-007.md": "19d2ef0f949ed0376a1415b80b711315ccbcfb0d1a3ce4de3d30a11f4ce8f097",
+        "docs/design/04-ux-ui/pages/PAGE-009.md": "22b1b1e4a243411382ade5e2223a8a2360e925dc1b7cb3d8f78ffe2d4dea3011",
+        "docs/design/04-ux-ui/pages/PAGE-010.md": "df59e1b03dbbbd0300814501df6f19eee3fd71e37e71f39641077acc87ac9c13",
+        "docs/design/04-ux-ui/pages/PAGE-012.md": "b256c08214b421b93a565b205c1c15bd89bbc78f2e1a979ab6a6e4cacd0ae192",
+        "docs/design/04-ux-ui/pages/PAGE-016.md": "bb6ffae3bd5f22a81c8bf80490a6ceeb48e766dbaf6cdb4d6526accb37dcbeca",
+        "docs/design/04-ux-ui/pages/PAGE-031.md": "7d2feafc45b108120d9ea12ec788be98ae744dbfaf0614e7276768c8d34fd60f",
+        "docs/design/04-ux-ui/pages/PAGE-034.md": "8578132d990afae08493375512cc46c4cec8806a038b21129257b86121466284",
+        "docs/design/04-ux-ui/pages/PAGE-022.md": "62f685a9964517b8fb6ed643c65b9a00da098428b7753c26f1125e9dd493c054",
+        "docs/design/04-ux-ui/pages/PAGE-024.md": "e3216e2f73f2b44bbcee2304e1248c15f82095fcefae39742c6b84c089fad3ba",
+        "docs/design/04-ux-ui/pages/PAGE-030.md": "eb2caa9865ff429776f17c8b6a4129ed269dc6ecf51304b39fbcb7d0229abaa0",
+        "docs/design/04-ux-ui/pages/PAGE-028.md": "a08df2ef966927424b8574c2116d288293f824e55084d40068bd89e77296509a",
+        "docs/design/04-ux-ui/pages/PAGE-029.md": "a207d1413f1a8efa851590dd96531d8c9d53b8d9156bf3a17aeade15f8028188",
+        "docs/design/04-ux-ui/pages/PAGE-035.md": "9c1f2b5a70ef40c9e05faaf07b29ef99afbc1247d7c7e7ce93e6c599e0623a70",
+        "docs/design/04-ux-ui/pages/PAGE-036.md": "e49ce21c60603c450ed9b78fc7b48c9bd618e6e7572a80ae11f83d0ba9949f2b",
+        "docs/design/04-ux-ui/pages/PAGE-038.md": "f29bc6b12d9669e0e0c9dad10a836832aa077e4f73ea7918332304282bdabf38",
+        "docs/design/04-ux-ui/pages/PAGE-040.md": "bb201a3f9c01cc8bdd0f2dc4d4dfea4d78a60d7e2cad432b923e6a5fe9aa10e0",
+        "docs/design/04-ux-ui/pages/PAGE-041.md": "7f10e5968a6b4e39664de31236ae01340b956d0b02753a949a4204033ac56dd5",
+        "docs/design/04-ux-ui/pages/PAGE-042.md": "a1a9a73c3fe5ed499fec819466688b708b5c8244e66515ef4c882d637be10dcf",
+        "docs/design/04-ux-ui/pages/PAGE-043.md": "3f08815615df65d5a433afbaac6234f675ba1bcdb5b8796be42b1082437c0534",
+        "docs/design/04-ux-ui/pages/PAGE-044.md": "85ab2ef09b770259dfcfb301ea664c59d0e9db677b107ec6a931147e843a64b2",
+        "docs/design/04-ux-ui/pages/PAGE-045.md": "4607a924a806264f4928ec4bac400de29f74f984b42fbf47c79c6dd2e7aaa54d",
+        "docs/design/04-ux-ui/pages/PAGE-046.md": "bc5c0af2959d444ada40f2274c1295dc4ff5cdb048d5f6858377abd8fb48d638",
+        "docs/design/04-ux-ui/pages/PAGE-048.md": "663a58a78534587f2e465fe50ccf6502c663c0eaea203105a6d5a4d88eda9bc4"
+      }
+    },
+    "D5": {
+      "approved_at_utc": "2026-10-13T13:35:48+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13：提交CR-001修订原型并请用户复审后，用户明确进入开发吧，接受本轮设计并要求真实参考数据、缺失数据按业务模拟，具体页面参考辽粮。登记修订后D5复审批准。",
+      "file_hashes": {
+        "docs/design/05-prototype/navigation.md": "43b8b531fa526c3101bd48c12b50a8c6fa7b1f37fb8a421cb14e6ca183164f3f",
+        "docs/design/05-prototype/walkthrough.md": "71f449a96d125bb5a62291c5d4bf7ed3fe098557b456e6a82e74a4b6998323a2",
+        "prototypes/design-preview/index.html": "d3bb6210147f44959daa5adf7e1c15ae4999478ea4ad037d0dd8d399c2a6e996",
+        "prototypes/design-preview/app.bundle.js": "8a9b70addb86f9bbc85075c9b1400eeb8c7819837e4fd474e6e01477b04fc0cc",
+        "prototypes/design-preview/build_schema.py": "a7509106b5710fd3b7678d345f34af98b1dd9e4ba193f38ee17c0cf0ac831dd4",
+        "prototypes/design-preview/lobe-prototype-runtime.js": "9d46e76c0845eae486bda4c1852e1c32668052f5b1ea8b25f746f887125f2757",
+        "prototypes/design-preview/runtime-versions.json": "071d9db24e6fa1eab01af0e50e534fa5a38505068bec112c6806c4e9f7f8e8f4",
+        "prototypes/design-preview/verify-map.mjs": "23c7b7039b6ce9efad91f6f058d68b1be132b25d719a0168af794fe4c83e741f",
+        "prototypes/design-preview/verify-modules.mjs": "67fb980adcd4acd330468e5774ca269ce4b512083489afd45869705391562114",
+        "prototypes/design-preview/verify-revision-002.mjs": "ce2854c8eb16c9b57b1f837eb1b2c3e3f62eaf16dd43daddb574189cbdc3f175",
+        "prototypes/design-preview/verify.mjs": "61cb8cb15d79c661add6f7d136f870fcc4712c37d29d78d69780e7c325582445",
+        "prototypes/design-preview/runtime-src/build.mjs": "f114e397c8716e13ae4121985fab4d0ba7f64ec6fdcff5f5618d085d85e27877",
+        "prototypes/design-preview/runtime-src/dependency-location.json": "7315f00f97c454405518b92876957b281c6a4c38b878a6cdc30f60b7060931f2",
+        "prototypes/design-preview/runtime-src/entry.mjs": "a9bbd0303cca0d96b09c61b363674e16c6c35321651f12b237b47f04c7cdb8b6",
+        "prototypes/design-preview/runtime-src/package-lock.json": "df57d0f84114cc1dc569cdad1bf955315e32cc729c9a39f1fdbe5e495e01ede7",
+        "prototypes/design-preview/runtime-src/package.json": "9081036ba0a29fcb91af4aaab942404fb7082cf788a9bbdf934be1a45cec68fd",
+        "prototypes/design-preview/source/app.jsx": "e70367eee8d4222ba874723b0ded3672058631d23cf36216bfe3534002bbf2be",
+        "prototypes/design-preview/source/common.jsx": "c9c0429e8c2021af02f9f2458fdec76a7365b1f0d7aba7da7f809d7c41ed427c",
+        "prototypes/design-preview/source/context.js": "144e3fee55b21920355eff7b70b8dd18df9e6e878d79eb83bac26b04adfde56d",
+        "prototypes/design-preview/source/data.js": "dc8960320b246d296b3f959df36be3273fafa4a08dd6b935bdc399d51d43fff9",
+        "prototypes/design-preview/source/decisions.jsx": "4fc6bf42370062c05040e5349057adf0337b9fb62e97d523bdda7b841c4da504",
+        "prototypes/design-preview/source/driver.jsx": "8c74cc8ac524199f8f58865321a623d8a0019700dd85196f05329a12755835da",
+        "prototypes/design-preview/source/map.jsx": "2a382d1afbe207061b74dd8c36220536f79b98c5ae410095b8beca4bcee1387f",
+        "prototypes/design-preview/source/revision-002.css": "f251037162b836502d57c911fee7f37501a9081049320252ad810b971edcb1af",
+        "prototypes/design-preview/source/schema.js": "a99607d330459dfa87457209f9ada069f58c7b122ddd590bda8adefe856038c8",
+        "prototypes/design-preview/source/styles.css": "4b06471acbd07a3bc9217769e8f0ae3d599e08d3259c7238cd0d5870012f7c89",
+        "prototypes/design-preview/source/transport.jsx": "1b556a83c01c6d28e86397d4562a4765654f28f1b279d21beb68c5cd850a5432",
+        "prototypes/design-preview/source/workspaces.jsx": "9b564f3f6b816f66c3ffdbc29204718b53010c125ce96caf07be7a589f0b02c2"
+      }
+    },
+    "D6": {
+      "approved_at_utc": "2026-10-13T13:35:49+00:00",
+      "approved_by": "当前用户",
+      "evidence": "2026-10-13：已展示D6评审与公开参数候选并明确确认后冻结，用户明确指令进入开发吧，并要求缺失数据按业务模拟、具体页面参考辽粮。批准当前设计与数据真实性边界、同意冻结并转开发；开发授权另登记。",
+      "file_hashes": {
+        "docs/design/06-review/review-report.md": "270e7f2ab522cf3ee0091c5cd3bcb1e80030277a9c54c0a1d0cd6cdaf96aaa48",
+        "docs/design/06-review/coverage-report.md": "79d0336087672d24d190351da658337912975ed1c994cd679d349e160c6a59ec",
+        "docs/design/06-review/issue-closure.csv": "452ff9f10f3b180cb4d57351945d8bd587c49d65116774a05e18723ec7662044",
+        "docs/design/06-review/approval.md": "6a9868c4e2a90f24355911b3cdb1847f7631dab2000aa41cd58396cfed7226f6"
+      }
+    }
+  },
+  "design_version": "V0.2-design-1",
+  "updated_on": "2026-10-13",
+  "d2_revision": "V0.2-menu",
+  "frozen_at_utc": "2026-10-13T13:35:50+00:00"
+}

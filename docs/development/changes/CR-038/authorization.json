@@ -1,0 +1,5 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-038.json",
+  "baseline_sha256": "6153397eedc2ee5df3f43fa2e854d09219f335cbf0a02e5d4dd9eca4d6eab106",
+  "evidence": "当前用户要求生成10条适用业务数据并指出规划决策无数据；授权补齐现有规划功能的关联业务数据。"
+}

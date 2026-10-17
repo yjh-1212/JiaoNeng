@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "backup": "D:\\项目资料\\Code\\JiaoNeng_v0.2\\data\\backups\\jiaoneng-pre-cr002-20261016-100559.sqlite",
+  "integrity": "ok",
+  "business_counts_before": {
+    "demands": 8,
+    "orders": 24,
+    "tasks": 16,
+    "trips": 27
+  },
+  "business_counts_after": {
+    "demands": 8,
+    "orders": 24,
+    "tasks": 16,
+    "trips": 27
+  },
+  "counts_unchanged": true
+}

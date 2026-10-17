@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-035",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-034.json",
+  "parent_manifest_sha256": "bca5e7dac988e798ebd647f8edeccf5e25853c8bdcec079d34cf571332d57f02",
+  "approved_by": "当前用户",
+  "evidence": "当前用户：去掉右上角数据与面包屑整行，平台管理员移到顶部。",
+  "recorded_at": "2026-10-17T06:49:08.095784+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-035-header-cleanup.md": "a16e1c6543843dab44359b9345e739d2540e38e76aa3767a995bd76862d9f558"
+  }
+}

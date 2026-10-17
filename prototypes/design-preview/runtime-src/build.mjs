@@ -1,0 +1,17 @@
+import {createRequire} from 'node:module';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url)), out=path.dirname(here);
+const deps=fs.existsSync(path.join(here,'node_modules'))?here:JSON.parse(fs.readFileSync(path.join(here,'dependency-location.json'),'utf8')).path;
+const esbuild=createRequire(path.join(deps,'package.json'))('esbuild');
+await esbuild.build({entryPoints:[path.join(here,'entry.mjs')],nodePaths:[path.join(deps,'node_modules')],bundle:true,format:'iife',globalName:'__PROTO_DEPS_NS__',platform:'browser',define:{'process.env.NODE_ENV':'"production"'},minify:true,loader:{'.css':'empty','.woff':'dataurl','.woff2':'dataurl','.svg':'dataurl','.png':'dataurl'},outfile:path.join(out,'lobe-prototype-runtime.js')});
+await esbuild.build({entryPoints:[path.join(out,'source/app.jsx')],bundle:true,format:'iife',platform:'browser',external:['react','react-dom/client','@lobehub/ui','antd','antd/locale/zh_CN','antd-style','lucide-react','@amap/amap-jsapi-loader'],jsx:'transform',minify:false,outfile:path.join(out,'app.bundle.js')});
+const escapeScript=s=>s.replace(/<\/script/gi,'<\\/script');
+const pageList=JSON.parse(fs.readFileSync(path.join(out,"source/schema.js"),"utf8").replace("export const pages=","").trim().replace(/;$/, ""));
+const anchors=pageList.map(p=>`<a id="${p.page_id.toLowerCase()}" href="#${p.page_id.toLowerCase()}">${p.page_name}</a>`).join("");
+const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>交能融合智能体平台 · 独立设计原型</title><style>${fs.readFileSync(path.join(out,'source/styles.css'),'utf8')+fs.readFileSync(path.join(out,'source/revision-002.css'),'utf8')}</style></head><body><nav hidden aria-label="原型页面索引">${anchors}</nav><div id="root"><p style="padding:32px">正在加载交能融合设计原型…</p></div><script>${escapeScript(fs.readFileSync(path.join(out,'lobe-prototype-runtime.js'),'utf8'))}</script><script>window.require=(name)=>{const m=__PROTO_DEPS_NS__.default[name];if(!m)throw new Error('prototype runtime is missing module: '+name+' — add it to entry.mjs and rebuild');return m;};window.exports={};window.module={exports:window.exports};</script><script>${escapeScript(fs.readFileSync(path.join(out,'app.bundle.js'),'utf8'))}</script></body></html>`;
+fs.writeFileSync(path.join(out,'index.html'),html);
+const versions=Object.fromEntries(['react','react-dom','@lobehub/ui','antd','antd-style','esbuild','lucide-react','@amap/amap-jsapi-loader'].map(n=>[n,JSON.parse(fs.readFileSync(path.join(deps,'node_modules',n,'package.json'),'utf8')).version]));
+fs.writeFileSync(path.join(out,'runtime-versions.json'),JSON.stringify(versions,null,2));
+console.log('Standalone prototype built:',Math.round(Buffer.byteLength(html)/1024/1024)+'MB',JSON.stringify(versions));

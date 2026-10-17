@@ -1,0 +1,861 @@
+.overview-workbench {
+  min-width: 0;
+  color: var(--text);
+}
+.ow-welcome {
+  min-height: 188px;
+  border-radius: 11px;
+  background-size: cover;
+  background-position: center 53%;
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.ow-welcome > div {
+  padding: 30px 36px;
+  max-width: 78%;
+  position: relative;
+  z-index: 1;
+}
+.ow-eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  color: #d6eaf7;
+}
+.ow-welcome h1 {
+  font-size: 28px;
+  line-height: 1.45;
+  font-weight: 650;
+  margin: 12px 0 10px;
+  letter-spacing: 0.3px;
+  color: #fff;
+}
+.ow-welcome p {
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 0;
+  color: #e5eff7;
+}
+.ow-welcome-caption {
+  position: absolute;
+  right: 28px;
+  bottom: 22px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #e4eff8;
+}
+.ow-shortcuts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 12px;
+}
+.ow-shortcuts > button {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 20px;
+  text-align: left;
+  cursor: pointer;
+  min-width: 0;
+  color: var(--text);
+  position: relative;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.ow-shortcuts > button:hover {
+  border-color: #e2b1b8;
+  box-shadow: 0 4px 14px #24344809;
+}
+.ow-shortcuts strong {
+  font-size: 16px;
+  font-weight: 650;
+  display: block;
+  margin-bottom: 7px;
+}
+.ow-shortcuts small {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--secondary);
+  display: block;
+  padding-right: 10px;
+}
+.ow-shortcut-icon {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  flex-shrink: 0;
+  box-shadow: inset 0 1px 0 #ffffff80;
+}
+.ow-shortcut-icon.red {
+  background: linear-gradient(135deg, #fff1f1, #ffdadd);
+  color: #ec4054;
+}
+.ow-shortcut-icon.blue {
+  background: linear-gradient(135deg, #eff8ff, #cfe4ff);
+  color: #317ed4;
+}
+.ow-shortcut-icon.green {
+  background: linear-gradient(135deg, #edfcf6, #d2eee1);
+  color: #27946a;
+}
+.ow-shortcut-icon.purple {
+  background: linear-gradient(135deg, #f5f1ff, #e0d5ff);
+  color: #8461d4;
+}
+.ow-shortcut-arrow {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: #96a3b3;
+}
+.ow-shortcuts > button:first-child .ow-shortcut-arrow {
+  background: #e93248;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  width: 24px;
+  height: 24px;
+}
+.ow-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 12px;
+  font-size: 11px;
+  color: var(--secondary);
+  gap: 12px;
+}
+.ow-toolbar > span,
+.ow-toolbar > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ow-toolbar > span > i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #d49945;
+}
+.ow-updated {
+  padding-left: 8px;
+  color: var(--secondary);
+  opacity: 0.8;
+}
+.ow-toolbar .ant-select {
+  width: 230px;
+}
+.ow-toolbar .ant-btn {
+  font-size: 11px;
+}
+.ow-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 18px;
+  align-items: stretch;
+}
+.ow-grid.without-ai {
+  grid-template-columns: minmax(0, 1fr);
+}
+.ow-business {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.ow-upper {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+.ow-lower {
+  display: grid;
+  grid-template-columns: 242px minmax(0, 1fr);
+  gap: 16px;
+  flex: 1;
+}
+.ow-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 0;
+}
+.ow-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 18px;
+  min-width: 0;
+}
+.ow-panel-heading h2 {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 650;
+  white-space: nowrap;
+  padding-left: 11px;
+  position: relative;
+  color: var(--text);
+}
+.ow-panel-heading h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 3px;
+  height: 15px;
+  border-radius: 2px;
+  background: #e7364a;
+}
+.ow-panel-heading > span {
+  font-size: 10px;
+  color: var(--secondary);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 58%;
+}
+.ow-panel-heading > button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  background: none;
+  color: var(--secondary);
+  font: inherit;
+  font-size: 11px;
+  padding: 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.ow-panel-heading > button:hover {
+  color: var(--brand);
+}
+.ow-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.ow-metrics > button {
+  background: var(--bg);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 13px 12px;
+  text-align: left;
+  cursor: pointer;
+  color: var(--text);
+  min-width: 0;
+}
+.ow-metrics > button:hover {
+  border-color: var(--border);
+}
+.ow-metric-icon {
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.ow-metric-icon.red {
+  background: #ffedf0;
+  color: #eb4a59;
+}
+.ow-metric-icon.blue {
+  background: #eaf3ff;
+  color: #3e8de1;
+}
+.ow-metric-icon.orange {
+  background: #fff0e6;
+  color: #ef9143;
+}
+.ow-metric-icon.green {
+  background: #e5f7ef;
+  color: #31a77b;
+}
+.ow-metrics strong {
+  display: block;
+  font-size: 25px;
+  line-height: 1.3;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.ow-metrics > button > span:last-child {
+  display: block;
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 6px;
+  color: var(--secondary);
+}
+.ow-energy-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 10px;
+  color: var(--secondary);
+  flex-wrap: wrap;
+}
+.ow-energy-strip > button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+}
+.ow-energy-strip b {
+  font-weight: 600;
+  color: var(--text);
+  margin-inline: 2px;
+}
+.ow-online-dot {
+  width: 5px;
+  height: 5px;
+  background: #34b383;
+  border-radius: 50%;
+  display: inline-block;
+}
+.ow-progress-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+}
+.ow-route {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--secondary);
+  margin: 7px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ow-route > span {
+  margin-left: 9px;
+  border-left: 1px solid var(--border);
+  padding-left: 9px;
+}
+.ow-stage-track {
+  display: flex;
+  position: relative;
+  margin: 21px 0 16px;
+  align-items: flex-start;
+}
+.ow-stage-track::before {
+  content: "";
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12px;
+  height: 1px;
+  background: var(--border);
+}
+.ow-stage {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  min-width: 0;
+}
+.ow-stage > span {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin: 0 auto 8px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: #9aabba;
+  font-size: 10px;
+  position: relative;
+  z-index: 1;
+}
+.ow-stage.done > span {
+  background: #fff1f2;
+  border-color: #efcad0;
+  color: #cc344a;
+}
+.ow-stage.current > span {
+  background: #e9344b;
+  border-color: #e9344b;
+  color: white;
+  box-shadow: 0 0 0 4px #ed344a12;
+}
+.ow-stage strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+}
+.ow-stage small {
+  display: block;
+  margin-top: 3px;
+  font-size: 9px;
+  line-height: 1.6;
+  color: var(--secondary);
+}
+.ow-stage.current small {
+  color: #d7374b;
+}
+.ow-progress-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  font-size: 10px;
+  color: var(--secondary);
+  flex-wrap: wrap;
+}
+.ow-progress-summary small {
+  font-size: 9px;
+}
+.ow-upper .ant-progress {
+  margin-top: 7px;
+  display: block;
+}
+.ow-todos > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: none;
+  width: 100%;
+  padding: 13px 0;
+  cursor: pointer;
+  text-align: left;
+  color: var(--text);
+}
+.ow-todos > button:first-child {
+  padding-top: 3px;
+}
+.ow-todos > button:last-child {
+  border-bottom: 0;
+  padding-bottom: 3px;
+}
+.ow-todo-icon {
+  width: 33px;
+  height: 33px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: #dc3c52;
+  background: #fff1f2;
+  border-radius: 50%;
+}
+.ow-todo-icon.alert,
+.ow-todo-icon.charging {
+  background: #fff2e8;
+  color: #e48941;
+}
+.ow-todos > button > span:nth-child(2) {
+  flex: 1;
+  min-width: 0;
+}
+.ow-todos strong {
+  font-size: 11px;
+  line-height: 1.5;
+  display: block;
+  font-weight: 500;
+}
+.ow-todos strong > b {
+  font-weight: 650;
+}
+.ow-todos small {
+  display: block;
+  font-size: 9px;
+  line-height: 1.7;
+  color: var(--secondary);
+  margin-top: 4px;
+}
+.ow-todos > button > svg {
+  flex-shrink: 0;
+  color: #9da9b7;
+}
+.ow-todos > button:hover strong {
+  color: var(--brand);
+}
+.ow-task-panel .ant-table {
+  font-size: 11px !important;
+  background: transparent;
+}
+.ow-task-panel .ant-table-thead > tr > th {
+  font-size: 10px !important;
+  color: var(--secondary);
+  font-weight: 400;
+  padding: 10px 9px !important;
+  background: var(--bg) !important;
+}
+.ow-task-panel .ant-table-tbody > tr > td {
+  padding: 12px 9px !important;
+}
+.ow-task-panel .pill {
+  font-size: 10px;
+  white-space: nowrap;
+}
+.ow-two-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  line-height: 1.55;
+  min-width: 0;
+}
+.ow-two-lines > span {
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ow-two-lines small {
+  font-size: 9px;
+  color: var(--secondary);
+}
+.ow-code {
+  color: #3e6489;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+.ow-code:hover,
+.ow-action:hover {
+  color: var(--brand);
+}
+.ow-action {
+  font: inherit;
+  color: #d62b43;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+.ow-ai-panel {
+  display: flex;
+  flex-direction: column;
+}
+.ow-ai-intro {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  border-radius: 9px;
+  background: linear-gradient(115deg, #fff8f2, #fff3f6);
+  padding: 10px 4px;
+  margin-bottom: 14px;
+  min-height: 132px;
+}
+.ow-ai-intro > img {
+  width: 110px;
+  height: 120px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.ow-ai-intro > div {
+  padding-right: 6px;
+}
+.ow-ai-intro strong {
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.6;
+  color: #1e2e42;
+  white-space: nowrap;
+}
+.ow-ai-intro p {
+  font-size: 10px;
+  line-height: 1.9;
+  color: #8290a1;
+  margin: 8px 0 0;
+}
+.ow-ai-prompts {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.ow-ai-prompts > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 11px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: #5b728e;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: left;
+  cursor: pointer;
+}
+.ow-ai-prompts > button > svg {
+  flex-shrink: 0;
+}
+.ow-ai-prompts > button:hover {
+  border-color: #dcb3b9;
+  color: var(--brand);
+}
+.ow-ai-note {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  color: var(--secondary);
+  font-size: 10px;
+  line-height: 1.9;
+  margin: 21px 0;
+}
+.ow-ai-note > svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.ow-ai-form {
+  margin-top: auto;
+  padding-top: 28px;
+}
+.ow-ai-form > label {
+  display: block;
+  font-size: 11px;
+  color: var(--secondary);
+  margin-bottom: 8px;
+}
+.ow-ai-form > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ow-ai-form .ant-input {
+  font-size: 11px;
+}
+.ow-ai-form .ant-btn {
+  width: 36px;
+  min-width: 36px;
+}
+.ow-loading {
+  padding: 30px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.overview-workbench button:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+@media (min-width: 1700px) {
+  .ow-welcome {
+    min-height: 210px;
+  }
+  .ow-welcome > div {
+    padding: 36px 40px;
+  }
+  .ow-grid {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 20px;
+  }
+  .ow-panel {
+    padding: 22px;
+  }
+  .ow-shortcuts > button {
+    padding: 24px;
+  }
+  .ow-ai-intro > img {
+    width: 125px;
+    height: 135px;
+  }
+  .ow-metrics strong {
+    font-size: 28px;
+  }
+  .ow-lower {
+    grid-template-columns: 258px minmax(0, 1fr);
+  }
+}
+@media (max-width: 1350px) {
+  .ow-shortcuts > button {
+    padding: 18px 14px;
+    gap: 10px;
+  }
+  .ow-shortcuts strong {
+    font-size: 14px;
+  }
+  .ow-shortcuts small {
+    font-size: 10px;
+  }
+  .ow-shortcut-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+  }
+  .ow-shortcut-arrow {
+    display: none;
+  }
+  .ow-grid {
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 14px;
+  }
+  .ow-panel {
+    padding: 17px;
+  }
+  .ow-upper {
+    grid-template-columns: 1.1fr 1fr;
+    gap: 14px;
+  }
+  .ow-lower {
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 14px;
+  }
+  .ow-metrics > button {
+    padding: 12px 8px;
+  }
+  .ow-metrics strong {
+    font-size: 23px;
+  }
+  .ow-metrics > button > span:last-child {
+    font-size: 9px;
+  }
+  .ow-ai-intro > img {
+    width: 95px;
+    height: 110px;
+  }
+  .ow-todos small {
+    font-size: 9px;
+  }
+  .ow-welcome h1 {
+    font-size: 25px;
+  }
+  .ow-energy-strip {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1150px) {
+  .ow-upper {
+    grid-template-columns: 1fr;
+  }
+  .ow-lower {
+    grid-template-columns: 1fr;
+  }
+  .ow-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+  }
+  .ow-todos > button {
+    padding: 12px 0 !important;
+  }
+  .ow-welcome > div {
+    max-width: 90%;
+  }
+  .ow-welcome-caption {
+    display: none;
+  }
+  .ow-shortcuts strong {
+    font-size: 13px;
+  }
+}
+@media (max-width: 850px) {
+  .ow-grid {
+    grid-template-columns: 1fr;
+  }
+  .ow-shortcuts {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ow-welcome {
+    min-height: 165px;
+  }
+  .ow-welcome > div {
+    padding: 24px;
+    max-width: 100%;
+  }
+  .ow-welcome h1 {
+    font-size: 23px;
+  }
+  .ow-ai-panel {
+    min-height: 0;
+  }
+  .ow-ai-intro {
+    max-width: 450px;
+  }
+  .ow-ai-prompts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .ow-ai-form {
+    max-width: 500px;
+    padding-top: 0;
+  }
+  .ow-toolbar .ant-select {
+    width: 190px;
+  }
+}
+@media (max-width: 560px) {
+  .ow-shortcuts > button {
+    padding: 15px 11px;
+  }
+  .ow-shortcut-icon {
+    width: 36px;
+    height: 42px;
+  }
+  .ow-shortcut-icon > svg {
+    width: 24px;
+  }
+  .ow-shortcuts strong {
+    font-size: 12px;
+  }
+  .ow-shortcuts small {
+    font-size: 9px;
+  }
+  .ow-welcome h1 {
+    font-size: 21px;
+  }
+  .ow-welcome > div {
+    padding: 22px 18px;
+  }
+  .ow-toolbar {
+    flex-wrap: wrap;
+  }
+  .ow-updated {
+    display: none;
+  }
+  .ow-todos {
+    grid-template-columns: 1fr;
+  }
+  .ow-ai-prompts {
+    grid-template-columns: 1fr;
+  }
+  .ow-panel {
+    padding: 16px;
+  }
+  .ow-metrics {
+    gap: 5px;
+  }
+  .ow-metrics > button {
+    padding: 10px 7px;
+  }
+  .ow-metrics strong {
+    font-size: 21px;
+  }
+  .ow-metrics > button > span:last-child {
+    font-size: 9px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ow-shortcuts > button {
+    transition: none;
+  }
+}

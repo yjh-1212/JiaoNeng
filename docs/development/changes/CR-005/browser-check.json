@@ -1,0 +1,26 @@
+[
+  {
+    "page": "orders",
+    "options": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "tenRows": true,
+    "nextPage": true,
+    "status": "PASS"
+  },
+  {
+    "page": "tasks",
+    "options": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "tenRows": true,
+    "nextPage": true,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-033",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-032.json",
+  "parent_manifest_sha256": "7b9f674bcad0d8123639c2f2cb8775ad6e02605577c1be77a76eb635ee025189",
+  "approved_by": "当前用户",
+  "evidence": "当前用户：AI智能体的放到系统管理的前面。",
+  "recorded_at": "2026-10-17T05:32:00.677140+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-033-ai-menu-order.md": "fea2cc029b32a77a20899892fa5759746041b5b89cce9f1111f6ada3a1c284a3"
+  }
+}

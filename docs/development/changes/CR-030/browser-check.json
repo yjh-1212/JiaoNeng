@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "账号密码预填、可见切换不提交、角色标题移除、三种尺寸背景加载且无横向溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "错误凭证被拒绝、输入保留",
+      "status": "PASS"
+    },
+    {
+      "name": "PC默认登录正常、总览主体筛选和刷新移除",
+      "status": "PASS"
+    },
+    {
+      "name": "独立司机入口自动进入driver05，刷新正常，司机无总览权限，PC会话不被覆盖",
+      "status": "PASS"
+    },
+    {
+      "name": "司机退出仅清理司机会话，保留PC，支持重新进入",
+      "status": "PASS"
+    },
+    {
+      "name": "PC退出不影响司机会话",
+      "status": "PASS"
+    },
+    {
+      "name": "默认司机停用时明确报错，恢复后可重试，无管理员回退",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "business_writes": 0,
+  "external_model_calls": 0
+}

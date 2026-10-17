@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "顶部完整AI中心与真实起讫地提示",
+      "status": "PASS"
+    },
+    {
+      "name": "真实道路、路线选项和运量计算；三种尺寸布局",
+      "status": "PASS",
+      "routes": 2,
+      "points": [
+        2464,
+        2989
+      ],
+      "facilities": 24
+    },
+    {
+      "name": "选择真实补能地点后重新计算经过该地点的道路",
+      "status": "PASS"
+    },
+    {
+      "name": "当前页面AI真实对话链路带入已保存路线成果，原页保持",
+      "status": "PASS"
+    },
+    {
+      "name": "司机页面：我的任务",
+      "status": "PASS"
+    },
+    {
+      "name": "司机页面：补能安排",
+      "status": "PASS"
+    },
+    {
+      "name": "司机页面：我的",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "real_map_and_ai": true,
+  "driver_evidence": "driver-browser-check.json",
+  "note": "Regional and AI checks passed before test-harness owned-context restriction. Driver checks were rerun in their own browser context; original harness failure retained."
+}

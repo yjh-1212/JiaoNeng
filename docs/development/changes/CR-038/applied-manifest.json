@@ -1,0 +1,103 @@
+{
+  "key": "planning-business-dataset-v1",
+  "created_at": "2026-10-17T08:07:27.811Z",
+  "business_dataset": "business-dataset-v1",
+  "projects": [
+    {
+      "id": "PP-b5b21dfc-38a4-4394-b55f-b35073bf3e9f",
+      "name": "庆阳煤运当班保障规划",
+      "solution_id": "PS-130e1559-8d2b-4983-8648-b5bcdd743f26",
+      "business_refs": [
+        "O-8b0d5646-eae3-4dc4-aa2d-406f7fe761e8",
+        "O-e359af73-84f1-41db-825b-cfe8913f083c",
+        "O-f7344540-50c0-4325-8f17-d074319114fc",
+        "O-d5175816-fb71-4832-9c30-7db6275c08e8",
+        "O-3588a55a-5dac-4515-a890-0b5b9af6a743",
+        "O-8e83804e-4641-4c9a-9ba2-a607365b8712",
+        "O-f57ebdf9-356c-4636-b41e-66bdb9a6861f",
+        "O-53744d9e-982e-48be-b66f-17495216a7ce",
+        "O-2e5f7d89-9611-4512-a4d3-7c399df9e8fe"
+      ],
+      "daily_quantity": 610.587,
+      "distance_km": 28.810504772464483,
+      "fleet": {
+        "quantity": 610.587,
+        "trips": 21,
+        "cycles": 4,
+        "cycle_minutes": 147.5,
+        "cycle_energy_kwh": 91,
+        "operating": 6,
+        "reserve": 1,
+        "vehicles": 7,
+        "daily_energy_kwh": 2078.1,
+        "chargers": 1,
+        "transport_feasible": true,
+        "reasons": [],
+        "available": 7,
+        "vehicle_gap": 0,
+        "drivers_required": 7,
+        "drivers_available": 7,
+        "driver_gap": 0
+      }
+    },
+    {
+      "id": "PP-47f83075-98be-45dc-9153-bf31a68402e9",
+      "name": "庆阳及周边跨日运力与补能规划",
+      "solution_id": "PS-b11aeb5d-4e2a-4c18-82f5-4b3b45a0446d",
+      "business_refs": [
+        "O-8b0d5646-eae3-4dc4-aa2d-406f7fe761e8",
+        "O-e359af73-84f1-41db-825b-cfe8913f083c",
+        "O-f7344540-50c0-4325-8f17-d074319114fc",
+        "O-d5175816-fb71-4832-9c30-7db6275c08e8",
+        "O-3588a55a-5dac-4515-a890-0b5b9af6a743",
+        "O-8e83804e-4641-4c9a-9ba2-a607365b8712",
+        "O-f57ebdf9-356c-4636-b41e-66bdb9a6861f",
+        "O-53744d9e-982e-48be-b66f-17495216a7ce",
+        "O-2e5f7d89-9611-4512-a4d3-7c399df9e8fe"
+      ],
+      "daily_quantity": 405,
+      "distance_km": 30.663666666666668,
+      "fleet": {
+        "quantity": 405,
+        "trips": 14,
+        "cycles": 6,
+        "cycle_minutes": 154.8,
+        "cycle_energy_kwh": 96.9,
+        "operating": 3,
+        "reserve": 1,
+        "vehicles": 4,
+        "daily_energy_kwh": 1474.5,
+        "chargers": 1,
+        "transport_feasible": true,
+        "reasons": [],
+        "available": 7,
+        "vehicle_gap": 0,
+        "drivers_required": 4,
+        "drivers_available": 7,
+        "driver_gap": 0
+      }
+    }
+  ],
+  "candidate_ids": [
+    "CANDIDATES-4d8c81e9-bffb-4d97-949f-6ac9cc360204",
+    "CANDIDATES-bab6cd7b-48bb-4538-8df2-f9e5ac934793",
+    "CANDIDATES-b9e4a463-d8bb-4a86-a74c-e5432c3ef9bc",
+    "CANDIDATES-1ea23e12-e66f-406d-8ead-d8782a1281a9",
+    "CANDIDATES-889b8172-5337-404c-a2ab-cae70ece74b7",
+    "CANDIDATES-6110b51d-4796-469b-b736-079589a8ad7f"
+  ],
+  "created_record_ids": [
+    "CANDIDATES-4d8c81e9-bffb-4d97-949f-6ac9cc360204",
+    "CANDIDATES-bab6cd7b-48bb-4538-8df2-f9e5ac934793",
+    "CANDIDATES-b9e4a463-d8bb-4a86-a74c-e5432c3ef9bc",
+    "CANDIDATES-1ea23e12-e66f-406d-8ead-d8782a1281a9",
+    "CANDIDATES-889b8172-5337-404c-a2ab-cae70ece74b7",
+    "CANDIDATES-6110b51d-4796-469b-b736-079589a8ad7f",
+    "PP-b5b21dfc-38a4-4394-b55f-b35073bf3e9f",
+    "PS-130e1559-8d2b-4983-8648-b5bcdd743f26",
+    "PP-47f83075-98be-45dc-9153-bf31a68402e9",
+    "PS-b11aeb5d-4e2a-4c18-82f5-4b3b45a0446d"
+  ],
+  "source": "ESTIMATED",
+  "engineering_approved": false
+}

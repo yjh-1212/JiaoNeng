@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-013.json",
+  "baseline_sha256": "74ad151e34efa1f6974666bf998006c06954bb042f74f66d4bf3a451bd564050",
+  "evidence": "交能推演中调整条件默认打开",
+  "scope": "本地条件区默认展开"
+}

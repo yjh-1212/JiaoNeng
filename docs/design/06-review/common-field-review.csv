@@ -1,0 +1,22 @@
+﻿field_id,name,code,design_coverage,presentation,prototype_evidence_boundary
+COM-F001,业务记录标识,record_id,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F003,可读业务编号,business_no,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F004,当前版本,version,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F005,期望对象版本,expected_version,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F006,业务状态,state,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F008,命令幂等键,idempotency_key,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F009,命令结果,operation_result,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F010,关联请求标识,correlation_id,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F014,平台接收时间,received_at,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F015,有效性与缺项,quality_flags,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F016,操作者或来源身份,actor_id,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F017,审计记录引用,audit_ref,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F018,业务查询条件,query_filters,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F019,分页页码,page,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F020,每页数量,page_size,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F021,排序字段方向,sort,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F022,业务结果或批量内容,items,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F023,授权筛选范围总数,total,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F024,计算运行标识,run_id,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F025,计算输入快照,input_snapshot,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动
+COM-F026,计算模型版本,model_version,D3 common-fields.md及D4 field-control-map.csv,由业务编号/状态/查询分页/反馈/依据等共用组件承载；版本和请求标识等不作为普通编辑项,部分字段仅逻辑契约，原型未证明真实请求、快照及审计联动

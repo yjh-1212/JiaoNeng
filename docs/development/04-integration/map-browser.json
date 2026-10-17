@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-13T14:45:01.593Z",
+  "database": "isolated simulated SQLite",
+  "secrets_logged": false,
+  "requests": [],
+  "amap": {
+    "sdk_loaded": true,
+    "canvas_rendered": true,
+    "complete_event": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-026",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-025.json",
+  "parent_manifest_sha256": "23322dd832178ff380d1817b0b320f1007527af582214076d323bf09197cd971",
+  "approved_by": "当前用户明确要求同步预设提问",
+  "evidence": "用户：各智能体里面的预设词也要同步修改，类似这种；截图为整行问题卡片和右箭头。继承必要后续步骤授权。",
+  "recorded_at": "2026-10-17T01:34:26.197962+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-026-agent-prompts.md": "fa8a4a56887c177166722ad87a226f1eebbe59477e6666aed6973c98fdcc10e6"
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "sources": [
+    {
+      "source_id": "PUB-001",
+      "title": "三一350kWh 4x2产品页",
+      "type": "厂商产品资料",
+      "published": "页面未标发布日期",
+      "url": "https://www.sanyglobal.com/cn/product/truck/semi-trailer_tractor/138/1448/",
+      "facts": "350kWh；SOC20%至80%≤40min",
+      "limits": "出口4x2样本；实际选型、桩功率和工况须核验",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-002",
+      "title": "三一云南350度换电重卡案例",
+      "type": "厂商案例自述",
+      "published": "2023-09-14",
+      "url": "https://www.sanygroup.com/activity/12924.html",
+      "facts": "平均1.58kWh/km；单趟110km",
+      "limits": "云南矿石等运输；非庆阳实测",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-003",
+      "title": "宁德时代百威重卡换电案例",
+      "type": "厂商案例自述",
+      "published": "2024-05-24",
+      "url": "https://www.catl.com/news/7942.html",
+      "facts": "513kWh；换电5min；满载高速能耗<1.5kWh/km",
+      "limits": "特定干线案例，不是所有重卡保证值",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-004",
+      "title": "三一2026重卡新品资料",
+      "type": "厂商产品资料",
+      "published": "2026-02-25",
+      "url": "https://www.sanygroup.com/activity/15977.html",
+      "facts": "SE882：882kWh；SOC20%至80%50min",
+      "limits": "对应车型及测试条件，不覆盖其他车型",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-005",
+      "title": "宁德时代骐骥模块化换电方案",
+      "type": "厂商技术说明",
+      "published": "2023-06-12",
+      "url": "https://www.catl.com/news/7214.html",
+      "facts": "171kWh/块，可选1至3块",
+      "limits": "须匹配车型及换电接口",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-006",
+      "title": "甘肃能源监管办创新市场机制推动高比例新能源发展",
+      "type": "国家能源局公开资料",
+      "published": "2026-08-28",
+      "url": "https://www.nea.gov.cn/20260828/f4ec97126c5f4d7e8ac8f38c100f221b/c.html",
+      "facts": "甘肃中长期市场由市场自主形成分时价格",
+      "limits": "不是具体用户电费账单，不推断所有用户适用同一合同",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-007",
+      "title": "甘肃2025版政府定价经营服务收费目录",
+      "type": "地方发改委历史目录",
+      "published": "2025版",
+      "url": "https://fzgg.gansu.gov.cn/fzgg/zfdj/202502/174079896/files/6c95115ab29a4f47ae2a867114b5a366.pdf",
+      "facts": "历史充换电服务费0.50至0.70元/kWh，不含电费",
+      "limits": "仅历史敏感性参考，不是2026庆阳合同价格",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-008",
+      "title": "高德货车路径规划基础版",
+      "type": "官方API文档",
+      "published": "2026-10-13核对",
+      "url": "https://lbs.amap.com/api/logistic-service/guide/wagon_path/truck-route-plan-basis",
+      "facts": "货车尺寸重量轴数和限行信息契约",
+      "limits": "须确认账户权限、路网覆盖与字段含义，不能承诺矿区通行",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-009",
+      "title": "高德货车未来时间路径规划",
+      "type": "官方API文档",
+      "published": "2022-08-26页面更新",
+      "url": "https://lbs.amap.com/api/webservice/guide/logistics-api/routeplan",
+      "facts": "出发时间支持当前至未来6天",
+      "limits": "账户可用能力和未来路况预测需实测",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-010",
+      "title": "高德其他坐标转高德坐标示例",
+      "type": "官方示例",
+      "published": "2026-10-13核对",
+      "url": "https://developer.amap.com/demo/javascript-api-v2/example/other-gaode/othertoamap-more",
+      "facts": "支持按来源类型转换坐标",
+      "limits": "来源坐标未知不能盲转或重复转换",
+      "retrieved": "2026-10-13"
+    },
+    {
+      "source_id": "PUB-011",
+      "title": "DeepSeek首次调用与错误码",
+      "type": "官方API文档",
+      "published": "2026-10-13核对",
+      "url": "https://api-docs.deepseek.com/",
+      "facts": "API基址与可配置模型；错误码另见官方quick_start/error_codes/",
+      "limits": "文档可读不等于账户模型额度或服务已联通",
+      "retrieved": "2026-10-13"
+    }
+  ],
+  "parameters": [
+    {
+      "parameter_id": "P-001",
+      "topic": "电量安全余量",
+      "candidate": "到站余量20%，敏感性15/20/25%；初始SOC情景80%",
+      "evidence_type": "设计建议",
+      "basis": "无通用行业安全阈值证据；充电测试区间不等于安全下限",
+      "usage_boundary": "参考测算；不可自动真实派单",
+      "project_evidence_needed": "项目车型BMS、安全审定、SOH和温度",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-002",
+      "topic": "车辆能耗与路线模型",
+      "candidate": "参考容量350kWh、能耗1.58kWh/km；另设1.90/2.20压力档",
+      "evidence_type": "公开样本＋压力假设",
+      "basis": "PUB-001;PUB-002；后两档为设计提出",
+      "usage_boundary": "不同样本组合仅条件测算",
+      "project_evidence_needed": "实际车辆配置、空重载路段及历史标定",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-003",
+      "topic": "成本等待比较策略",
+      "candidate": "保留成本/等待两维并列，不设综合权重",
+      "evidence_type": "用户已确认",
+      "basis": "用户此前明确选择硬约束后比较成本与等待",
+      "usage_boundary": "当前设计适用",
+      "project_evidence_needed": "新增唯一最优分数时另行批准",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-004",
+      "topic": "数量与完工核验",
+      "candidate": "数量显示0.001t，源精度保留；不自动放行交付差异",
+      "evidence_type": "设计建议",
+      "basis": "无取得项目磅单/合同容差；公开资料不能确定",
+      "usage_boundary": "报告量与核验量分离",
+      "project_evidence_needed": "磅秤分度、合同允许差异、实际凭证",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-005",
+      "topic": "换班及执行责任",
+      "candidate": "一车一有效司机；在途变更需交接确认，余量建替代任务",
+      "evidence_type": "已确认原则＋设计建议",
+      "basis": "用户已确认组织方式；责任交接细则非公开",
+      "usage_boundary": "保留事实和原指派历史",
+      "project_evidence_needed": "换班制度和在途责任签认",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-006",
+      "topic": "补能服务与排队模型",
+      "candidate": "充电参考20至80%≤40min；换电机械5min＋5min缓冲",
+      "evidence_type": "公开样本＋设计建议",
+      "basis": "PUB-001;PUB-003；缓冲为设计假设",
+      "usage_boundary": "按车型SOC桩功率建模，不含排队",
+      "project_evidence_needed": "工位并发、有效功率、库存、接口适配",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-007",
+      "topic": "电价及费用规则",
+      "candidate": "按合同日期/时段导入价格；历史服务费0.50至0.70仅参照",
+      "evidence_type": "公开机制/历史参考",
+      "basis": "PUB-006;PUB-007",
+      "usage_boundary": "不设庆阳统一真实电价",
+      "project_evidence_needed": "当月购电账单及对外收费合同",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-008",
+      "topic": "成本归集与分摊",
+      "candidate": "分项归集，费用缺项不算完整总成本；不默认税率或分摊",
+      "evidence_type": "已设计规则",
+      "basis": "D3 metrics/business-rules",
+      "usage_boundary": "已知费用可以复核",
+      "project_evidence_needed": "租赁、人工、维保、税费和成本中心依据",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-009",
+      "topic": "预测窗口及粒度",
+      "candidate": "预测未来4h，15min粒度，5min刷新",
+      "evidence_type": "设计建议",
+      "basis": "产品调度窗口提案，不是公开项目事实",
+      "usage_boundary": "原型/试点候选",
+      "project_evidence_needed": "到站规律和站点数据覆盖",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-010",
+      "topic": "来源时效与重试",
+      "candidate": "资源参考30s刷新、90s过期；查询重试2/4/8s最多3次",
+      "evidence_type": "设计建议",
+      "basis": "PUB-011仅支持错误分类，不支持上述时长事实",
+      "usage_boundary": "写入未知先核查，不盲重试",
+      "project_evidence_needed": "设备采样协议及接口SLA",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-011",
+      "topic": "实际规模与性能",
+      "candidate": "100车/10站/20管理员/100司机；查询p95≤2s、限定任务推演p95≤30s",
+      "evidence_type": "设计候选验收目标",
+      "basis": "工作负载及耗时由本次设计提出",
+      "usage_boundary": "开发需实际压测，不是已有实绩",
+      "project_evidence_needed": "实际规模与技术成本评估",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-012",
+      "topic": "模型误差与偏差评价",
+      "candidate": "≥30天有效样本；WAPE≤20%、等待MAE≤10min候选",
+      "evidence_type": "设计候选验收目标",
+      "basis": "无项目历史误差数据；禁止拿样例证明精度",
+      "usage_boundary": "分母为0不算百分比",
+      "project_evidence_needed": "真实训练/验证分割及样本覆盖",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-013",
+      "topic": "可靠性恢复目标",
+      "candidate": "月可用性99.5%；RPO≤1h、RTO≤4h",
+      "evidence_type": "设计候选验收目标",
+      "basis": "是业务连续性建议，不是云服务合同事实",
+      "usage_boundary": "真实备份恢复演练验收",
+      "project_evidence_needed": "业务容损、值守和实际基础设施",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-014",
+      "topic": "身份与H5通知离线",
+      "candidate": "H5前台操作；通知投递/司机接收分开；离线保留输入后先核查",
+      "evidence_type": "用户已确认形态＋设计建议",
+      "basis": "H5身份与推送由实际系统决定",
+      "usage_boundary": "不承诺手机后台持续定位/推送",
+      "project_evidence_needed": "身份源、通知渠道和设备权限",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-015",
+      "topic": "告警分级和处置",
+      "candidate": "严重故障5min未受理升级、一般异常30min提醒",
+      "evidence_type": "设计建议",
+      "basis": "不是现场安全SLA或供应商承诺",
+      "usage_boundary": "依业务责任配置；关闭需证据",
+      "project_evidence_needed": "安全预案、分级条件和值班表",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-016",
+      "topic": "可研规划约束",
+      "candidate": "公开规格支持容量比较；用地/接电/通行缺一仍条件推荐",
+      "evidence_type": "公开参考＋既定边界",
+      "basis": "PUB-001;PUB-004;PUB-005",
+      "usage_boundary": "不借全国参考值虚构庆阳可研结论",
+      "project_evidence_needed": "场站坐标、用地、接电及投资报价",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-017",
+      "topic": "AI资料与工具",
+      "candidate": "DeepSeek官方基址、可配置模型；工具调用仍回业务页确认",
+      "evidence_type": "公开文档＋既定规则",
+      "basis": "PUB-011；官方error_codes区分401/402/429/5xx",
+      "usage_boundary": "不连接真实AI，不硬编码旧模型或价格",
+      "project_evidence_needed": "获准资料、额度、模型目录及工具权限",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-018",
+      "topic": "输入规范与留存",
+      "candidate": "备注2000字、单附件20MB/JPG PNG PDF、审计候选6自然月",
+      "evidence_type": "设计建议",
+      "basis": "输入及留存规则不是项目已批准制度",
+      "usage_boundary": "凭证类型和敏感保留策略另审",
+      "project_evidence_needed": "业务凭证、隐私和档案政策",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-019",
+      "topic": "地图坐标及路径能力",
+      "candidate": "按源坐标转换、货车专用能力；未来路径参考上限6天",
+      "evidence_type": "官方接口范围",
+      "basis": "PUB-008;PUB-009;PUB-010",
+      "usage_boundary": "缺授权或路网不认定真实可达",
+      "project_evidence_needed": "账户授权、矿区路网与车辆尺寸重量",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    },
+    {
+      "parameter_id": "P-020",
+      "topic": "事件去重和更正来源",
+      "candidate": "source_id＋源事件ID去重；缺源ID先隔离核对，迟到不覆盖已核验事实",
+      "evidence_type": "设计契约",
+      "basis": "项目来源唯一键无法从公共互联网获得",
+      "usage_boundary": "不拿时间戳拼接替代事件唯一键",
+      "project_evidence_needed": "真实事件样本、补传和撤销协议",
+      "production_auto_enabled": "否",
+      "approval": "D6候选待评审"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-008.json",
+  "baseline_sha256": "527918bd85e53ccc162e206a669ade73bb1ee98a20d2b2fb72fe34e96c029bf9",
+  "evidence": "当前用户明确要求重新设计开发、需求订单输入且手工决定生成任务、调用DeepSeek；已有后续审批按推荐委托",
+  "scope": "交能协同推演工作台前后端、地图与DeepSeek、手工生成待派发任务；仅本地开发"
+}

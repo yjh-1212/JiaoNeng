@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:45:52.410Z",
+  "checks": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "home": {
+        "client": 1010,
+        "scroll": 1010,
+        "top": 70,
+        "bottom": 1080
+      },
+      "root": {
+        "client": 1080,
+        "scroll": 1080,
+        "top": 0,
+        "bottom": 1080
+      },
+      "last": {
+        "client": 134,
+        "scroll": 134,
+        "top": 574,
+        "bottom": 710
+      },
+      "docHeight": 1080,
+      "docWidth": 1920
+    },
+    {
+      "width": 1680,
+      "height": 900,
+      "home": {
+        "client": 830,
+        "scroll": 830,
+        "top": 70,
+        "bottom": 900
+      },
+      "root": {
+        "client": 900,
+        "scroll": 900,
+        "top": 0,
+        "bottom": 900
+      },
+      "last": {
+        "client": 134,
+        "scroll": 134,
+        "top": 574,
+        "bottom": 710
+      },
+      "docHeight": 900,
+      "docWidth": 1680
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "home": {
+        "client": 794,
+        "scroll": 794,
+        "top": 70,
+        "bottom": 864
+      },
+      "root": {
+        "client": 864,
+        "scroll": 864,
+        "top": 0,
+        "bottom": 864
+      },
+      "last": {
+        "client": 126,
+        "scroll": 126,
+        "top": 564,
+        "bottom": 692
+      },
+      "docHeight": 864,
+      "docWidth": 1536
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "home": {
+        "client": 712,
+        "scroll": 712,
+        "top": 56,
+        "bottom": 768
+      },
+      "root": {
+        "client": 768,
+        "scroll": 768,
+        "top": 0,
+        "bottom": 768
+      },
+      "last": {
+        "client": 102,
+        "scroll": 102,
+        "top": 458.3671875,
+        "bottom": 562.3671875
+      },
+      "docHeight": 768,
+      "docWidth": 1366
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "home": {
+        "client": 664,
+        "scroll": 664,
+        "top": 56,
+        "bottom": 720
+      },
+      "root": {
+        "client": 720,
+        "scroll": 720,
+        "top": 0,
+        "bottom": 720
+      },
+      "last": {
+        "client": 102,
+        "scroll": 102,
+        "top": 459.2265625,
+        "bottom": 563.2265625
+      },
+      "docHeight": 720,
+      "docWidth": 1280
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "home": {
+        "client": 588,
+        "scroll": 588,
+        "top": 52,
+        "bottom": 640
+      },
+      "root": {
+        "client": 640,
+        "scroll": 640,
+        "top": 0,
+        "bottom": 640
+      },
+      "last": {
+        "client": 90,
+        "scroll": 90,
+        "top": 413.7109375,
+        "bottom": 505.7109375
+      },
+      "docHeight": 640,
+      "docWidth": 1280
+    }
+  ],
+  "small_window_reachable": true,
+  "chat_scroll_preserved": true,
+  "business_writes": 0,
+  "external_model_calls": 0,
+  "errors": []
+}

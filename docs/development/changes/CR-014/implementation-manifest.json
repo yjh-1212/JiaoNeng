@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-16T07:38:53.252093+00:00",
+  "source_sha256": {
+    "client/app.jsx": "2f2fb3aee27599edf369ada22694fb62b4fbf0de4656c036f9688e4b01765c6b",
+    "client/goal-simulation.jsx": "b4697d2443c9779cfa7682cd68047eafedd5c88a22bd12b549ad53e6d712d787",
+    "client/simulation-goals.css": "d6ef2e21f9cd8c545e381ceba95da35dd015013b367c6eabbfe40fcdf6ea8465",
+    "tests/scenario-goals-browser.mjs": "22fbd89919ea6d580ccd609c46074422d65d75c966ee0c0fe646735c2e335c2f"
+  },
+  "final_cargo_revision": "CR-015",
+  "deployment": false
+}

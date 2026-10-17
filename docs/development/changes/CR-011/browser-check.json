@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "asset": "./assets/jiaoneng-ai-v2-UEKFXT2T.png",
+  "sha256": "0b48b163f809299a6c15a2c7714ec768c339a200bbf98291a5d9d6df9c8b3f11",
+  "checks": [
+    "入口/标题/欢迎形象使用用户原图",
+    "HTTP200且与附件SHA256一致",
+    "打开关闭正常",
+    "手机入口可见"
+  ],
+  "business_mutations": false
+}

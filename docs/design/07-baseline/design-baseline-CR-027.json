@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-027",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-026.json",
+  "parent_manifest_sha256": "6abc2df3bccf701c180c6a0281422cc8c1da5ac4cd4aa464cc02911aa6a2f5fc",
+  "approved_by": "当前用户明确要求按辽粮修正布局滚动",
+  "evidence": "用户：参考一下辽粮的布局，现在交能的为啥页面还有滑动；要求按参考布局消除首页不必要滚动。继承必要后续步骤授权。",
+  "recorded_at": "2026-10-17T01:44:40.804448+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-027-agent-viewport-layout.md": "325048216dddbb8a54ef0a62142776a62bddf306919987374c1cdc95a4142075"
+  }
+}

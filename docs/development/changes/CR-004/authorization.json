@@ -1,0 +1,6 @@
+{
+  "baseline": "docs/design/07-baseline/design-baseline-CR-004.json",
+  "baseline_sha256": "2db1bf1a47d636f65c5abfeb70809493b728fef6cab01207b3765eb00f6b6c73",
+  "evidence": "为啥里面有个框，然后帮我把查询重置和条件放到一行中",
+  "scope": "本地输入焦点样式和需求订单查询区布局调整"
+}

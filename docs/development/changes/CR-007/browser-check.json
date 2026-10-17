@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "name": "自动加载高德底图、道路非直线、历史及示意入口移除",
+      "status": "PASS"
+    },
+    {
+      "name": "切换补能场站，按新途经点更新道路",
+      "status": "PASS"
+    },
+    {
+      "name": "道路服务失败清除旧线，无直线兜底，重试可恢复",
+      "status": "PASS"
+    },
+    {
+      "name": "真实推演接口、候选切换、方案专属来源依据保留",
+      "status": "PASS"
+    },
+    {
+      "name": "改条件禁止确认，重算后恢复确认",
+      "status": "PASS"
+    },
+    {
+      "name": "桌面左右、窄屏上下，无页面横向溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "确认方案真实生成待派发任务（隔离仿真数据库）",
+      "status": "PASS"
+    },
+    {
+      "name": "真实瓦片鉴权OK，无页面运行错误",
+      "status": "PASS"
+    }
+  ],
+  "road": {
+    "source": "AMAP_V5_DRIVING",
+    "coordinates": 318,
+    "distance_m": 19073
+  },
+  "tileResults": [
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK"
+  ],
+  "errors": [],
+  "database": "isolated simulated SQLite",
+  "secrets_logged": false
+}

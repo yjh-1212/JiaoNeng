@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-028",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-027.json",
+  "parent_manifest_sha256": "2a9bcf0d2d3e8ba1a5ce001139bf86aff8fd9d2514c75e8099ed0fffcc7db1a9",
+  "approved_by": "当前用户明确要求按辽粮改造运行总览",
+  "evidence": "用户：运行总览帮我参考辽粮的弄一个；附工作台参考图；继承后续必要步骤全部授权。",
+  "recorded_at": "2026-10-17T01:53:35.320316+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-028-overview-workbench.md": "935a46f232554b2a7b61ec8850e79938d53abf06c77a4eae21e2127c04b7076f"
+  }
+}

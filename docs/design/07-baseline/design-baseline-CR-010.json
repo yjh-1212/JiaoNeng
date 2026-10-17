@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN",
+  "design_version": "V0.2-design-1+CR-010",
+  "parent_manifest": "docs/design/07-baseline/design-baseline-CR-009.json",
+  "parent_manifest_sha256": "b77f05d41371f93e6d0a8a55c3a42f9374912d7b7de65d94b7a08353b574cfbf",
+  "approved_by": "current user explicit steering request",
+  "evidence": "Wider floating recommended plans on map right; floating conversational AI opened by an original generated character.",
+  "recorded_at": "2026-10-16T06:54:12.337648+00:00",
+  "sha256": {
+    "docs/design/08-change/CR-010-floating-plans-and-ai.md": "d681d298dd031ffaea4609568d3caf3db01e4e63cb20bec0e9a0dff6d92f5087"
+  }
+}

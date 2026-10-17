@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "菜单紧随运营总览，单页六面板，无顶部统计与Tab",
+      "status": "PASS"
+    },
+    {
+      "name": "高德二维地图加载成功，路线使用道路几何",
+      "status": "PASS"
+    },
+    {
+      "name": "1920×1080 一屏展示、面板无内容溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "1600×900 一屏展示、面板无内容溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "1366×768 一屏展示、面板无内容溢出",
+      "status": "PASS"
+    },
+    {
+      "name": "场站和线路选中联动，订单详情可打开",
+      "status": "PASS"
+    },
+    {
+      "name": "图层勾选与全局视角恢复",
+      "status": "PASS"
+    },
+    {
+      "name": "全屏进入与退出",
+      "status": "PASS"
+    },
+    {
+      "name": "本页AI对话保持驾驶舱，显示业务预设问题",
+      "status": "PASS"
+    },
+    {
+      "name": "手动刷新读取当前数据库",
+      "status": "PASS"
+    },
+    {
+      "name": "离开驾驶舱恢复原业务布局",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:25:06.325Z",
+  "url": "http://127.0.0.1:3100/",
+  "business_pages": [
+    "demands",
+    "orders",
+    "tasks",
+    "charging",
+    "alerts",
+    "planning",
+    "simulation"
+  ],
+  "each_has_one_launcher": true,
+  "each_opens_six_agent_center": true,
+  "returns_to_original_page": true,
+  "driver_entry_absent": true,
+  "live_model_calls": 0,
+  "business_writes": 0,
+  "errors": []
+}

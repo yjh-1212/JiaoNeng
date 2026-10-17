@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "at": "2026-10-17T01:26:08.259103+00:00",
+  "stages": {
+    "E0": "SELF_VERIFIED",
+    "E1": "SELF_VERIFIED",
+    "E2": "SELF_VERIFIED",
+    "E3": "SELF_VERIFIED",
+    "E4": "SELF_VERIFIED",
+    "E5": "SELF_VERIFIED"
+  },
+  "user_acceptance_signature": false,
+  "node_tests_pass": 325,
+  "node_tests_fail": 0,
+  "browser_groups_pass": 13,
+  "real_deepseek_model": "deepseek-flash",
+  "real_deepseek_calls": 1,
+  "local_review": "PASS",
+  "original_tables_preserved": 23,
+  "design_baselines": 23,
+  "frozen_files": 323,
+  "driver_functionality_changed": false,
+  "local_process_id": 14704,
+  "deployment": false
+}
