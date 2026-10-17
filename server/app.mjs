@@ -146,6 +146,10 @@ export function createApp({
       minIntervalMs: config.mapIntervalMs ?? 650,
     });
   app.disable("x-powered-by");
+  // Render / reverse proxies terminate TLS; trust X-Forwarded-* so req.protocol/secure stay correct.
+  if (process.env.RENDER === "true" || process.env.TRUST_PROXY === "true") {
+    app.set("trust proxy", 1);
+  }
   const regionalPlanner=createRegionalPlanner({db,key:config.amapService,fetcher:mapFetch,roadRoute,explain:(result,inputs)=>explainScenario(config,result,inputs,modelFetch)});
   app.use(express.json({ limit: "256kb" }));
   app.use((req, res, next) => {
@@ -867,9 +871,13 @@ export function createApp({
         message: "高德地图尚未配置，请检查配置后重试",
         code: "NOT_CONFIGURED",
       });
+    const proto = String(req.headers["x-forwarded-proto"] || "")
+      .split(",")[0]
+      .trim() || req.protocol;
+    const host = req.headers["x-forwarded-host"] || req.headers.host;
     res.json({
       key: config.amapKey,
-      serviceHost: `${req.protocol}://${req.headers.host}/_AMapService`,
+      serviceHost: `${proto}://${host}/_AMapService`,
     });
   });
   app.get(
