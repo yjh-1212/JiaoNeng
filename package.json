@@ -10,6 +10,8 @@
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/build.mjs",
     "start": "node server/index.mjs",
+    "start:render": "node scripts/render-start.mjs",
+    "export:render-db": "node scripts/export-render-db.mjs",
     "test": "node --test tests/*.test.mjs",
     "test:browser": "node tests/browser.mjs",
     "test:browser:extended": "node tests/extended-browser.mjs",
